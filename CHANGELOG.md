@@ -1,5 +1,12 @@
 
 
+## [1.4.16](https://github.com/justdlabs/icons/compare/1.4.15...1.4.16) (2024-08-07)
+
+
+### Bug Fixes
+
+* fix gh ([2e5abcb](https://github.com/justdlabs/icons/commit/2e5abcb26d156c94b2e9aa1cf53bc7529461a441))
+
 ## [1.4.15](https://github.com/justdlabs/icons/compare/1.4.14...1.4.15) (2024-08-07)
 
 
