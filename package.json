@@ -32,7 +32,7 @@
     "type": "git",
     "url": "git+https://github.com/justdlabs/icons.git"
   },
-  "homepage": "https://paranoid.irsyad.co",
+  "homepage": "https://icons.getjustd.com",
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.24.7",
     "@babel/preset-env": "^7.25.3",
