@@ -1,3 +1,12 @@
+
+
+## [1.4.21](https://github.com/justdlabs/icons/compare/1.4.20...1.4.21) (2024-08-07)
+
+
+### Bug Fixes
+
+* update readme ([825933b](https://github.com/justdlabs/icons/commit/825933b77b50c4929d49f03c0c8c5a23e69b2db9))
+
 ## 1.4.20 (2024-08-07)
 
 ### Bug Fixes
