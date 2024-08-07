@@ -1,53 +1,44 @@
-
-
 ## [1.4.19](https://github.com/justdlabs/icons/compare/1.4.18...1.4.19) (2024-08-07)
-
 
 ### Bug Fixes
 
-* fix source ([0141b97](https://github.com/justdlabs/icons/commit/0141b977fbfe3dabc3f886f84352fdbfa4329a33))
+- fix source ([0141b97](https://github.com/justdlabs/icons/commit/0141b977fbfe3dabc3f886f84352fdbfa4329a33))
 
 ## [1.4.18](https://github.com/justdlabs/icons/compare/1.4.17...1.4.18) (2024-08-07)
 
-
 ### Bug Fixes
 
-* act ([a2a1ac0](https://github.com/justdlabs/icons/commit/a2a1ac0ab59eee7e6e094228e26cca393a755016))
+- act ([a2a1ac0](https://github.com/justdlabs/icons/commit/a2a1ac0ab59eee7e6e094228e26cca393a755016))
 
 ## [1.4.17](https://github.com/justdlabs/icons/compare/1.4.16...1.4.17) (2024-08-07)
 
-
 ### Bug Fixes
 
-* fix ([c85b0f8](https://github.com/justdlabs/icons/commit/c85b0f81dca1311d43d2fc1792f7d8e98926323f))
+- fix ([c85b0f8](https://github.com/justdlabs/icons/commit/c85b0f81dca1311d43d2fc1792f7d8e98926323f))
 
 ## [1.4.16](https://github.com/justdlabs/icons/compare/1.4.15...1.4.16) (2024-08-07)
 
-
 ### Bug Fixes
 
-* fix gh ([2e5abcb](https://github.com/justdlabs/icons/commit/2e5abcb26d156c94b2e9aa1cf53bc7529461a441))
+- fix gh ([2e5abcb](https://github.com/justdlabs/icons/commit/2e5abcb26d156c94b2e9aa1cf53bc7529461a441))
 
 ## [1.4.15](https://github.com/justdlabs/icons/compare/1.4.14...1.4.15) (2024-08-07)
 
-
 ### Bug Fixes
 
-* fixing ([54cea71](https://github.com/justdlabs/icons/commit/54cea71bed9a70a6478867a75f89bbda6722a434))
+- fixing ([54cea71](https://github.com/justdlabs/icons/commit/54cea71bed9a70a6478867a75f89bbda6722a434))
 
 ## [1.4.14](https://github.com/justdlabs/icons/compare/1.4.13...1.4.14) (2024-08-07)
 
-
 ### Bug Fixes
 
-* fix action ([0e7879e](https://github.com/justdlabs/icons/commit/0e7879ef666c1c8d57779fbc184c8df68ae24730))
+- fix action ([0e7879e](https://github.com/justdlabs/icons/commit/0e7879ef666c1c8d57779fbc184c8df68ae24730))
 
 ## 1.4.13 (2024-08-07)
 
-
 ### Bug Fixes
 
-* fix path ([fbb0c99](https://github.com/justdlabs/icons/commit/fbb0c9981fab78bd0ca2c127fe08b6c299afbdeb))
+- fix path ([fbb0c99](https://github.com/justdlabs/icons/commit/fbb0c9981fab78bd0ca2c127fe08b6c299afbdeb))
 
 ## [1.4.12](https://github.com/irsyadadl/paranoid/compare/1.4.11...1.4.12) (2024-07-31)
 
@@ -55,152 +46,132 @@
 
 ## [1.4.10](https://github.com/irsyadadl/paranoid/compare/1.4.9...1.4.10) (2024-07-30)
 
-
 ### Bug Fixes
 
-* fix actions ([f237d51](https://github.com/irsyadadl/paranoid/commit/f237d5129fb5c85e5005220f04d41cbe5fe01202))
+- fix actions ([f237d51](https://github.com/irsyadadl/paranoid/commit/f237d5129fb5c85e5005220f04d41cbe5fe01202))
 
 ## [1.4.9](https://github.com/irsyadadl/paranoid/compare/1.4.8...1.4.9) (2024-07-30)
 
-
 ### Bug Fixes
 
-* fix permissions ([fd6cbe5](https://github.com/irsyadadl/paranoid/commit/fd6cbe5f0a3edee376e7bb3a7b058e4f1ee30994))
+- fix permissions ([fd6cbe5](https://github.com/irsyadadl/paranoid/commit/fd6cbe5f0a3edee376e7bb3a7b058e4f1ee30994))
 
 ## [1.4.8](https://github.com/irsyadadl/paranoid/compare/1.4.7...1.4.8) (2024-07-26)
 
-
 ### Bug Fixes
 
-* fix brand tw variants ([d5052ce](https://github.com/irsyadadl/paranoid/commit/d5052ce673663207bbd33e30584301fc0e8af191))
+- fix brand tw variants ([d5052ce](https://github.com/irsyadadl/paranoid/commit/d5052ce673663207bbd33e30584301fc0e8af191))
 
 ## [1.4.7](https://github.com/irsyadadl/paranoid/compare/1.4.6...1.4.7) (2024-07-26)
 
 ## [1.4.6](https://github.com/irsyadadl/paranoid/compare/1.4.5...1.4.6) (2024-07-26)
 
-
 ### Bug Fixes
 
-* nextjs ([06433f4](https://github.com/irsyadadl/paranoid/commit/06433f4069c40fca1037b9bd6030a031f354cf1e))
+- nextjs ([06433f4](https://github.com/irsyadadl/paranoid/commit/06433f4069c40fca1037b9bd6030a031f354cf1e))
 
 ## [1.4.5](https://github.com/irsyadadl/paranoid/compare/1.4.4...1.4.5) (2024-07-26)
 
-
 ### Bug Fixes
 
-* fix brand nextjs and layers ([b5e80bc](https://github.com/irsyadadl/paranoid/commit/b5e80bc9d8a03ce60cbbd1f638392409ab656bea))
+- fix brand nextjs and layers ([b5e80bc](https://github.com/irsyadadl/paranoid/commit/b5e80bc9d8a03ce60cbbd1f638392409ab656bea))
 
 ## [1.4.4](https://github.com/irsyadadl/paranoid/compare/1.4.3...1.4.4) (2024-07-26)
 
-
 ### Bug Fixes
 
-* fix brand ([e62f392](https://github.com/irsyadadl/paranoid/commit/e62f39235fb53c52f7be73e5bda5b678c1c2039f))
+- fix brand ([e62f392](https://github.com/irsyadadl/paranoid/commit/e62f39235fb53c52f7be73e5bda5b678c1c2039f))
 
 ## [1.4.3](https://github.com/irsyadadl/paranoid/compare/1.4.2...1.4.3) (2024-07-26)
 
-
 ### Bug Fixes
 
-* fix bug ([2806247](https://github.com/irsyadadl/paranoid/commit/280624728bbafbb422918536decc57268d94e45b))
+- fix bug ([2806247](https://github.com/irsyadadl/paranoid/commit/280624728bbafbb422918536decc57268d94e45b))
 
 ## [1.4.2](https://github.com/irsyadadl/paranoid/compare/1.4.1...1.4.2) (2024-07-26)
 
-
 ### Bug Fixes
 
-* fix action ([3d5988a](https://github.com/irsyadadl/paranoid/commit/3d5988aa3877561972d84b01d34f3d2d3fcc3f5b))
+- fix action ([3d5988a](https://github.com/irsyadadl/paranoid/commit/3d5988aa3877561972d84b01d34f3d2d3fcc3f5b))
 
 ## [1.4.1](https://github.com/irsyadadl/paranoid/compare/1.4.0...1.4.1) (2024-07-25)
 
 ## [1.4.0](https://github.com/irsyadadl/paranoid/compare/1.3.10...1.4.0) (2024-07-25)
 
-
 ### Features
 
-* add more icon ([52d4e19](https://github.com/irsyadadl/paranoid/commit/52d4e192cca128ade01cde8b60a602d12dbd53b5))
+- add more icon ([52d4e19](https://github.com/irsyadadl/paranoid/commit/52d4e192cca128ade01cde8b60a602d12dbd53b5))
 
 ## [1.3.10](https://github.com/irsyadadl/paranoid/compare/1.3.9...1.3.10) (2024-07-23)
 
-
 ### Bug Fixes
 
-* brand karteil fix ([42523fb](https://github.com/irsyadadl/paranoid/commit/42523fb37704b17cee2c06beac6de3389c084ff5))
+- brand karteil fix ([42523fb](https://github.com/irsyadadl/paranoid/commit/42523fb37704b17cee2c06beac6de3389c084ff5))
 
 ## [1.3.9](https://github.com/irsyadadl/paranoid/compare/1.3.8...1.3.9) (2024-07-23)
 
-
 ### Bug Fixes
 
-* fix brand justd ([77defc9](https://github.com/irsyadadl/paranoid/commit/77defc92454ae40c3e7c0070456ec4d09322c522))
+- fix brand justd ([77defc9](https://github.com/irsyadadl/paranoid/commit/77defc92454ae40c3e7c0070456ec4d09322c522))
 
 ## [1.3.8](https://github.com/irsyadadl/paranoid/compare/1.3.7...1.3.8) (2024-07-23)
 
-
 ### Bug Fixes
 
-* fix brand karteil ([98d8d8f](https://github.com/irsyadadl/paranoid/commit/98d8d8fd037eecec954e3089be8f35c02570cb8d))
+- fix brand karteil ([98d8d8f](https://github.com/irsyadadl/paranoid/commit/98d8d8fd037eecec954e3089be8f35c02570cb8d))
 
 ## [1.3.7](https://github.com/irsyadadl/paranoid/compare/1.3.6...1.3.7) (2024-07-17)
 
 ## [1.3.6](https://github.com/irsyadadl/paranoid/compare/1.3.5...1.3.6) (2024-07-16)
 
-
 ### Bug Fixes
 
-* fix paranoid brand icon ([ff1714a](https://github.com/irsyadadl/paranoid/commit/ff1714abf951c8bb1ae03386a2413412989466e7))
+- fix paranoid brand icon ([ff1714a](https://github.com/irsyadadl/paranoid/commit/ff1714abf951c8bb1ae03386a2413412989466e7))
 
 ## [1.3.5](https://github.com/irsyadadl/paranoid/compare/1.3.4...1.3.5) (2024-07-16)
 
-
 ### Bug Fixes
 
-* fix icon for paranoid ([198508c](https://github.com/irsyadadl/paranoid/commit/198508cdd38e35101fff7941a76473e6ced76fca))
+- fix icon for paranoid ([198508c](https://github.com/irsyadadl/paranoid/commit/198508cdd38e35101fff7941a76473e6ced76fca))
 
 ## [1.3.4](https://github.com/irsyadadl/paranoid/compare/1.3.3...1.3.4) (2024-07-15)
 
-
 ### Bug Fixes
 
-* fix adobe icon to adapt background ([8a797f3](https://github.com/irsyadadl/paranoid/commit/8a797f33209c55cd915e6ee40375e4cb4a23a25c))
+- fix adobe icon to adapt background ([8a797f3](https://github.com/irsyadadl/paranoid/commit/8a797f33209c55cd915e6ee40375e4cb4a23a25c))
 
 ## [1.3.3](https://github.com/irsyadadl/paranoid/compare/1.3.1...1.3.3) (2024-07-12)
 
-
 ### Bug Fixes
 
-* again ([82f8214](https://github.com/irsyadadl/paranoid/commit/82f821423d7699c7317cd3538aa0f33b56776240))
-* fix the brand d ([d2f6dab](https://github.com/irsyadadl/paranoid/commit/d2f6dab6453e44b287e2717b08bbbde71325a166))
-* refactor the d icon ([48d1a44](https://github.com/irsyadadl/paranoid/commit/48d1a44df86ca9177a564702eff333049b8193a9))
+- again ([82f8214](https://github.com/irsyadadl/paranoid/commit/82f821423d7699c7317cd3538aa0f33b56776240))
+- fix the brand d ([d2f6dab](https://github.com/irsyadadl/paranoid/commit/d2f6dab6453e44b287e2717b08bbbde71325a166))
+- refactor the d icon ([48d1a44](https://github.com/irsyadadl/paranoid/commit/48d1a44df86ca9177a564702eff333049b8193a9))
 
 ## [1.3.2](https://github.com/irsyadadl/paranoid/compare/1.3.1...1.3.2) (2024-07-12)
 
-
 ### Bug Fixes
 
-* fix the brand d ([d2f6dab](https://github.com/irsyadadl/paranoid/commit/d2f6dab6453e44b287e2717b08bbbde71325a166))
-* refactor the d icon ([48d1a44](https://github.com/irsyadadl/paranoid/commit/48d1a44df86ca9177a564702eff333049b8193a9))
+- fix the brand d ([d2f6dab](https://github.com/irsyadadl/paranoid/commit/d2f6dab6453e44b287e2717b08bbbde71325a166))
+- refactor the d icon ([48d1a44](https://github.com/irsyadadl/paranoid/commit/48d1a44df86ca9177a564702eff333049b8193a9))
 
 ## [1.3.1](https://github.com/irsyadadl/paranoid/compare/1.3.0...1.3.1) (2024-07-12)
 
-
 ### Bug Fixes
 
-* fix brand d icon ([b4609e8](https://github.com/irsyadadl/paranoid/commit/b4609e8741b9ff4138e453f619de403f3ae3c6c6))
+- fix brand d icon ([b4609e8](https://github.com/irsyadadl/paranoid/commit/b4609e8741b9ff4138e453f619de403f3ae3c6c6))
 
 ## [1.3.0](https://github.com/irsyadadl/paranoid/compare/1.2.0...1.3.0) (2024-07-09)
 
-
 ### Features
 
-* bump ([1ef2084](https://github.com/irsyadadl/paranoid/commit/1ef2084330a6a744bdc7ef8cdfd72077024e1a3b))
+- bump ([1ef2084](https://github.com/irsyadadl/paranoid/commit/1ef2084330a6a744bdc7ef8cdfd72077024e1a3b))
 
 ## [1.2.0](https://github.com/irsyadadl/paranoid/compare/1.1.11...1.2.0) (2024-07-06)
 
-
 ### Features
 
-* add icon brand d ([fc79862](https://github.com/irsyadadl/paranoid/commit/fc798623a3a3829e52333621823972920342e319))
+- add icon brand d ([fc79862](https://github.com/irsyadadl/paranoid/commit/fc798623a3a3829e52333621823972920342e319))
 
 ## [1.1.11](https://github.com/irsyadadl/paranoid/compare/1.1.10...1.1.11) (2024-07-02)
 
@@ -226,10 +197,9 @@
 
 ## [1.1.0](https://github.com/irsyadadl/paranoid/compare/1.0.50...1.1.0) (2024-06-20)
 
-
 ### Features
 
-* adding aria-hidden to every icon ([cf0746f](https://github.com/irsyadadl/paranoid/commit/cf0746f09e85974a2c81b34f60d6b7c42e0cf4c8))
+- adding aria-hidden to every icon ([cf0746f](https://github.com/irsyadadl/paranoid/commit/cf0746f09e85974a2c81b34f60d6b7c42e0cf4c8))
 
 ## [1.0.50](https://github.com/irsyadadl/paranoid/compare/1.0.49...1.0.50) (2024-06-20)
 
