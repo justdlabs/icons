@@ -1,3 +1,7 @@
+## Justd Icons
+
+This is a library icon of Justd previously well known as Paranoid Icons (@irsyadadl/paranoid).
+
 ![image](https://getjustd.com/icons/opengraph-image-1ltojg.png?9f62da52533ceee6)
 
 <p align="center">
