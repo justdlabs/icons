@@ -1,5 +1,12 @@
 
 
+## 1.4.13 (2024-08-07)
+
+
+### Bug Fixes
+
+* fix path ([fbb0c99](https://github.com/justdlabs/icons/commit/fbb0c9981fab78bd0ca2c127fe08b6c299afbdeb))
+
 ## [1.4.12](https://github.com/irsyadadl/paranoid/compare/1.4.11...1.4.12) (2024-07-31)
 
 ## [1.4.11](https://github.com/irsyadadl/paranoid/compare/1.4.10...1.4.11) (2024-07-30)
