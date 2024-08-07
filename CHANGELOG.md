@@ -1,3 +1,12 @@
+
+
+## 1.4.20 (2024-08-07)
+
+
+### Bug Fixes
+
+* fix some link ([83118b4](https://github.com/justdlabs/icons/commit/83118b47a4e5f2958ee51499cffd1836cb26c2d6))
+
 ## [1.4.19](https://github.com/justdlabs/icons/compare/1.4.18...1.4.19) (2024-08-07)
 
 ### Bug Fixes
