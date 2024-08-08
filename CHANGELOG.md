@@ -1,5 +1,12 @@
 
 
+## [1.4.27](https://github.com/justdlabs/icons/compare/1.4.26...1.4.27) (2024-08-08)
+
+
+### Bug Fixes
+
+* fix husky ([a2acae5](https://github.com/justdlabs/icons/commit/a2acae56e8c511c61b6cff16c092b3768518b38f))
+
 ## [1.4.26](https://github.com/justdlabs/icons/compare/1.4.25...1.4.26) (2024-08-08)
 
 
