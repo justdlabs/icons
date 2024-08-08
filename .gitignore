@@ -3,6 +3,7 @@
 .phpunit.result.cache
 Homestead.json
 auth.json
+.npmrc
 package-lock.json
 yarn.lock
 .env

@@ -9,6 +9,7 @@
   "unpkg": "dist/umd/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "prepare": "husky",
     "format": "npx prettier --write .",
     "prebuild": "rimraf src && rimraf dist",
     "build": "npm run svgr && node scripts/add-custom-attr.js && node scripts/generate-declarations.js && rollup -c",
@@ -23,10 +24,21 @@
     "icon",
     "react",
     "irsyadadl",
-    "parsinta",
     "irsyad",
     "react-icons",
-    "paranoid"
+    "paranoid",
+    "justd",
+    "getjustd",
+    "react-icons",
+    "react-icons-library",
+    "react-icon-library",
+    "react-icon",
+    "react-icons-collection",
+    "react-icons-list",
+    "react-icon-list",
+    "icon-library",
+    "icon-list",
+    "icon-collection"
   ],
   "repository": {
     "type": "git",
