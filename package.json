@@ -44,10 +44,6 @@
     "type": "git",
     "url": "git+https://github.com/justdlabs/icons.git"
   },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
   "homepage": "https://getjustd.com/icons",
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.24.7",
