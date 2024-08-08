@@ -1,5 +1,12 @@
 
 
+## [1.4.23](https://github.com/justdlabs/icons/compare/1.4.22...1.4.23) (2024-08-08)
+
+
+### Bug Fixes
+
+* add publishConfig ([d0e98db](https://github.com/justdlabs/icons/commit/d0e98db2a7cabd145d51c4cdbb775e13a92fa747))
+
 ## [1.4.22](https://github.com/justdlabs/icons/compare/1.4.21...1.4.22) (2024-08-08)
 
 
