@@ -9,7 +9,6 @@
   "unpkg": "dist/umd/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepare": "husky",
     "format": "npx prettier --write .",
     "prebuild": "rimraf src && rimraf dist",
     "build": "npm run svgr && node scripts/add-custom-attr.js && node scripts/generate-declarations.js && rollup -c",
