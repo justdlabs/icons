@@ -1,5 +1,12 @@
 
 
+## [1.4.22](https://github.com/justdlabs/icons/compare/1.4.21...1.4.22) (2024-08-08)
+
+
+### Bug Fixes
+
+* add publish gh act ([3f75e84](https://github.com/justdlabs/icons/commit/3f75e84e566e916a2e24c98bc13db237c0c5f657))
+
 ## [1.4.21](https://github.com/justdlabs/icons/compare/1.4.20...1.4.21) (2024-08-07)
 
 
