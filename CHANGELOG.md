@@ -1,5 +1,12 @@
 
 
+## [1.4.28](https://github.com/justdlabs/icons/compare/1.4.27...1.4.28) (2024-08-08)
+
+
+### Bug Fixes
+
+* fix action ([16259aa](https://github.com/justdlabs/icons/commit/16259aa201debff66373b01f2876c22a4e51eccc))
+
 ## [1.4.27](https://github.com/justdlabs/icons/compare/1.4.26...1.4.27) (2024-08-08)
 
 
