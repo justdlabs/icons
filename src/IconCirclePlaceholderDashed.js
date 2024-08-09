@@ -7,7 +7,7 @@ const SvgIconCirclePlaceholderDashed = (props) => (
     fill="none"
     viewBox="0 0 24 24"
     {...props}
-   className={`paranoid-ic ${props.className ? props.className : "size-4"}`} data-slot="icon" aria-hidden="true">
+   className={`justd-icons ${props.className ? props.className : "size-4"}`} data-slot="icon" aria-hidden="true">
     <circle
       cx={12}
       cy={12}
