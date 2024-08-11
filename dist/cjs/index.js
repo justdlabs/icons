@@ -14285,6 +14285,83 @@ const SvgIconPeople = props => /*#__PURE__*/React__namespace.createElement("svg"
   d: "M15 2.75a3.5 3.5 0 1 1 0 7m5.75 10.5h1.5c.552 0 1.008-.45.921-.996-.404-2.55-2.323-4.825-4.921-5.745m-9-3.759a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7m-8.173 9.472c.552-3.553 4-6.472 8.173-6.472 4.172 0 7.62 2.92 8.173 6.472.085.546-.37.997-.923.997H2c-.552 0-1.008-.45-.923-.997"
 }));
 
+const SvgIconPercentBadgeFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M11.99 2.993a4.5 4.5 0 0 0-3.398 1.55 4.5 4.5 0 0 0-3.497 1.306 4.5 4.5 0 0 0-1.307 3.498 4.5 4.5 0 0 0-1.548 3.397c0 1.357.6 2.573 1.548 3.397a4.5 4.5 0 0 0 1.307 3.498 4.5 4.5 0 0 0 3.498 1.307 4.49 4.49 0 0 0 3.397 1.549 4.5 4.5 0 0 0 3.397-1.55 4.5 4.5 0 0 0 3.497-1.306 4.5 4.5 0 0 0 1.306-3.497 4.5 4.5 0 0 0 1.55-3.398 4.5 4.5 0 0 0-1.549-3.397 4.5 4.5 0 0 0-1.307-3.498 4.5 4.5 0 0 0-3.498-1.307 4.5 4.5 0 0 0-3.396-1.55Zm3.53 7.28a.75.75 0 0 0-1.06-1.06l-6 6a.75.75 0 1 0 1.06 1.06zm-5.78-.905a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25m4.5 4.5a1.125 1.125 0 1 0 0 2.25 1.125 1.125 0 0 0 0-2.25",
+  clipRule: "evenodd"
+}));
+
+const SvgIconPercentBadge = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  d: "m8.99 15.743 6-6m6 3a3.75 3.75 0 0 1-1.593 3.07 3.75 3.75 0 0 1-1.043 3.296 3.75 3.75 0 0 1-3.296 1.043 3.75 3.75 0 0 1-3.068 1.593c-1.268 0-2.39-.63-3.068-1.593a3.74 3.74 0 0 1-3.296-1.043 3.75 3.75 0 0 1-1.043-3.297 3.75 3.75 0 0 1-1.593-3.068c0-1.268.63-2.39 1.593-3.068a3.746 3.746 0 0 1 2.564-4.221 3.75 3.75 0 0 1 1.775-.118 3.75 3.75 0 0 1 3.068-1.594c1.268 0 2.39.63 3.068 1.593a3.75 3.75 0 0 1 3.296 1.043 3.75 3.75 0 0 1 1.043 3.297 3.75 3.75 0 0 1 1.593 3.068Zm-11.25-2.25h.008v.007H9.74zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0m4.125 4.5h.008V15h-.008zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0"
+}));
+
+const SvgIconPercentFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M12 2.75c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10-4.477-10-10-10m-4 7a1 1 0 1 0 2 0 1 1 0 0 0-2 0m6 6a1 1 0 1 0 2 0 1 1 0 0 0-2 0m2.53-6.47a.75.75 0 0 0-1.06-1.06l-8 8a.75.75 0 1 0 1.06 1.06z",
+  clipRule: "evenodd"
+}));
+
+const SvgIconPercent = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  d: "m16 8.75-8 8m13.25-4a9.25 9.25 0 1 1-18.5 0 9.25 9.25 0 0 1 18.5 0"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 0.5,
+  d: "M8.25 9.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0m6 6a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0"
+}));
+
 const SvgIconPersonAddFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -20179,6 +20256,10 @@ exports.IconPencilBox = SvgIconPencilBox;
 exports.IconPencilBoxFill = SvgIconPencilBoxFill;
 exports.IconPeople = SvgIconPeople;
 exports.IconPeopleFill = SvgIconPeopleFill;
+exports.IconPercent = SvgIconPercent;
+exports.IconPercentBadge = SvgIconPercentBadge;
+exports.IconPercentBadgeFill = SvgIconPercentBadgeFill;
+exports.IconPercentFill = SvgIconPercentFill;
 exports.IconPerson = SvgIconPerson;
 exports.IconPersonAdd = SvgIconPersonAdd;
 exports.IconPersonAddFill = SvgIconPersonAddFill;
