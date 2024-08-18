@@ -15,8 +15,7 @@
     "build": "npm run svgr && node scripts/add-custom-attr.js && node scripts/generate-declarations.js && rollup -c",
     "svgr": "svgr --icon --replace-attr-values '#000=none'  --replace-attr-values '1em={24}' -d src -- ../justd-svg",
     "pr": "npm run build && git commit -a",
-    "release": "release-it",
-    "release-gh": "export GITHUB_TOKEN=$(cat .github_token) && release-it"
+    "release": "export GITHUB_TOKEN=$(cat .github_token) && release-it"
   },
   "files": [
     "dist"
