@@ -3600,6 +3600,20 @@ const SvgIconBrandBehance = props => /*#__PURE__*/React__namespace.createElement
   d: "M7.368 5.501a7.4 7.4 0 0 1 1.768.182c.488.106.952.304 1.366.583.382.278.685.651.877 1.083.221.53.328 1.102.313 1.676a3.2 3.2 0 0 1-.463 1.795c-.345.51-.821.917-1.379 1.179.757.204 1.416.67 1.859 1.316.425.684.639 1.479.614 2.284a4.2 4.2 0 0 1-.388 1.861c-.25.508-.614.951-1.066 1.294a4.7 4.7 0 0 1-1.543.739 6.6 6.6 0 0 1-1.767.237H1V5.501zm-.378 5.755c.467.02.926-.12 1.304-.396a1.55 1.55 0 0 0 .513-1.294 1.75 1.75 0 0 0-.163-.816 1.2 1.2 0 0 0-.454-.488 1.7 1.7 0 0 0-.651-.251 3.7 3.7 0 0 0-.765-.066H3.97v3.324h3.02zm.163 6.058a3.6 3.6 0 0 0 .84-.09c.25-.056.49-.16.702-.304.208-.145.376-.34.489-.568.13-.29.19-.606.175-.924a1.9 1.9 0 0 0-.589-1.57 2.4 2.4 0 0 0-1.554-.462H3.97v3.918zm9.402-.052a2.35 2.35 0 0 0 1.742.62c.503.012.997-.14 1.404-.436.332-.215.583-.534.714-.906h2.37a4.67 4.67 0 0 1-1.742 2.652 4.85 4.85 0 0 1-2.834.806 5.4 5.4 0 0 1-2.093-.397 4.5 4.5 0 0 1-1.58-1.108 5.2 5.2 0 0 1-.99-1.716 6.5 6.5 0 0 1-.35-2.192 6.3 6.3 0 0 1 .362-2.151 4.85 4.85 0 0 1 4.664-3.3 4.5 4.5 0 0 1 2.178.515 4.6 4.6 0 0 1 1.53 1.36 5.7 5.7 0 0 1 .864 1.954c.178.751.24 1.525.188 2.296h-7.058a2.8 2.8 0 0 0 .63 2.003Zm3.096-5.412a1.95 1.95 0 0 0-1.516-.567 2.14 2.14 0 0 0-1.066.237 2.3 2.3 0 0 0-.677.568 2.2 2.2 0 0 0-.363.725 3 3 0 0 0-.125.673h4.372a2.96 2.96 0 0 0-.623-1.635h-.002Zm1.167-5.399h-5.477v1.4h5.477z"
 }));
 
+const SvgIconBrandBitbucket = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "currentColor",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  d: "M21.991 4.455a.6.6 0 0 0-.596-.705H2.611a.603.603 0 0 0-.603.705L4.75 21.273a.6.6 0 0 0 .597.506H18.67a.604.604 0 0 0 .603-.506L21.99 4.455Zm-7.896 11.26H9.917L8.79 9.808h6.317z"
+}));
+
 const SvgIconBrandBluesky = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -3833,6 +3847,20 @@ const SvgIconBrandGithub = props => /*#__PURE__*/React__namespace.createElement(
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
   d: "M12 2.7c5.525 0 10 4.476 10 10a10.02 10.02 0 0 1-6.813 9.488c-.5.1-.687-.212-.687-.475 0-.337.012-1.412.012-2.75 0-.937-.312-1.537-.675-1.85 2.226-.25 4.563-1.1 4.563-4.937 0-1.1-.387-1.988-1.025-2.688.1-.25.45-1.275-.1-2.65 0 0-.837-.275-2.75 1.025a9.3 9.3 0 0 0-2.5-.337c-.85 0-1.7.112-2.5.337-1.913-1.287-2.75-1.025-2.75-1.025-.55 1.375-.2 2.4-.1 2.65-.638.7-1.025 1.6-1.025 2.688 0 3.825 2.325 4.687 4.55 4.937-.287.25-.55.688-.637 1.338-.575.262-2.013.687-2.913-.825-.188-.3-.75-1.038-1.538-1.025-.837.012-.337.475.013.662.425.238.912 1.125 1.025 1.413.2.562.85 1.637 3.362 1.175 0 .837.013 1.625.013 1.862 0 .263-.188.563-.688.475A9.99 9.99 0 0 1 2 12.701c0-5.525 4.475-10 10-10Z"
+}));
+
+const SvgIconBrandGitlab = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "currentColor",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  d: "m21.668 10.744-.028-.072-2.723-7.105a.71.71 0 0 0-.703-.446.73.73 0 0 0-.41.154.73.73 0 0 0-.241.366l-1.838 5.624H8.28L6.443 3.641a.7.7 0 0 0-.241-.367.73.73 0 0 0-.833-.045.7.7 0 0 0-.28.337L2.36 10.668l-.027.072a5.055 5.055 0 0 0 1.677 5.842l.009.007.025.018 4.147 3.106 2.051 1.552 1.25.944a.84.84 0 0 0 1.017 0l1.25-.944 2.05-1.552 4.173-3.125.01-.008a5.06 5.06 0 0 0 1.675-5.836Z"
 }));
 
 const SvgIconBrandGooglePlayStore = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
@@ -19824,6 +19852,7 @@ exports.IconBrandArc = SvgIconBrandArc;
 exports.IconBrandArtifactNews = SvgIconBrandArtifactNews;
 exports.IconBrandAws = SvgIconBrandAws;
 exports.IconBrandBehance = SvgIconBrandBehance;
+exports.IconBrandBitbucket = SvgIconBrandBitbucket;
 exports.IconBrandBluesky = SvgIconBrandBluesky;
 exports.IconBrandCash = SvgIconBrandCash;
 exports.IconBrandChrome = SvgIconBrandChrome;
@@ -19837,6 +19866,7 @@ exports.IconBrandFigma = SvgIconBrandFigma;
 exports.IconBrandFirefox = SvgIconBrandFirefox;
 exports.IconBrandFramer = SvgIconBrandFramer;
 exports.IconBrandGithub = SvgIconBrandGithub;
+exports.IconBrandGitlab = SvgIconBrandGitlab;
 exports.IconBrandGoogle = SvgIconBrandGoogle;
 exports.IconBrandGooglePlayStore = SvgIconBrandGooglePlayStore;
 exports.IconBrandGumroad = SvgIconBrandGumroad;
