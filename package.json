@@ -1,0 +1,105 @@
+{
+  "name": "justd-icons",
+  "version": "1.4.32",
+  "description": "A library of beautifully crafted react icons, perfect for enhancing the visual appeal and user experience of your web applications.",
+  "author": "Irsyad A. Panjaitan",
+  "license": "MIT",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "unpkg": "dist/umd/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "npx husky",
+    "format": "npx prettier --write .",
+    "prebuild": "rimraf src && rimraf dist",
+    "build": "npm run svgr && node scripts/add-custom-attr.js && node scripts/generate-declarations.js && rollup -c",
+    "svgr": "svgr --icon --replace-attr-values '#000=none'  --replace-attr-values '1em={24}' -d src -- ../justd-svg",
+    "pr": "npm run build && git commit -a",
+    "release": "export GITHUB_TOKEN=$(cat .github_token) && release-it"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "icon",
+    "react",
+    "irsyadadl",
+    "irsyad",
+    "react-icons",
+    "paranoid",
+    "justd",
+    "getjustd",
+    "react-icons",
+    "react-icons-library",
+    "react-icon-library",
+    "react-icon",
+    "react-icons-collection",
+    "react-icons-list",
+    "react-icon-list",
+    "icon-library",
+    "icon-list",
+    "icon-collection"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justdlabs/icons.git"
+  },
+  "homepage": "https://getjustd.com/icons",
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.24.7",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
+    "@commitlint/cli": "^18.6.1",
+    "@release-it/conventional-changelog": "^8.0.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@svgr/cli": "^8.1.0",
+    "husky": "^9.1.4",
+    "prettier": "^3.3.3",
+    "release-it": "^17.6.0",
+    "rimraf": "^5.0.10",
+    "rollup": "^4.20.0",
+    "rollup-plugin-filesize": "^10.0.0"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release v${version}"
+    },
+    "github": {
+      "release": true
+    },
+    "npm": {
+      "publish": false
+    },
+    "plugins": {
+      "@release-it/conventional-changelog": {
+        "infile": "CHANGELOG.md",
+        "preset": "conventionalcommits",
+        "types": {
+          "feat": {
+            "description": "Add new features"
+          },
+          "icon": {
+            "description": "Add new icons"
+          },
+          "fix": {
+            "description": "Fix bugs"
+          },
+          "pubslished": {
+            "description": "Published new version"
+          },
+          "chore": {
+            "description": "Build process or auxiliary tool changes"
+          }
+        }
+      }
+    }
+  },
+  "peerDependencies": {
+    "react": "^18.3.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.25.0"
+  }
+}
