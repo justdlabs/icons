@@ -1,3 +1,15 @@
+
+
+## 1.4.33 (2024-08-18)
+
+
+### Bug Fixes
+
+* ff ([b09dfee](https://github.com/justdlabs/icons/commit/b09dfee32819563a19c3dbff93ca6ebb9b94cd8e))
+* fix actions ([c645b33](https://github.com/justdlabs/icons/commit/c645b335e6a5eff04580a435ba457fed8ec0ebb9))
+* fix actions ([e9e9f94](https://github.com/justdlabs/icons/commit/e9e9f9401fedb2c1a3a368d2f5b5c5af8b26732c))
+* fix icon ([30da8c0](https://github.com/justdlabs/icons/commit/30da8c01053bff64c4b15c0776f3ad17f5b52e30))
+
 ## [1.4.32](https://github.com/justdlabs/icons/compare/1.4.30...1.4.32) (2024-08-18)
 
 ### Bug Fixes
