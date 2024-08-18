@@ -1,5 +1,12 @@
 
 
+## [1.4.35](https://github.com/justdlabs/icons/compare/1.4.34...1.4.35) (2024-08-18)
+
+
+### Bug Fixes
+
+* fi ([de9040f](https://github.com/justdlabs/icons/commit/de9040fcd875355bda22ad03680e11af61fd928d))
+
 ## [1.4.34](https://github.com/justdlabs/icons/compare/1.4.33...1.4.34) (2024-08-18)
 
 
