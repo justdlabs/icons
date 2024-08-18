@@ -9,7 +9,7 @@ const SvgIconBrandDigitalOcean = (props) => (
     {...props}
    className={`justd-icons ${props.className ? props.className : "size-4"}`} data-slot="icon" aria-hidden="true">
     <g
-      fill="#0080FF"
+      fill="currentColor"
       fillRule="evenodd"
       clipPath="url(#icon-brand-digital-ocean_svg__a)"
       clipRule="evenodd"
