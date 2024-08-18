@@ -1,11 +1,8 @@
-
-
 ## [1.4.32](https://github.com/justdlabs/icons/compare/1.4.30...1.4.32) (2024-08-18)
-
 
 ### Bug Fixes
 
-* fix action ([a42647f](https://github.com/justdlabs/icons/commit/a42647f81a98fc1ccce0cc216a1ad140d424e762))
+- fix action ([a42647f](https://github.com/justdlabs/icons/commit/a42647f81a98fc1ccce0cc216a1ad140d424e762))
 
 ## [1.4.31](https://github.com/justdlabs/icons/compare/1.4.30...1.4.31) (2024-08-18)
 
@@ -15,54 +12,47 @@
 
 ## [1.4.28](https://github.com/justdlabs/icons/compare/1.4.27...1.4.28) (2024-08-08)
 
-
 ### Bug Fixes
 
-* fix action ([16259aa](https://github.com/justdlabs/icons/commit/16259aa201debff66373b01f2876c22a4e51eccc))
+- fix action ([16259aa](https://github.com/justdlabs/icons/commit/16259aa201debff66373b01f2876c22a4e51eccc))
 
 ## [1.4.27](https://github.com/justdlabs/icons/compare/1.4.26...1.4.27) (2024-08-08)
 
-
 ### Bug Fixes
 
-* fix husky ([a2acae5](https://github.com/justdlabs/icons/commit/a2acae56e8c511c61b6cff16c092b3768518b38f))
+- fix husky ([a2acae5](https://github.com/justdlabs/icons/commit/a2acae56e8c511c61b6cff16c092b3768518b38f))
 
 ## [1.4.26](https://github.com/justdlabs/icons/compare/1.4.25...1.4.26) (2024-08-08)
 
-
 ### Bug Fixes
 
-* fix build ([00378bd](https://github.com/justdlabs/icons/commit/00378bd5a8a7bfa5476031b453c32b3b2a382c26))
+- fix build ([00378bd](https://github.com/justdlabs/icons/commit/00378bd5a8a7bfa5476031b453c32b3b2a382c26))
 
 ## [1.4.25](https://github.com/justdlabs/icons/compare/1.4.24...1.4.25) (2024-08-08)
 
 ## [1.4.24](https://github.com/justdlabs/icons/compare/1.4.23...1.4.24) (2024-08-08)
 
-
 ### Bug Fixes
 
-* fix ([65e2d16](https://github.com/justdlabs/icons/commit/65e2d16bddaa84fff31e694ea16a16ea454f3251))
+- fix ([65e2d16](https://github.com/justdlabs/icons/commit/65e2d16bddaa84fff31e694ea16a16ea454f3251))
 
 ## [1.4.23](https://github.com/justdlabs/icons/compare/1.4.22...1.4.23) (2024-08-08)
 
-
 ### Bug Fixes
 
-* add publishConfig ([d0e98db](https://github.com/justdlabs/icons/commit/d0e98db2a7cabd145d51c4cdbb775e13a92fa747))
+- add publishConfig ([d0e98db](https://github.com/justdlabs/icons/commit/d0e98db2a7cabd145d51c4cdbb775e13a92fa747))
 
 ## [1.4.22](https://github.com/justdlabs/icons/compare/1.4.21...1.4.22) (2024-08-08)
 
-
 ### Bug Fixes
 
-* add publish gh act ([3f75e84](https://github.com/justdlabs/icons/commit/3f75e84e566e916a2e24c98bc13db237c0c5f657))
+- add publish gh act ([3f75e84](https://github.com/justdlabs/icons/commit/3f75e84e566e916a2e24c98bc13db237c0c5f657))
 
 ## [1.4.21](https://github.com/justdlabs/icons/compare/1.4.20...1.4.21) (2024-08-07)
 
-
 ### Bug Fixes
 
-* update readme ([825933b](https://github.com/justdlabs/icons/commit/825933b77b50c4929d49f03c0c8c5a23e69b2db9))
+- update readme ([825933b](https://github.com/justdlabs/icons/commit/825933b77b50c4929d49f03c0c8c5a23e69b2db9))
 
 ## 1.4.20 (2024-08-07)
 
