@@ -203,6 +203,7 @@ export declare const IconBrandAppleMusic: React.FC<React.SVGProps<SVGSVGElement>
 export declare const IconBrandAppstore: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandArc: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandArtifactNews: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconBrandAstro: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandAws: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandBehance: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandBitbucket: React.FC<React.SVGProps<SVGSVGElement>>;

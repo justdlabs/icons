@@ -202,6 +202,7 @@ export { default as IconBrandApple } from "./IconBrandApple";
 export { default as IconBrandAppstore } from "./IconBrandAppstore";
 export { default as IconBrandArc } from "./IconBrandArc";
 export { default as IconBrandArtifactNews } from "./IconBrandArtifactNews";
+export { default as IconBrandAstro } from "./IconBrandAstro";
 export { default as IconBrandAws } from "./IconBrandAws";
 export { default as IconBrandBehance } from "./IconBrandBehance";
 export { default as IconBrandBitbucket } from "./IconBrandBitbucket";
