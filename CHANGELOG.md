@@ -1,5 +1,12 @@
 
 
+## [1.4.39](https://github.com/justdlabs/icons/compare/1.4.38...1.4.39) (2024-08-20)
+
+
+### Bug Fixes
+
+* fix remix icons ([6b743a3](https://github.com/justdlabs/icons/commit/6b743a35b2635efdfe4c7cf767d565f35d823200))
+
 ## [1.4.38](https://github.com/justdlabs/icons/compare/1.4.37...1.4.38) (2024-08-20)
 
 ## [1.4.37](https://github.com/justdlabs/icons/compare/1.4.36...1.4.37) (2024-08-19)
