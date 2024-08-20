@@ -1,5 +1,7 @@
 
 
+## [1.4.38](https://github.com/justdlabs/icons/compare/1.4.37...1.4.38) (2024-08-20)
+
 ## [1.4.37](https://github.com/justdlabs/icons/compare/1.4.36...1.4.37) (2024-08-19)
 
 ## [1.4.36](https://github.com/justdlabs/icons/compare/1.4.35...1.4.36) (2024-08-18)
