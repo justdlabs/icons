@@ -8,7 +8,6 @@ This is a library icon of Justd previously well known as Paranoid Icons (@irsyad
     <a href="https://github.com/justdlabs/icons/actions/workflows/release-package.yml"><img src="https://img.shields.io/github/actions/workflow/status/justdlabs/icons/release-package.yml" alt="Build Status"></a>
     <a href="https://github.com/justd-icons/justd-icons/releases"><img src="https://img.shields.io/npm/v/justd-icons.svg" alt="Latest Release"></a>
     <a href="https://github.com/justd-icons/justd-icons/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/justd-icons.svg" alt="License"></a>
-    <a href="https://twitter.com/getjustdlabs"><img src="https://img.shields.io/twitter/follow/getjustdlabs.svg?style=social" alt="License"></a>
 </p>
 
 ## Installation
