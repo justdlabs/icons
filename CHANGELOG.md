@@ -1,5 +1,12 @@
 
 
+## [1.4.40](https://github.com/justdlabs/icons/compare/1.4.39...1.4.40) (2024-08-23)
+
+
+### Bug Fixes
+
+* new icon ([8e468ec](https://github.com/justdlabs/icons/commit/8e468ec5dd6f5848b1ef3236c7a04d62b4a57363))
+
 ## [1.4.39](https://github.com/justdlabs/icons/compare/1.4.38...1.4.39) (2024-08-20)
 
 
