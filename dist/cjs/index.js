@@ -3756,6 +3756,23 @@ const SvgIconBrandCopilot = props => /*#__PURE__*/React__namespace.createElement
   d: "M9.758 14.058a.97.97 0 0 1 .96.961v1.926a.97.97 0 0 1-.96.961.97.97 0 0 1-.961-.961v-1.926a.97.97 0 0 1 .96-.961Zm5.445.961v1.926a.97.97 0 0 1-.96.961.97.97 0 0 1-.962-.961v-1.926a.97.97 0 0 1 .961-.961.97.97 0 0 1 .961.961"
 }));
 
+const SvgIconBrandCss = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "m3 2.75 1.602 17.969 7.187 2.031 7.227-2.031L20.617 2.75zm3.672 8.125h8.046l.235-2.265H6.477L6.28 6.422h11.055l-1.016 11.25-4.492 1.25-4.57-1.25-.274-2.344 4.844 1.29 2.422-.664.274-2.852H6.867z",
+  clipRule: "evenodd"
+}));
+
 const SvgIconBrandDigitalOcean = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -3979,6 +3996,23 @@ const SvgIconBrandHetzner = props => /*#__PURE__*/React__namespace.createElement
   d: "M21.099 2.75h-2.753c-.616 0-.877.261-.877.878v6.951H6.53V3.628c0-.617-.26-.878-.877-.878H2.878c-.617 0-.878.261-.878.878v17.888c0 .617.261.878.878.878h2.776c.616 0 .877-.237.877-.878v-7.07h10.961v7.07c0 .617.261.878.878.878h2.752c.617 0 .878-.26.878-.878V3.628c-.024-.593-.285-.878-.901-.878"
 }));
 
+const SvgIconBrandHtml5 = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "m3 2.75 1.602 17.969 7.187 2.031 7.227-2.031L20.617 2.75zm5.899 8.125h8.046l-.625 6.797-4.492 1.25-4.57-1.25-.273-3.477h2.187l.156 1.758 2.5.664 2.422-.664.274-2.852H6.868l-.587-6.68h11.055l-.195 2.188H8.703z",
+  clipRule: "evenodd"
+}));
+
 const SvgIconBrandInertiajs = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -4010,6 +4044,23 @@ const SvgIconBrandInstagram = props => /*#__PURE__*/React__namespace.createEleme
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
   d: "M12 4.962c2.537 0 2.837.01 3.839.055a5.3 5.3 0 0 1 1.763.327c.413.153.786.395 1.093.711.316.307.558.68.71 1.093.21.564.32 1.16.328 1.763.046 1.002.055 1.303.055 3.839s-.01 2.837-.055 3.839a5.3 5.3 0 0 1-.327 1.763 3.15 3.15 0 0 1-1.804 1.804c-.564.209-1.16.32-1.763.327-1.002.046-1.303.055-3.839.055s-2.837-.01-3.839-.055a5.3 5.3 0 0 1-1.764-.327 2.94 2.94 0 0 1-1.092-.711 2.94 2.94 0 0 1-.71-1.093 5.3 5.3 0 0 1-.328-1.763c-.046-1.002-.055-1.302-.055-3.839s.01-2.837.055-3.839a5.3 5.3 0 0 1 .327-1.763c.153-.413.395-.786.711-1.093.307-.316.68-.558 1.093-.71a5.3 5.3 0 0 1 1.763-.328c1.002-.046 1.303-.055 3.839-.055m0-1.712c-2.58 0-2.904.011-3.917.057a7 7 0 0 0-2.306.441 4.66 4.66 0 0 0-1.683 1.097 4.66 4.66 0 0 0-1.096 1.683 7 7 0 0 0-.44 2.305C2.51 9.846 2.5 10.17 2.5 12.75s.011 2.903.057 3.917c.016.788.165 1.567.441 2.305a4.66 4.66 0 0 0 1.097 1.684 4.66 4.66 0 0 0 1.683 1.096 7 7 0 0 0 2.305.44c1.013.048 1.337.058 3.917.058s2.903-.011 3.917-.057a7 7 0 0 0 2.306-.441 4.86 4.86 0 0 0 2.779-2.78 7 7 0 0 0 .44-2.305c.048-1.014.058-1.337.058-3.917s-.011-2.904-.057-3.917a7 7 0 0 0-.441-2.306 4.66 4.66 0 0 0-1.097-1.683 4.66 4.66 0 0 0-1.683-1.096 7 7 0 0 0-2.305-.44C14.903 3.26 14.58 3.25 12 3.25m0 4.621a4.879 4.879 0 1 0 0 9.758 4.879 4.879 0 0 0 0-9.758m0 8.046a3.167 3.167 0 1 1 0-6.334 3.167 3.167 0 0 1 0 6.334m5.071-9.378a1.14 1.14 0 1 0 0 2.28 1.14 1.14 0 0 0 0-2.28"
+}));
+
+const SvgIconBrandJavascript = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M2.182 3.66C2 4.017 2 4.483 2 5.417v14.666c0 .934 0 1.4.182 1.757.16.314.414.569.728.728.357.182.823.182 1.757.182h14.666c.934 0 1.4 0 1.757-.182.314-.16.569-.414.728-.728.182-.357.182-.823.182-1.757V5.417c0-.934 0-1.4-.182-1.757a1.67 1.67 0 0 0-.728-.728c-.357-.182-.823-.182-1.757-.182H4.667c-.934 0-1.4 0-1.757.182-.314.16-.569.414-.728.728m15.677 11.927c1.763.715 2.358 1.48 2.504 2.393.14.785-.034 1.295-.06 1.37-.65 2.225-4.276 2.297-5.725.828l-.125-.14c-.236-.262-.4-.444-.555-.786l.774-.446.744-.43c.407.625.784.97 1.46 1.11.919.112 1.843-.204 1.636-1.179-.124-.462-.736-.72-1.45-1.023-.518-.22-1.089-.461-1.566-.819-1.152-.774-1.422-2.654-.475-3.728.316-.398.854-.694 1.418-.837l.59-.076c1.13-.022 1.838.276 2.357.856.145.146.262.304.483.646l-.309.197c-.33.21-.47.299-1.155.742a1.4 1.4 0 0 0-.814-.754c-.502-.152-1.135.013-1.266.543-.045.164-.036.316.036.586.165.375.643.579 1.145.792q.177.075.353.155m-6.857-3.645h1.87q0 .86.003 1.72c.002 1.145.004 2.287-.002 3.43q.001.233.005.46c.014.869.027 1.658-.336 2.327-.295.6-.857.993-1.51 1.183-1.002.23-1.96.099-2.673-.329-.477-.293-.85-.743-1.102-1.262l.76-.465.76-.467a.7.7 0 0 1 .09.141l.017.03c.194.325.361.555.69.717.323.11 1.033.18 1.306-.388.134-.23.127-.877.119-1.652q-.004-.295-.005-.608 0-1.212.004-2.419t.004-2.418",
+  clipRule: "evenodd"
 }));
 
 const SvgIconBrandJustd = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
@@ -4356,6 +4407,21 @@ const SvgIconBrandPerplexity = props => /*#__PURE__*/React__namespace.createElem
   clipRule: "evenodd"
 }));
 
+const SvgIconBrandPhp = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M3.516 9.775h2.84q1.252.01 1.813.72.562.71.371 1.94a3.7 3.7 0 0 1-.328 1.103 3.3 3.3 0 0 1-.679.975q-.53.55-1.134.7c-.41.1-.83.149-1.25.148H3.875l-.403 2.014H2zm1.24 1.208-.636 3.18a1 1 0 0 0 .127.01h.149q1.017.011 1.696-.2.678-.224.911-1.548.19-1.113-.381-1.283-.562-.17-1.41-.159-.127.01-.244.01h-.223zm5.463-3.233h1.462l-.413 2.025h1.314q1.081.02 1.612.445.54.424.318 1.611l-.71 3.53h-1.485l.679-3.371q.106-.53-.064-.753t-.731-.222l-1.177-.01-.869 4.356H8.692L10.22 7.75Zm5.863 2.025h2.841q1.25.01 1.813.72.561.71.37 1.94a3.7 3.7 0 0 1-.328 1.103 3.3 3.3 0 0 1-.678.975q-.531.55-1.134.7c-.41.1-.83.149-1.251.148h-1.272l-.403 2.014h-1.473zm1.24 1.208-.635 3.18a1 1 0 0 0 .127.01h.148q1.018.011 1.696-.2.678-.224.912-1.548.19-1.113-.382-1.283-.561-.17-1.41-.159a3 3 0 0 1-.243.01h-.223z"
+}));
+
 const SvgIconBrandPinterest = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -4408,6 +4474,25 @@ const SvgIconBrandProducthunt = props => /*#__PURE__*/React__namespace.createEle
   fillRule: "evenodd",
   d: "M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10M8.5 7h4.833a3.5 3.5 0 0 1 0 7H10.5v3h-2z",
   clipRule: "evenodd"
+}));
+
+const SvgIconBrandPython = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  fillOpacity: 0.7,
+  d: "M11.428 3.25c-5.077 0-4.76 2.202-4.76 2.202l.006 2.281h4.845v.685h-6.77S1.5 8.048 1.5 13.172c0 5.122 2.836 4.94 2.836 4.94h1.692v-2.377S5.937 12.9 8.818 12.9h4.806s2.7.043 2.7-2.61V5.904s.41-2.654-4.896-2.654M8.756 4.784a.872.872 0 1 1 0 1.743.872.872 0 0 1 0-1.743"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M11.572 23.146c5.077 0 4.76-2.202 4.76-2.202l-.006-2.281h-4.845v-.685h6.77s3.249.369 3.249-4.754-2.836-4.941-2.836-4.941h-1.692v2.376s.091 2.836-2.79 2.836H9.375s-2.7-.044-2.7 2.61v4.386s-.41 2.655 4.896 2.655Zm2.672-1.534a.871.871 0 1 1-.002-1.743.871.871 0 0 1 .002 1.743"
 }));
 
 const SvgIconBrandReactjs = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
@@ -19981,6 +20066,7 @@ exports.IconBrandCash = SvgIconBrandCash;
 exports.IconBrandChrome = SvgIconBrandChrome;
 exports.IconBrandCodepen = SvgIconBrandCodepen;
 exports.IconBrandCopilot = SvgIconBrandCopilot;
+exports.IconBrandCss = SvgIconBrandCss;
 exports.IconBrandDigitalOcean = SvgIconBrandDigitalOcean;
 exports.IconBrandDiscord = SvgIconBrandDiscord;
 exports.IconBrandDuolingo = SvgIconBrandDuolingo;
@@ -19994,8 +20080,10 @@ exports.IconBrandGoogle = SvgIconBrandGoogle;
 exports.IconBrandGooglePlayStore = SvgIconBrandGooglePlayStore;
 exports.IconBrandGumroad = SvgIconBrandGumroad;
 exports.IconBrandHetzner = SvgIconBrandHetzner;
+exports.IconBrandHtml5 = SvgIconBrandHtml5;
 exports.IconBrandInertiajs = SvgIconBrandInertiajs;
 exports.IconBrandInstagram = SvgIconBrandInstagram;
+exports.IconBrandJavascript = SvgIconBrandJavascript;
 exports.IconBrandJustd = SvgIconBrandJustd;
 exports.IconBrandKarteil = SvgIconBrandKarteil;
 exports.IconBrandLaravel = SvgIconBrandLaravel;
@@ -20016,9 +20104,11 @@ exports.IconBrandParanoid = SvgIconBrandParanoid;
 exports.IconBrandParsinta = SvgIconBrandParsinta;
 exports.IconBrandPatreon = SvgIconBrandPatreon;
 exports.IconBrandPerplexity = SvgIconBrandPerplexity;
+exports.IconBrandPhp = SvgIconBrandPhp;
 exports.IconBrandPinterest = SvgIconBrandPinterest;
 exports.IconBrandPnpm = SvgIconBrandPnpm;
 exports.IconBrandProducthunt = SvgIconBrandProducthunt;
+exports.IconBrandPython = SvgIconBrandPython;
 exports.IconBrandReactjs = SvgIconBrandReactjs;
 exports.IconBrandReddit = SvgIconBrandReddit;
 exports.IconBrandRemix = SvgIconBrandRemix;
