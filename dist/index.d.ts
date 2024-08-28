@@ -208,6 +208,7 @@ export declare const IconBrandAws: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandBehance: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandBitbucket: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandBluesky: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconBrandBootstrap: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandBun: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandCash: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandChrome: React.FC<React.SVGProps<SVGSVGElement>>;

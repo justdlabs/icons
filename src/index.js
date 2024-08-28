@@ -207,6 +207,7 @@ export { default as IconBrandAws } from "./IconBrandAws";
 export { default as IconBrandBehance } from "./IconBrandBehance";
 export { default as IconBrandBitbucket } from "./IconBrandBitbucket";
 export { default as IconBrandBluesky } from "./IconBrandBluesky";
+export { default as IconBrandBootstrap } from "./IconBrandBootstrap";
 export { default as IconBrandBun } from "./IconBrandBun";
 export { default as IconBrandCash } from "./IconBrandCash";
 export { default as IconBrandChrome } from "./IconBrandChrome";
