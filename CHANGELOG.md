@@ -1,25 +1,20 @@
-
-
 ## [1.4.41](https://github.com/justdlabs/icons/compare/1.4.40...1.4.41) (2024-08-28)
-
 
 ### Bug Fixes
 
-* new icon ([837ffea](https://github.com/justdlabs/icons/commit/837ffea7df19ef708c34705e088efeab2d6edd2a))
+- new icon ([837ffea](https://github.com/justdlabs/icons/commit/837ffea7df19ef708c34705e088efeab2d6edd2a))
 
 ## [1.4.40](https://github.com/justdlabs/icons/compare/1.4.39...1.4.40) (2024-08-23)
 
-
 ### Bug Fixes
 
-* new icon ([8e468ec](https://github.com/justdlabs/icons/commit/8e468ec5dd6f5848b1ef3236c7a04d62b4a57363))
+- new icon ([8e468ec](https://github.com/justdlabs/icons/commit/8e468ec5dd6f5848b1ef3236c7a04d62b4a57363))
 
 ## [1.4.39](https://github.com/justdlabs/icons/compare/1.4.38...1.4.39) (2024-08-20)
 
-
 ### Bug Fixes
 
-* fix remix icons ([6b743a3](https://github.com/justdlabs/icons/commit/6b743a35b2635efdfe4c7cf767d565f35d823200))
+- fix remix icons ([6b743a3](https://github.com/justdlabs/icons/commit/6b743a35b2635efdfe4c7cf767d565f35d823200))
 
 ## [1.4.38](https://github.com/justdlabs/icons/compare/1.4.37...1.4.38) (2024-08-20)
 
@@ -29,27 +24,24 @@
 
 ## [1.4.35](https://github.com/justdlabs/icons/compare/1.4.34...1.4.35) (2024-08-18)
 
-
 ### Bug Fixes
 
-* fi ([de9040f](https://github.com/justdlabs/icons/commit/de9040fcd875355bda22ad03680e11af61fd928d))
+- fi ([de9040f](https://github.com/justdlabs/icons/commit/de9040fcd875355bda22ad03680e11af61fd928d))
 
 ## [1.4.34](https://github.com/justdlabs/icons/compare/1.4.33...1.4.34) (2024-08-18)
 
-
 ### Bug Fixes
 
-* last ([6048c47](https://github.com/justdlabs/icons/commit/6048c474ee96eb3860760ac61577349f1338bec0))
+- last ([6048c47](https://github.com/justdlabs/icons/commit/6048c474ee96eb3860760ac61577349f1338bec0))
 
 ## 1.4.33 (2024-08-18)
 
-
 ### Bug Fixes
 
-* ff ([b09dfee](https://github.com/justdlabs/icons/commit/b09dfee32819563a19c3dbff93ca6ebb9b94cd8e))
-* fix actions ([c645b33](https://github.com/justdlabs/icons/commit/c645b335e6a5eff04580a435ba457fed8ec0ebb9))
-* fix actions ([e9e9f94](https://github.com/justdlabs/icons/commit/e9e9f9401fedb2c1a3a368d2f5b5c5af8b26732c))
-* fix icon ([30da8c0](https://github.com/justdlabs/icons/commit/30da8c01053bff64c4b15c0776f3ad17f5b52e30))
+- ff ([b09dfee](https://github.com/justdlabs/icons/commit/b09dfee32819563a19c3dbff93ca6ebb9b94cd8e))
+- fix actions ([c645b33](https://github.com/justdlabs/icons/commit/c645b335e6a5eff04580a435ba457fed8ec0ebb9))
+- fix actions ([e9e9f94](https://github.com/justdlabs/icons/commit/e9e9f9401fedb2c1a3a368d2f5b5c5af8b26732c))
+- fix icon ([30da8c0](https://github.com/justdlabs/icons/commit/30da8c01053bff64c4b15c0776f3ad17f5b52e30))
 
 ## [1.4.32](https://github.com/justdlabs/icons/compare/1.4.30...1.4.32) (2024-08-18)
 

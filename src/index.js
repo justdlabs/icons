@@ -220,6 +220,7 @@ export { default as IconBrandFacebook } from "./IconBrandFacebook";
 export { default as IconBrandFigma } from "./IconBrandFigma";
 export { default as IconBrandFirefox } from "./IconBrandFirefox";
 export { default as IconBrandFramer } from "./IconBrandFramer";
+export { default as IconBrandGit } from "./IconBrandGit";
 export { default as IconBrandGithub } from "./IconBrandGithub";
 export { default as IconBrandGitlab } from "./IconBrandGitlab";
 export { default as IconBrandGooglePlayStore } from "./IconBrandGooglePlayStore";

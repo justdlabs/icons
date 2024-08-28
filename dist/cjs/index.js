@@ -3896,6 +3896,21 @@ const SvgIconBrandFramer = props => /*#__PURE__*/React__namespace.createElement(
   d: "M18.667 2v6.667H12L5.333 2zM5.333 8.667H12l6.667 6.666H12V22l-6.667-6.667z"
 }));
 
+const SvgIconBrandGit = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M21.623 11.86 12.89 3.127a1.29 1.29 0 0 0-1.822 0L9.256 4.939l2.3 2.301a1.529 1.529 0 0 1 1.938 1.95l2.216 2.217a1.532 1.532 0 1 1-.918.864l-2.067-2.068v5.44a1.532 1.532 0 1 1-1.26-.044v-5.49a1.53 1.53 0 0 1-.832-2.01L8.364 5.831 2.377 11.82a1.29 1.29 0 0 0 0 1.822l8.732 8.732a1.29 1.29 0 0 0 1.822 0l8.692-8.692a1.29 1.29 0 0 0 0-1.822"
+}));
+
 const SvgIconBrandGithub = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -20091,6 +20106,7 @@ exports.IconBrandFacebook = SvgIconBrandFacebook;
 exports.IconBrandFigma = SvgIconBrandFigma;
 exports.IconBrandFirefox = SvgIconBrandFirefox;
 exports.IconBrandFramer = SvgIconBrandFramer;
+exports.IconBrandGit = SvgIconBrandGit;
 exports.IconBrandGithub = SvgIconBrandGithub;
 exports.IconBrandGitlab = SvgIconBrandGitlab;
 exports.IconBrandGoogle = SvgIconBrandGoogle;
