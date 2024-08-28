@@ -1,5 +1,12 @@
 
 
+## [1.4.43](https://github.com/justdlabs/icons/compare/1.4.42...1.4.43) (2024-08-28)
+
+
+### Bug Fixes
+
+* add icon bootstrap ([1bb61e7](https://github.com/justdlabs/icons/commit/1bb61e7b438bda048e7a7884bbd9a9f76a247832))
+
 ## [1.4.42](https://github.com/justdlabs/icons/compare/1.4.41...1.4.42) (2024-08-28)
 
 
