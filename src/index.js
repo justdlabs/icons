@@ -274,6 +274,7 @@ export { default as IconBrandTurbopack } from "./IconBrandTurbopack";
 export { default as IconBrandTurborepo } from "./IconBrandTurborepo";
 export { default as IconBrandTwitch } from "./IconBrandTwitch";
 export { default as IconBrandTwitter } from "./IconBrandTwitter";
+export { default as IconBrandTypescript } from "./IconBrandTypescript";
 export { default as IconBrandUbuntu } from "./IconBrandUbuntu";
 export { default as IconBrandVenmo } from "./IconBrandVenmo";
 export { default as IconBrandVercel } from "./IconBrandVercel";
