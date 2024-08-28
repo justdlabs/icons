@@ -1,3 +1,12 @@
+
+
+## [1.4.42](https://github.com/justdlabs/icons/compare/1.4.41...1.4.42) (2024-08-28)
+
+
+### Bug Fixes
+
+* add new icon git ([7e8b773](https://github.com/justdlabs/icons/commit/7e8b773f05071d51f112cce4feee299dd30c320d))
+
 ## [1.4.41](https://github.com/justdlabs/icons/compare/1.4.40...1.4.41) (2024-08-28)
 
 ### Bug Fixes
