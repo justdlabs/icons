@@ -11702,6 +11702,147 @@ const SvgIconHamburger = props => /*#__PURE__*/React__namespace.createElement("s
   d: "M2.75 12h18.5M2.75 5.75h18.5m-18.5 12.5h18.5"
 }));
 
+const SvgIconHand5Fill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M12.067 2.75a1.13 1.13 0 0 0-1.133 1.127v6.76a.565.565 0 0 1-.567.564.565.565 0 0 1-.566-.564V5.004a1.13 1.13 0 0 0-1.133-1.127 1.13 1.13 0 0 0-1.134 1.127v6.892a.569.569 0 0 1-.975.39l-1.346-1.39a1.706 1.706 0 0 0-2.683.302l-.03.05 2.794 6.785a7.64 7.64 0 0 0 7.068 4.717c4.219 0 7.638-3.4 7.638-7.594V7.257a1.13 1.13 0 0 0-1.133-1.127 1.13 1.13 0 0 0-1.134 1.127v4.507a.565.565 0 0 1-.566.564.565.565 0 0 1-.567-.564v-6.76a1.13 1.13 0 0 0-1.133-1.127 1.13 1.13 0 0 0-1.133 1.127V11.2a.565.565 0 0 1-.567.563.565.565 0 0 1-.566-.563V3.877a1.13 1.13 0 0 0-1.134-1.127",
+  clipRule: "evenodd"
+}));
+
+const SvgIconHand5 = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  d: "M16.25 8.5V8a1.5 1.5 0 0 1 3 0v6.985a7.015 7.015 0 0 1-13.57 2.498l-2.43-6.379a1.732 1.732 0 0 1 2.91-.486l1.09 1.25V6a1.5 1.5 0 1 1 3 0v5.75m0-1.25V5a1.5 1.5 0 0 1 3 0v7.25m0-3.75V6a1.5 1.5 0 0 1 3 0v6.75"
+}));
+
+const SvgIconHandPinchFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "m11.387 8.967 4.88-2.921c1.617-.968 3.684-.394 4.618 1.283l1.03 1.851c2.232 4.008.908 9.133-2.957 11.447a7.84 7.84 0 0 1-8.352-.17l-5.571-3.643a1 1 0 0 1-.442-.982l.11-.756c.188-1.276 1.338-2.153 2.568-1.959l1.339.211-3.38-6.072c-.623-1.118-.254-2.547.824-3.192 1.078-.646 2.457-.263 3.079.855z"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M2.532 7.667a.75.75 0 0 1 .43.97c-.616 1.604-.616 3.012 0 4.617a.75.75 0 1 1-1.4.538c-.75-1.951-.75-3.742 0-5.694a.75.75 0 0 1 .97-.43Z",
+  clipRule: "evenodd"
+}));
+
+const SvgIconHandPinch = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  d: "M2.263 8.367c-.684 1.778-.684 3.378 0 5.156m13.832-6.919-4.461 2.678-2.06-3.71c-.57-1.025-1.83-1.376-2.816-.785-.985.592-1.323 1.902-.754 2.927l3.09 5.566-1.223-.194c-1.125-.178-2.176.626-2.347 1.796l-.186 1.272 5.582 3.662a7.15 7.15 0 0 0 7.635.155c3.533-2.121 4.744-6.82 2.704-10.493l-.942-1.697c-.854-1.537-2.744-2.064-4.222-1.177"
+}));
+
+const SvgIconHandPointerFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M11.188 9.873h4.797c2.356 0 4.265 1.963 4.265 4.384v.635c0 4.34-3.423 7.858-7.645 7.858-2.839 0-5.444-1.616-6.766-4.198l-3.033-5.924a.51.51 0 0 1 .05-.544l.602-.773a2.093 2.093 0 0 1 2.997-.342l1 .822V4.668c0-1.06.836-1.918 1.867-1.918 1.03 0 1.866.859 1.866 1.918z"
+}));
+
+const SvgIconHandPointer = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "square",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  d: "M11.25 10h4.5a4 4 0 0 1 4 4v.58a7.17 7.17 0 0 1-13.516 3.339L3.25 12.25l.75-.938a2 2 0 0 1 2.812-.313l.938.751v-6.5a1.75 1.75 0 1 1 3.5 0z"
+}));
+
+const SvgIconHandTouchFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M13.25 9v2.75h3.288A3.46 3.46 0 0 1 20 15.211v1.77a5.77 5.77 0 0 1-5.77 5.769h-1.064a4.62 4.62 0 0 1-3.865-2.094L6.21 15.92a.75.75 0 0 1-.07-.684l.133-.34a2.31 2.31 0 0 1 3.116-1.254l.36.166V9a1.75 1.75 0 1 1 3.5 0Z"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M11.472 4.25C8.444 4.25 6 6.681 6 9.667q0 .463.076.902a.75.75 0 1 1-1.48.25A7 7 0 0 1 4.5 9.668c0-3.827 3.128-6.917 6.972-6.917 3.45 0 6.321 2.488 6.876 5.764a.75.75 0 0 1-1.48.25c-.432-2.557-2.68-4.514-5.396-4.514Z",
+  clipRule: "evenodd"
+}));
+
+const SvgIconHandTouch = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M13.028 12.75h-.75c0 .414.336.75.75.75zm-3.111 1.542-.333.672a.75.75 0 0 0 1.083-.672zm-.058-.029-.333.672zm-2.854 1.075-.695-.28zm-.2.495-.695-.28a.75.75 0 0 0 .073.699l.623-.419Zm2.917 4.336.623-.418zM16.87 8.764a.75.75 0 0 0 1.479-.25l-1.48.25ZM4.597 10.82a.75.75 0 1 0 1.479-.25zm9.18 1.93V9.667h-1.5v3.083zm-4.61-3.083v4.625h1.5V9.667zm1.083 3.953-.058-.03-.666 1.345.058.029zm-3.94 1.437-.2.496 1.391.561.2-.495zm-.127 1.195L9.1 20.588l1.245-.837-2.917-4.336zm6.99 6.498h.892v-1.5h-.891v1.5ZM20 16.861v-1.028h-1.5v1.028zM16.139 12h-3.111v1.5h3.11V12ZM20 15.833C20 13.71 18.265 12 16.139 12v1.5c1.31 0 2.361 1.051 2.361 2.333zm-9.808-2.242c-1.473-.73-3.266-.06-3.882 1.466l1.39.562a1.33 1.33 0 0 1 1.826-.684zm3.873 9.159c3.271 0 5.935-2.63 5.935-5.889h-1.5c0 2.418-1.98 4.389-4.435 4.389zM11.472 7.375a2.3 2.3 0 0 0-2.305 2.292h1.5c0-.431.354-.792.805-.792zM9.1 20.588a4.91 4.91 0 0 0 4.074 2.162v-1.5c-1.14 0-2.2-.564-2.83-1.5zm4.678-10.921a2.3 2.3 0 0 0-2.306-2.292v1.5c.452 0 .806.36.806.792zM6 9.667C6 6.68 8.444 4.25 11.472 4.25v-1.5C7.628 2.75 4.5 5.84 4.5 9.667zm5.472-5.417c2.716 0 4.964 1.957 5.397 4.514l1.479-.25c-.555-3.276-3.425-5.764-6.876-5.764zm-5.396 6.32A5.4 5.4 0 0 1 6 9.666H4.5q0 .588.097 1.153z"
+}));
+
 const SvgIconHashtagFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -20561,6 +20702,14 @@ exports.IconGrid4Fill = SvgIconGrid4Fill;
 exports.IconGuide = SvgIconGuide;
 exports.IconGuideFill = SvgIconGuideFill;
 exports.IconHamburger = SvgIconHamburger;
+exports.IconHand5 = SvgIconHand5;
+exports.IconHand5Fill = SvgIconHand5Fill;
+exports.IconHandPinch = SvgIconHandPinch;
+exports.IconHandPinchFill = SvgIconHandPinchFill;
+exports.IconHandPointer = SvgIconHandPointer;
+exports.IconHandPointerFill = SvgIconHandPointerFill;
+exports.IconHandTouch = SvgIconHandTouch;
+exports.IconHandTouchFill = SvgIconHandTouchFill;
 exports.IconHashtag = SvgIconHashtag;
 exports.IconHashtagFill = SvgIconHashtagFill;
 exports.IconHd = SvgIconHd;
