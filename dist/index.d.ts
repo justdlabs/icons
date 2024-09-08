@@ -1124,6 +1124,8 @@ export declare const IconWifi: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconWind: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconWindow: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconWindowFill: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconWindowVisit: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconWindowVisitFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconX: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconYenFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconYes: React.FC<React.SVGProps<SVGSVGElement>>;

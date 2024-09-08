@@ -1122,6 +1122,8 @@ export { default as IconWhiteboard } from "./IconWhiteboard";
 export { default as IconWifi } from "./IconWifi";
 export { default as IconWind } from "./IconWind";
 export { default as IconWindowFill } from "./IconWindowFill";
+export { default as IconWindowVisitFill } from "./IconWindowVisitFill";
+export { default as IconWindowVisit } from "./IconWindowVisit";
 export { default as IconWindow } from "./IconWindow";
 export { default as IconX } from "./IconX";
 export { default as IconYenFill } from "./IconYenFill";

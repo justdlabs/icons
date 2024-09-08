@@ -19842,6 +19842,49 @@ const SvgIconWindowFill = props => /*#__PURE__*/React__namespace.createElement("
   d: "M2 19.25V11h20v8.25a.75.75 0 0 1-.75.75H2.75a.75.75 0 0 1-.75-.75"
 }));
 
+const SvgIconWindowVisitFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M2.75 4.75A.75.75 0 0 0 2 5.5V21c0 .414.336.75.75.75h9.5a.75.75 0 0 0 0-1.5H3.5v-14h17V13a.75.75 0 0 0 1.5 0V5.5a.75.75 0 0 0-.75-.75z"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M6.5 10.25a1 1 0 1 1 0-2 1 1 0 0 1 0 2m7.97 4.97a.75.75 0 0 1 .75-.187l7 2.154a.75.75 0 0 1 .115 1.388l-3.007 1.503-1.503 3.007a.75.75 0 0 1-1.388-.114l-2.154-7a.75.75 0 0 1 .187-.751M10 10.25a1 1 0 1 1 0-2 1 1 0 0 1 0 2m3.5 0a1 1 0 1 1 0-2 1 1 0 0 1 0 2"
+}));
+
+const SvgIconWindowVisit = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 0.5,
+  d: "M5.75 9.25a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0m3.5 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0m3.5 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  d: "M21.25 13V5.5H2.75V21h9.5M22 17.904l-7-2.154 2.154 7 1.615-3.23L22 17.903Z"
+}));
+
 const SvgIconWindow = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -21165,6 +21208,8 @@ exports.IconWifi = SvgIconWifi;
 exports.IconWind = SvgIconWind;
 exports.IconWindow = SvgIconWindow;
 exports.IconWindowFill = SvgIconWindowFill;
+exports.IconWindowVisit = SvgIconWindowVisit;
+exports.IconWindowVisitFill = SvgIconWindowVisitFill;
 exports.IconX = SvgIconX;
 exports.IconYenFill = SvgIconYenFill;
 exports.IconYes = SvgIconYes;
