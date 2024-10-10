@@ -1,5 +1,12 @@
 
 
+## [1.5.0](https://github.com/justdlabs/icons/compare/1.4.45...1.5.0) (2024-10-10)
+
+
+### Features
+
+* add new icon eye close ([3d43918](https://github.com/justdlabs/icons/commit/3d4391813fcc021661e0296ec4994c7759f70dfb))
+
 ## [1.4.45](https://github.com/justdlabs/icons/compare/1.4.44...1.4.45) (2024-09-08)
 
 ## [1.4.44](https://github.com/justdlabs/icons/compare/1.4.43...1.4.44) (2024-08-28)
