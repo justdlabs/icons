@@ -1,11 +1,8 @@
-
-
 ## [1.5.0](https://github.com/justdlabs/icons/compare/1.4.45...1.5.0) (2024-10-10)
-
 
 ### Features
 
-* add new icon eye close ([3d43918](https://github.com/justdlabs/icons/commit/3d4391813fcc021661e0296ec4994c7759f70dfb))
+- add new icon eye close ([3d43918](https://github.com/justdlabs/icons/commit/3d4391813fcc021661e0296ec4994c7759f70dfb))
 
 ## [1.4.45](https://github.com/justdlabs/icons/compare/1.4.44...1.4.45) (2024-09-08)
 
@@ -13,17 +10,15 @@
 
 ## [1.4.43](https://github.com/justdlabs/icons/compare/1.4.42...1.4.43) (2024-08-28)
 
-
 ### Bug Fixes
 
-* add icon bootstrap ([1bb61e7](https://github.com/justdlabs/icons/commit/1bb61e7b438bda048e7a7884bbd9a9f76a247832))
+- add icon bootstrap ([1bb61e7](https://github.com/justdlabs/icons/commit/1bb61e7b438bda048e7a7884bbd9a9f76a247832))
 
 ## [1.4.42](https://github.com/justdlabs/icons/compare/1.4.41...1.4.42) (2024-08-28)
 
-
 ### Bug Fixes
 
-* add new icon git ([7e8b773](https://github.com/justdlabs/icons/commit/7e8b773f05071d51f112cce4feee299dd30c320d))
+- add new icon git ([7e8b773](https://github.com/justdlabs/icons/commit/7e8b773f05071d51f112cce4feee299dd30c320d))
 
 ## [1.4.41](https://github.com/justdlabs/icons/compare/1.4.40...1.4.41) (2024-08-28)
 
