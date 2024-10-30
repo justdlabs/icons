@@ -1,3 +1,12 @@
+
+
+## [1.7.0](https://github.com/justdlabs/icons/compare/1.6.0...1.7.0) (2024-10-30)
+
+
+### Features
+
+* add support react 19 ([54e74f5](https://github.com/justdlabs/icons/commit/54e74f553898365a7fe7d9ce50d09325c3362873))
+
 ## [1.6.0](https://github.com/justdlabs/icons/compare/1.5.0...1.6.0) (2024-10-28)
 
 ### Features
