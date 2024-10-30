@@ -1,11 +1,8 @@
-
-
 ## [1.6.0](https://github.com/justdlabs/icons/compare/1.5.0...1.6.0) (2024-10-28)
-
 
 ### Features
 
-* new icons ([67d28b1](https://github.com/justdlabs/icons/commit/67d28b16a89688eab0ca4b364385fb2e204bf343))
+- new icons ([67d28b1](https://github.com/justdlabs/icons/commit/67d28b16a89688eab0ca4b364385fb2e204bf343))
 
 ## [1.5.0](https://github.com/justdlabs/icons/compare/1.4.45...1.5.0) (2024-10-10)
 
