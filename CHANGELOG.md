@@ -1,5 +1,12 @@
 
 
+## [1.7.1](https://github.com/justdlabs/icons/compare/1.7.0...1.7.1) (2024-10-30)
+
+
+### Bug Fixes
+
+* refactoring peerDeps ([12a8e78](https://github.com/justdlabs/icons/commit/12a8e788bf5fbd5c573e0d6c67577eef4fffbda3))
+
 ## [1.7.0](https://github.com/justdlabs/icons/compare/1.6.0...1.7.0) (2024-10-30)
 
 
