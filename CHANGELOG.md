@@ -1,5 +1,7 @@
 
 
+## [1.7.2](https://github.com/justdlabs/icons/compare/1.7.1...1.7.2) (2024-11-05)
+
 ## [1.7.1](https://github.com/justdlabs/icons/compare/1.7.0...1.7.1) (2024-10-30)
 
 
