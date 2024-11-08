@@ -1,5 +1,12 @@
 
 
+## [1.7.3](https://github.com/justdlabs/icons/compare/1.7.2...1.7.3) (2024-11-08)
+
+
+### Bug Fixes
+
+* add bunch of icons ([41dd43b](https://github.com/justdlabs/icons/commit/41dd43b3a297e07cca1eb45516f1f472e3173a93))
+
 ## [1.7.2](https://github.com/justdlabs/icons/compare/1.7.1...1.7.2) (2024-11-05)
 
 ## [1.7.1](https://github.com/justdlabs/icons/compare/1.7.0...1.7.1) (2024-10-30)
