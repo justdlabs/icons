@@ -13270,6 +13270,494 @@
     d: "m7.797 12-4.49 2.234c-.743.37-.743 1.437 0 1.807l8.25 4.105c.28.139.607.139.886 0l8.25-4.105c.743-.37.743-1.438 0-1.807L16.203 12m-8.406 0-4.49-2.234c-.743-.37-.743-1.437 0-1.807l8.25-4.105a1 1 0 0 1 .886 0l8.25 4.105c.743.37.743 1.437 0 1.807L16.203 12m-8.406 0 3.76 1.871c.28.139.607.139.886 0L16.203 12"
   }));
 
+  const SvgIconLayoutAlignBottomFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    fillRule: "evenodd",
+    d: "M3 4.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-.75.75H3.75A.75.75 0 0 1 3 21zm4.75 11.75a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5z",
+    clipRule: "evenodd"
+  }));
+
+  const SvgIconLayoutAlignBottom = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    d: "M20.25 4.5H21a.75.75 0 0 0-.75-.75zm0 16.5v.75A.75.75 0 0 0 21 21zm-16.5 0H3c0 .414.336.75.75.75zm0-16.5v-.75A.75.75 0 0 0 3 4.5zm4 11.75a.75.75 0 0 0 0 1.5zm8.5 1.5a.75.75 0 0 0 0-1.5zM19.5 4.5V21H21V4.5zm.75 15.75H3.75v1.5h16.5zM4.5 21V4.5H3V21zM3.75 5.25h16.5v-1.5H3.75zm4 12.5h8.5v-1.5h-8.5z"
+  }));
+
+  const SvgIconLayoutAlignHorizontalCenterFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    fillRule: "evenodd",
+    d: "M3 4.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-.75.75H3.75A.75.75 0 0 1 3 21zM7.75 12a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5z",
+    clipRule: "evenodd"
+  }));
+
+  const SvgIconLayoutAlignHorizontalCenter = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 1.5,
+    d: "M20.25 21V4.5H3.75V21z"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeWidth: 1.5,
+    d: "M7.75 12.75h8.5"
+  }));
+
+  const SvgIconLayoutAlignLeftFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    fillRule: "evenodd",
+    d: "M3 4.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-.75.75H3.75A.75.75 0 0 1 3 21zm5.5 4a.75.75 0 0 0-1.5 0V17a.75.75 0 0 0 1.5 0z",
+    clipRule: "evenodd"
+  }));
+
+  const SvgIconLayoutAlignLeft = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    d: "M20.25 4.5H21a.75.75 0 0 0-.75-.75zm0 16.5v.75A.75.75 0 0 0 21 21zm-16.5 0H3c0 .414.336.75.75.75zm0-16.5v-.75A.75.75 0 0 0 3 4.5zM7 17a.75.75 0 0 0 1.5 0zm1.5-8.5a.75.75 0 0 0-1.5 0zm11-4V21H21V4.5zm.75 15.75H3.75v1.5h16.5zM4.5 21V4.5H3V21zM3.75 5.25h16.5v-1.5H3.75zM8.5 17V8.5H7V17z"
+  }));
+
+  const SvgIconLayoutAlignRightFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    fillRule: "evenodd",
+    d: "M3 4.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-.75.75H3.75A.75.75 0 0 1 3 21zm14 4a.75.75 0 0 0-1.5 0V17a.75.75 0 0 0 1.5 0z",
+    clipRule: "evenodd"
+  }));
+
+  const SvgIconLayoutAlignRight = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    d: "M20.25 4.5H21a.75.75 0 0 0-.75-.75zm0 16.5v.75A.75.75 0 0 0 21 21zm-16.5 0H3c0 .414.336.75.75.75zm0-16.5v-.75A.75.75 0 0 0 3 4.5zM15.5 17a.75.75 0 0 0 1.5 0zM17 8.5a.75.75 0 0 0-1.5 0zm2.5-4V21H21V4.5zm.75 15.75H3.75v1.5h16.5zM4.5 21V4.5H3V21zM3.75 5.25h16.5v-1.5H3.75zM17 17V8.5h-1.5V17z"
+  }));
+
+  const SvgIconLayoutAlignTopFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    fillRule: "evenodd",
+    d: "M3 4.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-.75.75H3.75A.75.75 0 0 1 3 21zm4.75 3.25a.75.75 0 0 0 0 1.5h8.5a.75.75 0 0 0 0-1.5z",
+    clipRule: "evenodd"
+  }));
+
+  const SvgIconLayoutAlignTop = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    d: "M20.25 4.5H21a.75.75 0 0 0-.75-.75zm0 16.5v.75A.75.75 0 0 0 21 21zm-16.5 0H3c0 .414.336.75.75.75zm0-16.5v-.75A.75.75 0 0 0 3 4.5zm4 3.25a.75.75 0 0 0 0 1.5zm8.5 1.5a.75.75 0 0 0 0-1.5zM19.5 4.5V21H21V4.5zm.75 15.75H3.75v1.5h16.5zM4.5 21V4.5H3V21zM3.75 5.25h16.5v-1.5H3.75zm4 4h8.5v-1.5h-8.5z"
+  }));
+
+  const SvgIconLayoutAlignVerticalCenterFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    fillRule: "evenodd",
+    d: "M3 4.5a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 .75.75V21a.75.75 0 0 1-.75.75H3.75A.75.75 0 0 1 3 21zm9.75 4a.75.75 0 0 0-1.5 0V17a.75.75 0 0 0 1.5 0z",
+    clipRule: "evenodd"
+  }));
+
+  const SvgIconLayoutAlignVerticalCenter = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 1.5,
+    d: "M20.25 21V4.5H3.75V21z"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeWidth: 1.5,
+    d: "M12 17V8.5"
+  }));
+
+  const SvgIconLayoutColumnHalfFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    d: "M3 4.5a.75.75 0 0 1 .75-.75h7.5v18h-7.5A.75.75 0 0 1 3 21zm9.75 17.25h7.5A.75.75 0 0 0 21 21V4.5a.75.75 0 0 0-.75-.75h-7.5z"
+  }));
+
+  const SvgIconLayoutColumnHalfRemoveFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    d: "M2.75 4.75A.75.75 0 0 0 2 5.5V20c0 .414.336.75.75.75h8.5a.75.75 0 0 0 0-1.5H3.5V13.5h17.75a.75.75 0 0 0 .75-.75V5.5a.75.75 0 0 0-.75-.75z"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    d: "M17.28 16.97a.75.75 0 1 0-1.06 1.06l1.72 1.72-1.72 1.72a.75.75 0 1 0 1.06 1.06L19 20.81l1.72 1.72a.75.75 0 1 0 1.06-1.06l-1.72-1.72 1.72-1.72a.75.75 0 1 0-1.06-1.06L19 18.69z"
+  }));
+
+  const SvgIconLayoutColumnHalfRemove = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 1.5,
+    d: "M2.75 12.75V20h8.5m-8.5-7.25V5.5h18.5v7.25zm14 4.75L19 19.75m0 0L21.25 22M19 19.75 16.75 22M19 19.75l2.25-2.25"
+  }));
+
+  const SvgIconLayoutColumnHalf = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    d: "M20.25 4.5H21a.75.75 0 0 0-.75-.75zm0 16.5v.75A.75.75 0 0 0 21 21zm-16.5 0H3c0 .414.336.75.75.75zm0-16.5v-.75A.75.75 0 0 0 3 4.5zm15.75 0V21H21V4.5zm.75 15.75H3.75v1.5h16.5zM4.5 21V4.5H3V21zM3.75 5.25h16.5v-1.5H3.75z"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    d: "M11.25 4.5V21h1.5V4.5z"
+  }));
+
+  const SvgIconLayoutColumnHorizontalAddFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    d: "M2.75 4.75A.75.75 0 0 0 2 5.5V20c0 .414.336.75.75.75h8.5a.75.75 0 0 0 0-1.5H3.5V13.5h17.75a.75.75 0 0 0 .75-.75V5.5a.75.75 0 0 0-.75-.75zM19.5 17a.75.75 0 0 0-1.5 0v2.25h-2.25a.75.75 0 0 0 0 1.5H18V23a.75.75 0 0 0 1.5 0v-2.25h2.25a.75.75 0 0 0 0-1.5H19.5z"
+  }));
+
+  const SvgIconLayoutColumnHorizontalAdd = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 1.5,
+    d: "M11.25 20h-8.5v-7.25m0 0V5.5h18.5v7.25zm16 4.25v3m0 0v3m0-3h-3m3 0h3"
+  }));
+
+  const SvgIconLayoutColumnHorizontalHalfFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    d: "M2 5.5a.75.75 0 0 1 .75-.75h18.5a.75.75 0 0 1 .75.75V12H2zm0 8V20c0 .414.336.75.75.75h18.5A.75.75 0 0 0 22 20v-6.5z"
+  }));
+
+  const SvgIconLayoutColumnHorizontalHalf = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "square",
+    strokeLinejoin: "round",
+    strokeWidth: 1.5,
+    d: "M21.25 5.5H2.75V20h18.5z"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeWidth: 1.5,
+    d: "M2.75 12.75h18.5"
+  }));
+
+  const SvgIconLayoutColumnLeftsideFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    fillRule: "evenodd",
+    d: "M2 5.5a.75.75 0 0 1 .75-.75h18.5a.75.75 0 0 1 .75.75V20a.75.75 0 0 1-.75.75H2.75A.75.75 0 0 1 2 20zm7 .75v13h11.5v-13z",
+    clipRule: "evenodd"
+  }));
+
+  const SvgIconLayoutColumnLeftside = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinejoin: "round",
+    strokeWidth: 1.5,
+    d: "M2.75 5.5h18.5V20H2.75zm5.5.25v14"
+  }));
+
+  const SvgIconLayoutColumnRightsideFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    fillRule: "evenodd",
+    d: "M22 5.5a.75.75 0 0 0-.75-.75H2.75A.75.75 0 0 0 2 5.5V20c0 .414.336.75.75.75h18.5A.75.75 0 0 0 22 20zm-7 .75v13H3.5v-13z",
+    clipRule: "evenodd"
+  }));
+
+  const SvgIconLayoutColumnRightside = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinejoin: "round",
+    strokeWidth: 1.5,
+    d: "M2.75 5.5h18.5V20H2.75zm13 .25v14"
+  }));
+
+  const SvgIconLayoutColumnVerticalAddFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    d: "M2.75 4.75A.75.75 0 0 0 2 5.5V20c0 .414.336.75.75.75H12a.75.75 0 0 0 .75-.75V6.25h7.75V11a.75.75 0 0 0 1.5 0V5.5a.75.75 0 0 0-.75-.75z"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    d: "M19.75 14.5a.75.75 0 0 0-1.5 0V17h-2.5a.75.75 0 0 0 0 1.5h2.5V21a.75.75 0 0 0 1.5 0v-2.5h2.5a.75.75 0 0 0 0-1.5h-2.5z"
+  }));
+
+  const SvgIconLayoutColumnVerticalAdd = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    d: "M2.75 20H2c0 .414.336.75.75.75zm0-14.5v-.75A.75.75 0 0 0 2 5.5zM12 20v.75a.75.75 0 0 0 .75-.75zm9.25-14.5H22a.75.75 0 0 0-.75-.75zM20.5 11a.75.75 0 0 0 1.5 0zm-7.75-5.25a.75.75 0 0 0-1.5 0zM3.5 20V5.5H2V20zm8.5-.75H2.75v1.5H12zM20.5 5.5V11H22V5.5zm-17.75.75H12v-1.5H2.75zm9.25 0h9.25v-1.5H12zM12.75 20V5.75h-1.5V20z"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 1.5,
+    d: "M19 14.5v3.25m0 0V21m0-3.25h-3.25m3.25 0h3.25"
+  }));
+
+  const SvgIconLayoutColumnVerticalRemoveFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    d: "M2.75 4.75A.75.75 0 0 0 2 5.5V20c0 .414.336.75.75.75H12a.75.75 0 0 0 .75-.75V6.25h7.75V11a.75.75 0 0 0 1.5 0V5.5a.75.75 0 0 0-.75-.75z"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    d: "M17.28 14.97a.75.75 0 1 0-1.06 1.06l1.72 1.72-1.72 1.72a.75.75 0 1 0 1.06 1.06L19 18.81l1.72 1.72a.75.75 0 1 0 1.06-1.06l-1.72-1.72 1.72-1.72a.75.75 0 1 0-1.06-1.06L19 16.69z"
+  }));
+
+  const SvgIconLayoutColumnVerticalRemove = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    d: "M2.75 20H2c0 .414.336.75.75.75zm0-14.5v-.75A.75.75 0 0 0 2 5.5zM12 20v.75a.75.75 0 0 0 .75-.75zm9.25-14.5H22a.75.75 0 0 0-.75-.75zM20.5 11a.75.75 0 0 0 1.5 0zm-17 9V5.5H2V20zm8.5-.75H2.75v1.5H12zM20.5 5.5V11H22V5.5zm-17.75.75H12v-1.5H2.75zm9.25 0h9.25v-1.5H12zM12.75 20V5.5h-1.5V20zm4.53-5.03a.75.75 0 1 0-1.06 1.06zm3.44 5.56a.75.75 0 1 0 1.06-1.06zm-4.5-1.06a.75.75 0 1 0 1.06 1.06zm5.56-3.44a.75.75 0 1 0-1.06-1.06zm-5.56 0 2.25 2.25 1.06-1.06-2.25-2.25zm2.25 2.25 2.25 2.25 1.06-1.06-2.25-2.25zm-1.19 2.25 2.25-2.25-1.06-1.06-2.25 2.25zm2.25-2.25 2.25-2.25-1.06-1.06-2.25 2.25z"
+  }));
+
   const SvgIconLessThan = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: 24,
@@ -17520,6 +18008,41 @@
     d: "M8.75 7.75h6.5m-6.5 4h3.5m7.5-7.5v15.5a1 1 0 0 1-1 1H5.25a1 1 0 0 1-1-1V4.25a1 1 0 0 1 1-1h13.5a1 1 0 0 1 1 1"
   }));
 
+  const SvgIconSlideAddFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    fill: "currentColor",
+    fillRule: "evenodd",
+    d: "M2 3.5a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 .75.75v3.361h3.25a.75.75 0 0 1 .75.75V22a.75.75 0 0 1-.75.75H6.75A.75.75 0 0 1 6 22v-3.25H2.75A.75.75 0 0 1 2 18zm14.5 3.361H6.75a.75.75 0 0 0-.75.75v9.639H3.5v-13h13zM14.806 11.5a.75.75 0 0 0-1.5 0v2.556H10.75a.75.75 0 1 0 0 1.5h2.556V18a.75.75 0 1 0 1.5 0v-2.444h2.444a.75.75 0 0 0 0-1.5h-2.444z",
+    clipRule: "evenodd"
+  }));
+
+  const SvgIconSlideAdd = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    fill: "none",
+    viewBox: "0 0 24 25"
+  }, props, {
+    className: `justd-icons ${props.className ? props.className : "size-4"}`,
+    "data-slot": "icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/React__namespace.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 1.5,
+    d: "M17.25 7.611V3.5H2.75V18h4m7.306-6.5v3.306m0 0V18m0-3.194H10.75m3.306 0h3.194M6.75 7.61h14.5V22H6.75V7.611Z"
+  }));
+
   const SvgIconSmartwatchFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: 24,
@@ -21175,6 +21698,34 @@
   exports.IconLayers2 = SvgIconLayers2;
   exports.IconLayers2Fill = SvgIconLayers2Fill;
   exports.IconLayersFill = SvgIconLayersFill;
+  exports.IconLayoutAlignBottom = SvgIconLayoutAlignBottom;
+  exports.IconLayoutAlignBottomFill = SvgIconLayoutAlignBottomFill;
+  exports.IconLayoutAlignHorizontalCenter = SvgIconLayoutAlignHorizontalCenter;
+  exports.IconLayoutAlignHorizontalCenterFill = SvgIconLayoutAlignHorizontalCenterFill;
+  exports.IconLayoutAlignLeft = SvgIconLayoutAlignLeft;
+  exports.IconLayoutAlignLeftFill = SvgIconLayoutAlignLeftFill;
+  exports.IconLayoutAlignRight = SvgIconLayoutAlignRight;
+  exports.IconLayoutAlignRightFill = SvgIconLayoutAlignRightFill;
+  exports.IconLayoutAlignTop = SvgIconLayoutAlignTop;
+  exports.IconLayoutAlignTopFill = SvgIconLayoutAlignTopFill;
+  exports.IconLayoutAlignVerticalCenter = SvgIconLayoutAlignVerticalCenter;
+  exports.IconLayoutAlignVerticalCenterFill = SvgIconLayoutAlignVerticalCenterFill;
+  exports.IconLayoutColumnHalf = SvgIconLayoutColumnHalf;
+  exports.IconLayoutColumnHalfFill = SvgIconLayoutColumnHalfFill;
+  exports.IconLayoutColumnHalfRemove = SvgIconLayoutColumnHalfRemove;
+  exports.IconLayoutColumnHalfRemoveFill = SvgIconLayoutColumnHalfRemoveFill;
+  exports.IconLayoutColumnHorizontalAdd = SvgIconLayoutColumnHorizontalAdd;
+  exports.IconLayoutColumnHorizontalAddFill = SvgIconLayoutColumnHorizontalAddFill;
+  exports.IconLayoutColumnHorizontalHalf = SvgIconLayoutColumnHorizontalHalf;
+  exports.IconLayoutColumnHorizontalHalfFill = SvgIconLayoutColumnHorizontalHalfFill;
+  exports.IconLayoutColumnLeftside = SvgIconLayoutColumnLeftside;
+  exports.IconLayoutColumnLeftsideFill = SvgIconLayoutColumnLeftsideFill;
+  exports.IconLayoutColumnRightside = SvgIconLayoutColumnRightside;
+  exports.IconLayoutColumnRightsideFill = SvgIconLayoutColumnRightsideFill;
+  exports.IconLayoutColumnVerticalAdd = SvgIconLayoutColumnVerticalAdd;
+  exports.IconLayoutColumnVerticalAddFill = SvgIconLayoutColumnVerticalAddFill;
+  exports.IconLayoutColumnVerticalRemove = SvgIconLayoutColumnVerticalRemove;
+  exports.IconLayoutColumnVerticalRemoveFill = SvgIconLayoutColumnVerticalRemoveFill;
   exports.IconLessThan = SvgIconLessThan;
   exports.IconLightBulb = SvgIconLightBulb;
   exports.IconLightBulb2 = SvgIconLightBulb2;
@@ -21415,6 +21966,8 @@
   exports.IconSimCardFill = SvgIconSimCardFill;
   exports.IconSketchbook = SvgIconSketchbook;
   exports.IconSketchbookFill = SvgIconSketchbookFill;
+  exports.IconSlideAdd = SvgIconSlideAdd;
+  exports.IconSlideAddFill = SvgIconSlideAddFill;
   exports.IconSmartwatch = SvgIconSmartwatch;
   exports.IconSmartwatchFill = SvgIconSmartwatchFill;
   exports.IconSnowFlakes = SvgIconSnowFlakes;
