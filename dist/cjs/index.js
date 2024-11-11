@@ -3042,6 +3042,73 @@ const SvgIconBold = props => /*#__PURE__*/React__namespace.createElement("svg", 
   d: "M5.74 12h7.51a4 4 0 0 0 4-4v-.25a4 4 0 0 0-4-4H6.74a1 1 0 0 0-1 1zm0 0v7.25a1 1 0 0 0 1 1h5.76m.5 0h1.25a4 4 0 0 0 4-4V16a4 4 0 0 0-4-4H13"
 }));
 
+const SvgIconBoltFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M14 3.106c0-1.227-1.584-1.72-2.28-.71L3.172 14.79a1.25 1.25 0 0 0 1.03 1.96h5.797v5.644c0 1.227 1.583 1.72 2.28.71l8.547-12.394a1.25 1.25 0 0 0-1.029-1.96h-5.798z"
+}));
+
+const SvgIconBoltOffFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M14 3.106c0-1.227-1.584-1.72-2.28-.71L7.835 8.03 3.249 3.94a.75.75 0 1 0-.998 1.12l18.5 16.5a.75.75 0 0 0 .998-1.12l-4.726-4.215 3.803-5.515a1.25 1.25 0 0 0-1.029-1.96h-5.798zM3.172 14.79l2.947-4.272 9.188 8.195-3.029 4.39c-.696 1.01-2.279.518-2.279-.709V16.75H4.201a1.25 1.25 0 0 1-1.029-1.96"
+}));
+
+const SvgIconBoltOff = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  fillRule: "evenodd",
+  d: "M7.835 8.03 3.249 3.94a.75.75 0 1 0-.998 1.12l18.5 16.5a.75.75 0 0 0 .998-1.12l-4.726-4.215 3.803-5.515a1.25 1.25 0 0 0-1.029-1.96h-5.798V3.106c0-1.227-1.583-1.72-2.279-.71zm1.128 1.006 6.931 6.182 3.427-4.968h-5.572c-.69 0-1.25-.56-1.25-1.25V3.908z",
+  clipRule: "evenodd"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "m6.119 10.518 1.128 1.006-2.57 3.726h5.572c.69 0 1.25.56 1.25 1.25v5.091l2.68-3.885 1.128 1.007-3.029 4.39c-.696 1.01-2.279.518-2.279-.709V16.75H4.201a1.25 1.25 0 0 1-1.029-1.96z"
+}));
+
+const SvgIconBolt = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  d: "M19.798 9.5H13.75a.5.5 0 0 1-.5-.5V3.106a.5.5 0 0 0-.912-.284L3.791 15.216a.5.5 0 0 0 .411.784h6.048a.5.5 0 0 1 .5.5v5.894a.5.5 0 0 0 .912.284l8.547-12.394a.5.5 0 0 0-.411-.784Z"
+}));
+
 const SvgIconBookFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -13150,6 +13217,42 @@ const SvgIconKeyhole = props => /*#__PURE__*/React__namespace.createElement("svg
   d: "M13.5 12.884a3.25 3.25 0 1 0-3 0v2.866a1.5 1.5 0 0 0 3 0z"
 }));
 
+const SvgIconKnifeSpoonFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M17 3.5c-1.254 0-2.331.679-3.07 1.64-.739.964-1.18 2.253-1.18 3.618 0 2.416 1.429 4.508 3.5 4.919V21a.75.75 0 0 0 1.5 0v-7.323c2.071-.41 3.5-2.503 3.5-4.92 0-1.364-.441-2.653-1.18-3.616C19.33 4.179 18.254 3.5 17 3.5m-12.5 1a.75.75 0 0 0-1.5 0v5.25c0 1.953 1.4 3.579 3.25 3.93V21a.75.75 0 0 0 1.5 0v-7.32A4 4 0 0 0 11 9.75V4.5a.75.75 0 0 0-1.5 0v5.25a2.5 2.5 0 0 1-5 0z"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  fill: "currentColor",
+  d: "M7.75 4.5a.75.75 0 0 0-1.5 0V10a.75.75 0 0 0 1.5 0z"
+}));
+
+const SvgIconKnifeSpoon = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 1.5,
+  d: "M3.75 4.5v5.25a3.25 3.25 0 0 0 6.5 0V4.5M7 13v8m10-7.75V21m3.5-12.242C20.5 11.174 18.933 13 17 13s-3.5-1.826-3.5-4.242S15.067 4.25 17 4.25s3.5 2.091 3.5 4.508M7 4.5V10"
+}));
+
 const SvgIconLaunchFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -16178,6 +16281,24 @@ const SvgIconPopcorn = props => /*#__PURE__*/React__namespace.createElement("svg
   strokeLinecap: "square",
   strokeWidth: 1.5,
   d: "M19.233 7.75a1.8 1.8 0 0 0-.25-1.19c-.22-.36-.56-.64-.965-.8l-.042-.016a2 2 0 0 1-.648-.41 1.9 1.9 0 0 1-.433-.612l-.017-.04a1.92 1.92 0 0 0-.846-.912 2.1 2.1 0 0 0-1.258-.237l-.048.006a2.1 2.1 0 0 1-.779-.048 2 2 0 0 1-.7-.327l-.033-.024A2.07 2.07 0 0 0 12 2.75c-.439 0-.866.137-1.214.39l-.038.027a2 2 0 0 1-.697.326c-.253.064-.517.08-.776.048l-.05-.006a2.1 2.1 0 0 0-1.258.237c-.38.208-.677.528-.845.912l-.017.039c-.1.23-.247.438-.433.613a2 2 0 0 1-.649.41l-.04.016a1.96 1.96 0 0 0-.965.798 1.8 1.8 0 0 0-.25 1.19m4.482 0H5.367a1 1 0 0 0-.994 1.11l1.278 11.5a1 1 0 0 0 .994.89H10m-.75-13.5.75 13.5m-.75-13.5h5.5M10 21.25h4m.75-13.5h3.883a1 1 0 0 1 .994 1.11l-1.278 11.5a1 1 0 0 1-.994.89H14m.75-13.5L14 21.25"
+}));
+
+const SvgIconPower = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  strokeWidth: 2,
+  d: "M18.36 7.39a9 9 0 1 1-12.73 0M12 2.75v10"
 }));
 
 const SvgIconPriceTagFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
@@ -21120,6 +21241,10 @@ exports.IconBlockFill = SvgIconBlockFill;
 exports.IconBluetooth = SvgIconBluetooth;
 exports.IconBold = SvgIconBold;
 exports.IconBoldFill = SvgIconBoldFill;
+exports.IconBolt = SvgIconBolt;
+exports.IconBoltFill = SvgIconBoltFill;
+exports.IconBoltOff = SvgIconBoltOff;
+exports.IconBoltOffFill = SvgIconBoltOffFill;
 exports.IconBook = SvgIconBook;
 exports.IconBookFill = SvgIconBookFill;
 exports.IconBookOpen = SvgIconBookOpen;
@@ -21691,6 +21816,8 @@ exports.IconKeyboardUp = SvgIconKeyboardUp;
 exports.IconKeyboardUpFill = SvgIconKeyboardUpFill;
 exports.IconKeyhole = SvgIconKeyhole;
 exports.IconKeyholeFill = SvgIconKeyholeFill;
+exports.IconKnifeSpoon = SvgIconKnifeSpoon;
+exports.IconKnifeSpoonFill = SvgIconKnifeSpoonFill;
 exports.IconLaunch = SvgIconLaunch;
 exports.IconLaunchFill = SvgIconLaunchFill;
 exports.IconLayers = SvgIconLayers;
@@ -21863,6 +21990,7 @@ exports.IconPlaylistFill = SvgIconPlaylistFill;
 exports.IconPlus = SvgIconPlus;
 exports.IconPopcorn = SvgIconPopcorn;
 exports.IconPopcornFill = SvgIconPopcornFill;
+exports.IconPower = SvgIconPower;
 exports.IconPriceTag = SvgIconPriceTag;
 exports.IconPriceTagFill = SvgIconPriceTagFill;
 exports.IconPrinter = SvgIconPrinter;
