@@ -1,5 +1,12 @@
 
 
+## [1.7.4](https://github.com/justdlabs/icons/compare/1.7.3...1.7.4) (2024-11-11)
+
+
+### Bug Fixes
+
+* add some icons ([5ae802d](https://github.com/justdlabs/icons/commit/5ae802dbbfe0116907384657eaec9e0555ab22e8))
+
 ## [1.7.3](https://github.com/justdlabs/icons/compare/1.7.2...1.7.3) (2024-11-08)
 
 
