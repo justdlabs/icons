@@ -254,6 +254,7 @@ export declare const IconBrandNetlify: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandNextjs: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandNotion: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandNpm: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconBrandNuxtjs: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandOpenai: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandOpera: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandParanoid: React.FC<React.SVGProps<SVGSVGElement>>;

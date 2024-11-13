@@ -253,6 +253,7 @@ export { default as IconBrandNetlify } from "./IconBrandNetlify";
 export { default as IconBrandNextjs } from "./IconBrandNextjs";
 export { default as IconBrandNotion } from "./IconBrandNotion";
 export { default as IconBrandNpm } from "./IconBrandNpm";
+export { default as IconBrandNuxtjs } from "./IconBrandNuxtjs";
 export { default as IconBrandOpenai } from "./IconBrandOpenai";
 export { default as IconBrandOpera } from "./IconBrandOpera";
 export { default as IconBrandParanoid } from "./IconBrandParanoid";
