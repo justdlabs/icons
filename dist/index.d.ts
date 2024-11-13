@@ -661,6 +661,7 @@ export declare const IconGiroCard: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconGiroCardFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconGiroCards: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconGiroCardsFill: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconGitMerge: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconGlasses: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconGlassesFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconGlobe: React.FC<React.SVGProps<SVGSVGElement>>;

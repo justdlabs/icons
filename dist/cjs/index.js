@@ -11719,6 +11719,23 @@ const SvgIconGiroCards = props => /*#__PURE__*/React__namespace.createElement("s
   d: "M17.25 8.75h3a1 1 0 0 1 1 1v8.5a1 1 0 0 1-1 1H7.75a1 1 0 0 1-1-1v-3m0-6.5h1.5m-4.5 6.5h12.5a1 1 0 0 0 1-1v-8.5a1 1 0 0 0-1-1H3.75a1 1 0 0 0-1 1v8.5a1 1 0 0 0 1 1"
 }));
 
+const SvgIconGitMerge = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
+  xmlns: "http://www.w3.org/2000/svg",
+  width: 24,
+  height: 24,
+  fill: "none",
+  viewBox: "0 0 24 25"
+}, props, {
+  className: `justd-icons ${props.className ? props.className : "size-4"}`,
+  "data-slot": "icon",
+  "aria-hidden": "true"
+}), /*#__PURE__*/React__namespace.createElement("path", {
+  stroke: "currentColor",
+  strokeLinecap: "round",
+  strokeLinejoin: "round",
+  d: "M15 18.75a3 3 0 1 0 6 0 3 3 0 0 0-6 0m0 0a9 9 0 0 1-9-9m0 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6m0 0v12"
+}));
+
 const SvgIconGlassesFill = props => /*#__PURE__*/React__namespace.createElement("svg", _extends({
   xmlns: "http://www.w3.org/2000/svg",
   width: 24,
@@ -21731,6 +21748,7 @@ exports.IconGiroCard = SvgIconGiroCard;
 exports.IconGiroCardFill = SvgIconGiroCardFill;
 exports.IconGiroCards = SvgIconGiroCards;
 exports.IconGiroCardsFill = SvgIconGiroCardsFill;
+exports.IconGitMerge = SvgIconGitMerge;
 exports.IconGlasses = SvgIconGlasses;
 exports.IconGlassesFill = SvgIconGlassesFill;
 exports.IconGlobe = SvgIconGlobe;

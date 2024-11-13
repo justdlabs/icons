@@ -660,6 +660,7 @@ export { default as IconGiroCardFill } from "./IconGiroCardFill";
 export { default as IconGiroCard } from "./IconGiroCard";
 export { default as IconGiroCardsFill } from "./IconGiroCardsFill";
 export { default as IconGiroCards } from "./IconGiroCards";
+export { default as IconGitMerge } from "./IconGitMerge";
 export { default as IconGlassesFill } from "./IconGlassesFill";
 export { default as IconGlasses } from "./IconGlasses";
 export { default as IconGlobe2Fill } from "./IconGlobe2Fill";
