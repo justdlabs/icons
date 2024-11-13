@@ -1,5 +1,12 @@
 
 
+## [1.7.6](https://github.com/justdlabs/icons/compare/1.7.5...1.7.6) (2024-11-13)
+
+
+### Bug Fixes
+
+* add nuxtjs ([c779dfc](https://github.com/justdlabs/icons/commit/c779dfc39485eebdfd72be0178ff54d683ca0216))
+
 ## [1.7.5](https://github.com/justdlabs/icons/compare/1.7.4...1.7.5) (2024-11-13)
 
 
