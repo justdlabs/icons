@@ -1,5 +1,12 @@
 
 
+## [1.7.8](https://github.com/justdlabs/icons/compare/1.7.7...1.7.8) (2024-11-18)
+
+
+### Bug Fixes
+
+* support react 19 ([1c0690b](https://github.com/justdlabs/icons/commit/1c0690bd2513874402c2c9a17ec719d07c414349))
+
 ## [1.7.7](https://github.com/justdlabs/icons/compare/1.7.6...1.7.7) (2024-11-18)
 
 
