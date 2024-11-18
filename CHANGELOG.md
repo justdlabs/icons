@@ -1,5 +1,12 @@
 
 
+## [1.7.9](https://github.com/justdlabs/icons/compare/1.7.8...1.7.9) (2024-11-18)
+
+
+### Bug Fixes
+
+* fff ([13fc9df](https://github.com/justdlabs/icons/commit/13fc9df80a3518880bbe5cc93b3f4aa5cbf68e0a))
+
 ## [1.7.8](https://github.com/justdlabs/icons/compare/1.7.7...1.7.8) (2024-11-18)
 
 
