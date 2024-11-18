@@ -1,5 +1,13 @@
 
 
+## [1.7.7](https://github.com/justdlabs/icons/compare/1.7.6...1.7.7) (2024-11-18)
+
+
+### Bug Fixes
+
+* better css logo ([2de50d8](https://github.com/justdlabs/icons/commit/2de50d8ade4671985398e1a9d3b1ec4a5eb1a93a))
+* css logo updated ([0e90cd8](https://github.com/justdlabs/icons/commit/0e90cd841aa5c0a0fe333b3419388dbe38120749))
+
 ## [1.7.6](https://github.com/justdlabs/icons/compare/1.7.5...1.7.6) (2024-11-13)
 
 
