@@ -1,5 +1,12 @@
 
 
+## [1.8.0](https://github.com/justdlabs/icons/compare/1.7.9...1.8.0) (2024-11-21)
+
+
+### Features
+
+* rename and add some bags icon ([b21c393](https://github.com/justdlabs/icons/commit/b21c39328126fe8a8378b9b0f76302ca81494536))
+
 ## [1.7.9](https://github.com/justdlabs/icons/compare/1.7.8...1.7.9) (2024-11-18)
 
 
