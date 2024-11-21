@@ -1,77 +1,65 @@
-
-
 ## [1.8.0](https://github.com/justdlabs/icons/compare/1.7.9...1.8.0) (2024-11-21)
-
 
 ### Features
 
-* rename and add some bags icon ([b21c393](https://github.com/justdlabs/icons/commit/b21c39328126fe8a8378b9b0f76302ca81494536))
+- rename and add some bags icon ([b21c393](https://github.com/justdlabs/icons/commit/b21c39328126fe8a8378b9b0f76302ca81494536))
 
 ## [1.7.9](https://github.com/justdlabs/icons/compare/1.7.8...1.7.9) (2024-11-18)
 
-
 ### Bug Fixes
 
-* fff ([13fc9df](https://github.com/justdlabs/icons/commit/13fc9df80a3518880bbe5cc93b3f4aa5cbf68e0a))
+- fff ([13fc9df](https://github.com/justdlabs/icons/commit/13fc9df80a3518880bbe5cc93b3f4aa5cbf68e0a))
 
 ## [1.7.8](https://github.com/justdlabs/icons/compare/1.7.7...1.7.8) (2024-11-18)
 
-
 ### Bug Fixes
 
-* support react 19 ([1c0690b](https://github.com/justdlabs/icons/commit/1c0690bd2513874402c2c9a17ec719d07c414349))
+- support react 19 ([1c0690b](https://github.com/justdlabs/icons/commit/1c0690bd2513874402c2c9a17ec719d07c414349))
 
 ## [1.7.7](https://github.com/justdlabs/icons/compare/1.7.6...1.7.7) (2024-11-18)
 
-
 ### Bug Fixes
 
-* better css logo ([2de50d8](https://github.com/justdlabs/icons/commit/2de50d8ade4671985398e1a9d3b1ec4a5eb1a93a))
-* css logo updated ([0e90cd8](https://github.com/justdlabs/icons/commit/0e90cd841aa5c0a0fe333b3419388dbe38120749))
+- better css logo ([2de50d8](https://github.com/justdlabs/icons/commit/2de50d8ade4671985398e1a9d3b1ec4a5eb1a93a))
+- css logo updated ([0e90cd8](https://github.com/justdlabs/icons/commit/0e90cd841aa5c0a0fe333b3419388dbe38120749))
 
 ## [1.7.6](https://github.com/justdlabs/icons/compare/1.7.5...1.7.6) (2024-11-13)
 
-
 ### Bug Fixes
 
-* add nuxtjs ([c779dfc](https://github.com/justdlabs/icons/commit/c779dfc39485eebdfd72be0178ff54d683ca0216))
+- add nuxtjs ([c779dfc](https://github.com/justdlabs/icons/commit/c779dfc39485eebdfd72be0178ff54d683ca0216))
 
 ## [1.7.5](https://github.com/justdlabs/icons/compare/1.7.4...1.7.5) (2024-11-13)
 
-
 ### Bug Fixes
 
-* add git merge icon ([edf6078](https://github.com/justdlabs/icons/commit/edf6078bf78f50cb662f81c37139eba2398db906))
+- add git merge icon ([edf6078](https://github.com/justdlabs/icons/commit/edf6078bf78f50cb662f81c37139eba2398db906))
 
 ## [1.7.4](https://github.com/justdlabs/icons/compare/1.7.3...1.7.4) (2024-11-11)
 
-
 ### Bug Fixes
 
-* add some icons ([5ae802d](https://github.com/justdlabs/icons/commit/5ae802dbbfe0116907384657eaec9e0555ab22e8))
+- add some icons ([5ae802d](https://github.com/justdlabs/icons/commit/5ae802dbbfe0116907384657eaec9e0555ab22e8))
 
 ## [1.7.3](https://github.com/justdlabs/icons/compare/1.7.2...1.7.3) (2024-11-08)
 
-
 ### Bug Fixes
 
-* add bunch of icons ([41dd43b](https://github.com/justdlabs/icons/commit/41dd43b3a297e07cca1eb45516f1f472e3173a93))
+- add bunch of icons ([41dd43b](https://github.com/justdlabs/icons/commit/41dd43b3a297e07cca1eb45516f1f472e3173a93))
 
 ## [1.7.2](https://github.com/justdlabs/icons/compare/1.7.1...1.7.2) (2024-11-05)
 
 ## [1.7.1](https://github.com/justdlabs/icons/compare/1.7.0...1.7.1) (2024-10-30)
 
-
 ### Bug Fixes
 
-* refactoring peerDeps ([12a8e78](https://github.com/justdlabs/icons/commit/12a8e788bf5fbd5c573e0d6c67577eef4fffbda3))
+- refactoring peerDeps ([12a8e78](https://github.com/justdlabs/icons/commit/12a8e788bf5fbd5c573e0d6c67577eef4fffbda3))
 
 ## [1.7.0](https://github.com/justdlabs/icons/compare/1.6.0...1.7.0) (2024-10-30)
 
-
 ### Features
 
-* add support react 19 ([54e74f5](https://github.com/justdlabs/icons/commit/54e74f553898365a7fe7d9ce50d09325c3362873))
+- add support react 19 ([54e74f5](https://github.com/justdlabs/icons/commit/54e74f553898365a7fe7d9ce50d09325c3362873))
 
 ## [1.6.0](https://github.com/justdlabs/icons/compare/1.5.0...1.6.0) (2024-10-28)
 
