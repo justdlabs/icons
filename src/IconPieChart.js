@@ -5,14 +5,14 @@ const SvgIconPieChart = (props) => (
     width={24}
     height={24}
     fill="none"
-    viewBox="0 0 24 24"
+    viewBox="0 0 24 25"
     {...props}
    className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       stroke="currentColor"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="M12 2.75a9.25 9.25 0 0 0 0 18.5 9.25 9.25 0 0 0 8.724-6.167M12 2.75A9.25 9.25 0 0 1 21.25 12a9.2 9.2 0 0 1-.526 3.083M12 2.75V12l8.724 3.083"
+      d="M12 3.5A9.25 9.25 0 0 0 12 22a9.25 9.25 0 0 0 8.724-6.167M12 3.5a9.25 9.25 0 0 1 9.25 9.25 9.2 9.2 0 0 1-.526 3.083M12 3.5v9.25l8.724 3.083"
     />
   </svg>
 );

@@ -5,7 +5,7 @@ const SvgIconItalic = (props) => (
     width={24}
     height={24}
     fill="none"
-    viewBox="0 0 24 24"
+    viewBox="0 0 24 25"
     {...props}
    className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
@@ -13,7 +13,7 @@ const SvgIconItalic = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="M9.75 3.75h4.75m4.75 0H14.5m0 0-5 16.5m0 0H4.75m4.75 0h4.76"
+      d="M9.75 4.5h4.75m4.75 0H14.5m0 0L9.5 21m0 0H4.75m4.75 0h4.76"
     />
   </svg>
 );
