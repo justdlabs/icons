@@ -1,5 +1,12 @@
 
 
+## [1.9.0](https://github.com/justdlabs/icons/compare/1.8.2...1.9.0) (2024-11-26)
+
+
+### Features
+
+* important update. Some icons renamed to be more consistent ([65315b7](https://github.com/justdlabs/icons/commit/65315b70f5bf2b6ba94d212682a045b7946b59fe))
+
 ## [1.8.2](https://github.com/justdlabs/icons/compare/1.8.1...1.8.2) (2024-11-26)
 
 
