@@ -1,3 +1,12 @@
+
+
+## [1.8.2](https://github.com/justdlabs/icons/compare/1.8.1...1.8.2) (2024-11-26)
+
+
+### Bug Fixes
+
+* allow user to modify the `data-slot` ([5d3454d](https://github.com/justdlabs/icons/commit/5d3454d4e9909abbbfecf12af0fabf96cca38f5d))
+
 ## [1.8.1](https://github.com/justdlabs/icons/compare/1.8.0...1.8.1) (2024-11-21)
 
 ### Bug Fixes
