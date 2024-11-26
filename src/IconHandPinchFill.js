@@ -7,7 +7,7 @@ const SvgIconHandPinchFill = (props) => (
     fill="none"
     viewBox="0 0 24 25"
     {...props}
-   className={`justd-icons ${props.className ? props.className : "size-4"}`} data-slot="icon" aria-hidden="true">
+   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       fill="currentColor"
       d="m11.387 8.967 4.88-2.921c1.617-.968 3.684-.394 4.618 1.283l1.03 1.851c2.232 4.008.908 9.133-2.957 11.447a7.84 7.84 0 0 1-8.352-.17l-5.571-3.643a1 1 0 0 1-.442-.982l.11-.756c.188-1.276 1.338-2.153 2.568-1.959l1.339.211-3.38-6.072c-.623-1.118-.254-2.547.824-3.192 1.078-.646 2.457-.263 3.079.855z"

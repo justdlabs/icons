@@ -1,11 +1,8 @@
-
-
 ## [1.8.1](https://github.com/justdlabs/icons/compare/1.8.0...1.8.1) (2024-11-21)
-
 
 ### Bug Fixes
 
-* support react 19 ([920de56](https://github.com/justdlabs/icons/commit/920de561d3cca1dd57d9b92eac15df2a2344a950))
+- support react 19 ([920de56](https://github.com/justdlabs/icons/commit/920de561d3cca1dd57d9b92eac15df2a2344a950))
 
 ## [1.8.0](https://github.com/justdlabs/icons/compare/1.7.9...1.8.0) (2024-11-21)
 

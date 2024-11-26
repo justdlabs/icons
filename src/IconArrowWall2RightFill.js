@@ -7,7 +7,7 @@ const SvgIconArrowWall2RightFill = (props) => (
     fill="none"
     viewBox="0 0 24 24"
     {...props}
-   className={`justd-icons ${props.className ? props.className : "size-4"}`} data-slot="icon" aria-hidden="true">
+   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       fill="currentColor"
       d="M21 4.75a.75.75 0 0 0-1.5 0v14.5a.75.75 0 0 0 1.5 0z"

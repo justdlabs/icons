@@ -29,8 +29,8 @@ const SvgIcon4KFill = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -49,8 +49,8 @@ const SvgIcon4K = props => /*#__PURE__*/React__namespace.createElement("svg", _e
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -70,8 +70,8 @@ const SvgIconAcademicCapFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -91,8 +91,8 @@ const SvgIconAcademicCap = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -109,8 +109,8 @@ const SvgIconAccessibleFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -126,8 +126,8 @@ const SvgIconAccessible = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -156,8 +156,8 @@ const SvgIconActionCamFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -178,8 +178,8 @@ const SvgIconActionCam = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -201,8 +201,8 @@ const SvgIconAdapterFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -216,8 +216,8 @@ const SvgIconAdapter = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -234,8 +234,8 @@ const SvgIconAddToCartFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -254,8 +254,8 @@ const SvgIconAddToCart = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -272,8 +272,8 @@ const SvgIconAdjustmentFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -287,8 +287,8 @@ const SvgIconAdjustment = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -305,8 +305,8 @@ const SvgIconAirpodGen3Left = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -320,8 +320,8 @@ const SvgIconAirpodGen3Right = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -335,8 +335,8 @@ const SvgIconAirpodsGen3Chargingcase = props => /*#__PURE__*/React__namespace.cr
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -350,8 +350,8 @@ const SvgIconAirpodsGen3 = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -365,8 +365,8 @@ const SvgIconAlbumFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -382,8 +382,8 @@ const SvgIconAlbum = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -400,8 +400,8 @@ const SvgIconAlignmentCenterFill = props => /*#__PURE__*/React__namespace.create
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -417,8 +417,8 @@ const SvgIconAlignmentCenter = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -435,8 +435,8 @@ const SvgIconAlignmentJustifyFill = props => /*#__PURE__*/React__namespace.creat
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -452,8 +452,8 @@ const SvgIconAlignmentJustify = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -470,8 +470,8 @@ const SvgIconAlignmentLeftFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -487,8 +487,8 @@ const SvgIconAlignmentLeft = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -505,8 +505,8 @@ const SvgIconAlignmentRightFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -522,8 +522,8 @@ const SvgIconAlignmentRight = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -540,8 +540,8 @@ const SvgIconAltFill = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -560,8 +560,8 @@ const SvgIconAlt = props => /*#__PURE__*/React__namespace.createElement("svg", _
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -581,8 +581,8 @@ const SvgIconAnalyticsChartFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -599,8 +599,8 @@ const SvgIconAnalyticsChart = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -617,8 +617,8 @@ const SvgIconAnonymousFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -634,8 +634,8 @@ const SvgIconAnonymous = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -652,8 +652,8 @@ const SvgIconAppleFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -667,8 +667,8 @@ const SvgIconApple = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -685,8 +685,8 @@ const SvgIconArchive2Fill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -700,8 +700,8 @@ const SvgIconArchive2 = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -724,8 +724,8 @@ const SvgIconArchiveFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -744,8 +744,8 @@ const SvgIconArchive = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -759,8 +759,8 @@ const SvgIconArrowDownFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -776,8 +776,8 @@ const SvgIconArrowDownLeftFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -793,8 +793,8 @@ const SvgIconArrowDownLeft = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -811,8 +811,8 @@ const SvgIconArrowDownRightFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -828,8 +828,8 @@ const SvgIconArrowDownRight = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -846,8 +846,8 @@ const SvgIconArrowDown = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -864,8 +864,8 @@ const SvgIconArrowExpandHorFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -881,8 +881,8 @@ const SvgIconArrowExpandHor = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -899,8 +899,8 @@ const SvgIconArrowExpandVerFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -916,8 +916,8 @@ const SvgIconArrowExpandVer = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -934,8 +934,8 @@ const SvgIconArrowLeftFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -951,8 +951,8 @@ const SvgIconArrowLeft = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -969,8 +969,8 @@ const SvgIconArrowPathDownFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -984,8 +984,8 @@ const SvgIconArrowPathDown = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1002,8 +1002,8 @@ const SvgIconArrowPathLeftFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1017,8 +1017,8 @@ const SvgIconArrowPathLeft = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1035,8 +1035,8 @@ const SvgIconArrowPathRightFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1050,8 +1050,8 @@ const SvgIconArrowPathRight = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1068,8 +1068,8 @@ const SvgIconArrowPathUpFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1083,8 +1083,8 @@ const SvgIconArrowPathUp = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1101,8 +1101,8 @@ const SvgIconArrowRightFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1118,8 +1118,8 @@ const SvgIconArrowRight = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1136,8 +1136,8 @@ const SvgIconArrowShrinkFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1153,8 +1153,8 @@ const SvgIconArrowShrink = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1171,8 +1171,8 @@ const SvgIconArrowTriangleDownFill = props => /*#__PURE__*/React__namespace.crea
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1186,8 +1186,8 @@ const SvgIconArrowTriangleDown = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1203,8 +1203,8 @@ const SvgIconArrowTriangleLeftFill = props => /*#__PURE__*/React__namespace.crea
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1218,8 +1218,8 @@ const SvgIconArrowTriangleLeft = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1235,8 +1235,8 @@ const SvgIconArrowTriangleRightFill = props => /*#__PURE__*/React__namespace.cre
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1250,8 +1250,8 @@ const SvgIconArrowTriangleRight = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1267,8 +1267,8 @@ const SvgIconArrowTriangleUpFill = props => /*#__PURE__*/React__namespace.create
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1282,8 +1282,8 @@ const SvgIconArrowTriangleUp = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1299,8 +1299,8 @@ const SvgIconArrowUpFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1316,8 +1316,8 @@ const SvgIconArrowUpLeftFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1333,8 +1333,8 @@ const SvgIconArrowUpLeft = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1351,8 +1351,8 @@ const SvgIconArrowUpRightFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1368,8 +1368,8 @@ const SvgIconArrowUpRight = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1386,8 +1386,8 @@ const SvgIconArrowUp = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1404,8 +1404,8 @@ const SvgIconArrowWall2DownFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1421,8 +1421,8 @@ const SvgIconArrowWall2Down = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1439,8 +1439,8 @@ const SvgIconArrowWall2LeftFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1456,8 +1456,8 @@ const SvgIconArrowWall2Left = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1474,8 +1474,8 @@ const SvgIconArrowWall2RightFill = props => /*#__PURE__*/React__namespace.create
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1492,8 +1492,8 @@ const SvgIconArrowWall2Right = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1510,8 +1510,8 @@ const SvgIconArrowWall2UpFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1527,8 +1527,8 @@ const SvgIconArrowWall2Up = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1545,8 +1545,8 @@ const SvgIconArrowWallDownFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1562,8 +1562,8 @@ const SvgIconArrowWallDown = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1580,8 +1580,8 @@ const SvgIconArrowWallLeftFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1597,8 +1597,8 @@ const SvgIconArrowWallLeft = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1615,8 +1615,8 @@ const SvgIconArrowWallRightFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1630,8 +1630,8 @@ const SvgIconArrowWallRight = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1648,8 +1648,8 @@ const SvgIconArrowWallUpFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1665,8 +1665,8 @@ const SvgIconArrowWallUp = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1683,8 +1683,8 @@ const SvgIconAsteriskFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1700,8 +1700,8 @@ const SvgIconAsterisk = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1717,8 +1717,8 @@ const SvgIconAtFill = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1732,8 +1732,8 @@ const SvgIconAt = props => /*#__PURE__*/React__namespace.createElement("svg", _e
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1747,8 +1747,8 @@ const SvgIconAtomFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1762,8 +1762,8 @@ const SvgIconAtom = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1777,8 +1777,8 @@ const SvgIconAttentionFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1794,8 +1794,8 @@ const SvgIconAttention = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1812,8 +1812,8 @@ const SvgIconAugmentedRealityFill = props => /*#__PURE__*/React__namespace.creat
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1829,8 +1829,8 @@ const SvgIconAugmentedReality = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1849,8 +1849,8 @@ const SvgIconAvocadoFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1866,8 +1866,8 @@ const SvgIconAvocado = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1889,8 +1889,8 @@ const SvgIconBack10S = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1910,8 +1910,8 @@ const SvgIconBackFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1925,8 +1925,8 @@ const SvgIconBack = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1943,8 +1943,8 @@ const SvgIconBackpackFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1960,8 +1960,8 @@ const SvgIconBackpack = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -1978,8 +1978,8 @@ const SvgIconBackspaceFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -1995,8 +1995,8 @@ const SvgIconBackspace = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2013,8 +2013,8 @@ const SvgIconBarcode = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2031,8 +2031,8 @@ const SvgIconBarsThree2 = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2049,8 +2049,8 @@ const SvgIconBarsThree3 = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2067,8 +2067,8 @@ const SvgIconBarsThree = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2085,8 +2085,8 @@ const SvgIconBarsTwo2 = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2103,8 +2103,8 @@ const SvgIconBarsTwo = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2120,8 +2120,8 @@ const SvgIconBasketFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2137,8 +2137,8 @@ const SvgIconBasketPlusFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2157,8 +2157,8 @@ const SvgIconBasketPlus = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2175,8 +2175,8 @@ const SvgIconBasket = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2193,8 +2193,8 @@ const SvgIconBatteryEmptyFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2210,8 +2210,8 @@ const SvgIconBatteryEmpty = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2227,8 +2227,8 @@ const SvgIconBatteryErrorFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2244,8 +2244,8 @@ const SvgIconBatteryError = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2262,8 +2262,8 @@ const SvgIconBatteryFullFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2279,8 +2279,8 @@ const SvgIconBatteryFull = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2297,8 +2297,8 @@ const SvgIconBatteryLoadingFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2317,8 +2317,8 @@ const SvgIconBatteryLoading = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2335,8 +2335,8 @@ const SvgIconBatteryLowFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2352,8 +2352,8 @@ const SvgIconBatteryLow = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2370,8 +2370,8 @@ const SvgIconBatteryMediumFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2387,8 +2387,8 @@ const SvgIconBatteryMedium = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2405,8 +2405,8 @@ const SvgIconBeatsFitProChargingcaseFill = props => /*#__PURE__*/React__namespac
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("g", {
   clipPath: "url(#icon-beats-fit-pro-chargingcase-fill_svg__a)"
@@ -2427,8 +2427,8 @@ const SvgIconBeatsFitProChargingcase = props => /*#__PURE__*/React__namespace.cr
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("g", {
   clipPath: "url(#icon-beats-fit-pro-chargingcase_svg__a)"
@@ -2449,8 +2449,8 @@ const SvgIconBeatsFitProLeft = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2464,8 +2464,8 @@ const SvgIconBeatsFitProRight = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2479,8 +2479,8 @@ const SvgIconBeatsFitPro = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2494,8 +2494,8 @@ const SvgIconBeatsHeadphones = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2509,8 +2509,8 @@ const SvgIconBellAlarmFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2526,8 +2526,8 @@ const SvgIconBellAlarm = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2541,8 +2541,8 @@ const SvgIconBellFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2558,8 +2558,8 @@ const SvgIconBell = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2574,8 +2574,8 @@ const SvgIconBezierCurvesFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2591,8 +2591,8 @@ const SvgIconBezierCurves = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2609,8 +2609,8 @@ const SvgIconBillFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2626,8 +2626,8 @@ const SvgIconBill = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2644,8 +2644,8 @@ const SvgIconBirthdayCakeFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2661,8 +2661,8 @@ const SvgIconBirthdayCake = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2679,8 +2679,8 @@ const SvgIconBitcoinFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2699,8 +2699,8 @@ const SvgIconBitcoin = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2717,8 +2717,8 @@ const SvgIconBlockFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2732,8 +2732,8 @@ const SvgIconBlock = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2749,8 +2749,8 @@ const SvgIconBluetooth = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2767,8 +2767,8 @@ const SvgIconBoldFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2784,8 +2784,8 @@ const SvgIconBold = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2802,8 +2802,8 @@ const SvgIconBoltFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2817,8 +2817,8 @@ const SvgIconBoltOffFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2832,8 +2832,8 @@ const SvgIconBoltOff = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2852,8 +2852,8 @@ const SvgIconBolt = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2869,8 +2869,8 @@ const SvgIconBookFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2886,8 +2886,8 @@ const SvgIconBookOpenFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2901,8 +2901,8 @@ const SvgIconBookOpenTextFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2916,8 +2916,8 @@ const SvgIconBookOpenText = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2931,8 +2931,8 @@ const SvgIconBookOpen = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2946,8 +2946,8 @@ const SvgIconBook = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2964,8 +2964,8 @@ const SvgIconBookmarkCheckFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -2981,8 +2981,8 @@ const SvgIconBookmarkCheck = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -2999,8 +2999,8 @@ const SvgIconBookmarkFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3014,8 +3014,8 @@ const SvgIconBookmarkOffFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3029,8 +3029,8 @@ const SvgIconBookmarkOff = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -3047,8 +3047,8 @@ const SvgIconBookmarkPlusFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3064,8 +3064,8 @@ const SvgIconBookmarkPlus = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -3082,8 +3082,8 @@ const SvgIconBookmarkXFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3099,8 +3099,8 @@ const SvgIconBookmarkX = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -3117,8 +3117,8 @@ const SvgIconBookmark = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -3135,8 +3135,8 @@ const SvgIconBooksFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3155,8 +3155,8 @@ const SvgIconBooks = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -3172,8 +3172,8 @@ const SvgIconBottleFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3187,8 +3187,8 @@ const SvgIconBottle = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -3205,8 +3205,8 @@ const SvgIconBrackets2 = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -3223,8 +3223,8 @@ const SvgIconBrackets = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -3241,8 +3241,8 @@ const SvgIconBrainFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3256,8 +3256,8 @@ const SvgIconBrain = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -3273,8 +3273,8 @@ const SvgIconBrandAdobe = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 21"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3288,8 +3288,8 @@ const SvgIconBrandAdonisjs = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3303,8 +3303,8 @@ const SvgIconBrandAkamai = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3321,8 +3321,8 @@ const SvgIconBrandAppleMusic = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3338,8 +3338,8 @@ const SvgIconBrandApple = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3353,8 +3353,8 @@ const SvgIconBrandAppstore = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3370,8 +3370,8 @@ const SvgIconBrandArc = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3387,8 +3387,8 @@ const SvgIconBrandArtifactNews = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3402,8 +3402,8 @@ const SvgIconBrandAstro = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3417,8 +3417,8 @@ const SvgIconBrandAws = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3442,8 +3442,8 @@ const SvgIconBrandBehance = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3457,8 +3457,8 @@ const SvgIconBrandBitbucket = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3472,8 +3472,8 @@ const SvgIconBrandBluesky = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3487,8 +3487,8 @@ const SvgIconBrandBootstrap = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3502,8 +3502,8 @@ const SvgIconBrandBun = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3517,8 +3517,8 @@ const SvgIconBrandCash = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3534,8 +3534,8 @@ const SvgIconBrandChrome = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3566,8 +3566,8 @@ const SvgIconBrandCodepen = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3581,8 +3581,8 @@ const SvgIconBrandCopilot = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3599,8 +3599,8 @@ const SvgIconBrandCss = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3616,8 +3616,8 @@ const SvgIconBrandDigitalOcean = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("g", {
   fill: "currentColor",
@@ -3642,8 +3642,8 @@ const SvgIconBrandDiscord = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3657,8 +3657,8 @@ const SvgIconBrandDuolingo = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3674,8 +3674,8 @@ const SvgIconBrandFacebook = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3689,8 +3689,8 @@ const SvgIconBrandFigma = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3709,8 +3709,8 @@ const SvgIconBrandFirefox = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3724,8 +3724,8 @@ const SvgIconBrandFramer = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3739,8 +3739,8 @@ const SvgIconBrandGit = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3754,8 +3754,8 @@ const SvgIconBrandGithub = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3769,8 +3769,8 @@ const SvgIconBrandGitlab = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3784,8 +3784,8 @@ const SvgIconBrandGooglePlayStore = props => /*#__PURE__*/React__namespace.creat
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3799,8 +3799,8 @@ const SvgIconBrandGoogle = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3823,8 +3823,8 @@ const SvgIconBrandGumroad = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3840,8 +3840,8 @@ const SvgIconBrandHashnode = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3857,8 +3857,8 @@ const SvgIconBrandHetzner = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3872,8 +3872,8 @@ const SvgIconBrandHtml5 = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3889,8 +3889,8 @@ const SvgIconBrandInertiajs = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3907,8 +3907,8 @@ const SvgIconBrandInstagram = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3922,8 +3922,8 @@ const SvgIconBrandJavascript = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3939,8 +3939,8 @@ const SvgIconBrandJustd = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3956,8 +3956,8 @@ const SvgIconBrandKarteil = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3973,8 +3973,8 @@ const SvgIconBrandKubernetes = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -3990,8 +3990,8 @@ const SvgIconBrandLaravel = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4007,8 +4007,8 @@ const SvgIconBrandLayers = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4031,8 +4031,8 @@ const SvgIconBrandLemonsqueezy = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4048,8 +4048,8 @@ const SvgIconBrandLinear = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4063,8 +4063,8 @@ const SvgIconBrandLinkedin = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4078,8 +4078,8 @@ const SvgIconBrandLinktree = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4093,8 +4093,8 @@ const SvgIconBrandLinode = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4116,8 +4116,8 @@ const SvgIconBrandLottielab = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4133,8 +4133,8 @@ const SvgIconBrandMastadon = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4150,8 +4150,8 @@ const SvgIconBrandMedium = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4165,8 +4165,8 @@ const SvgIconBrandNetlify = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("g", {
   fill: "currentColor",
@@ -4193,8 +4193,8 @@ const SvgIconBrandNextjs = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4210,8 +4210,8 @@ const SvgIconBrandNode = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4226,8 +4226,8 @@ const SvgIconBrandNotion = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4241,8 +4241,8 @@ const SvgIconBrandNpm = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4256,8 +4256,8 @@ const SvgIconBrandNuxtjs = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4271,8 +4271,8 @@ const SvgIconBrandOpenai = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4286,8 +4286,8 @@ const SvgIconBrandOpera = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4304,8 +4304,8 @@ const SvgIconBrandParanoid = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -4320,8 +4320,8 @@ const SvgIconBrandParsinta = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4342,8 +4342,8 @@ const SvgIconBrandPatreon = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4357,8 +4357,8 @@ const SvgIconBrandPerplexity = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4374,8 +4374,8 @@ const SvgIconBrandPhp = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4389,8 +4389,8 @@ const SvgIconBrandPinterest = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4404,8 +4404,8 @@ const SvgIconBrandPlanetscale = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4419,8 +4419,8 @@ const SvgIconBrandPnpm = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4438,8 +4438,8 @@ const SvgIconBrandProducthunt = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4458,8 +4458,8 @@ const SvgIconBrandPython = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4477,8 +4477,8 @@ const SvgIconBrandReactjs = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4495,8 +4495,8 @@ const SvgIconBrandReddit = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4512,8 +4512,8 @@ const SvgIconBrandRemix = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("g", {
   fill: "currentColor",
@@ -4538,8 +4538,8 @@ const SvgIconBrandRive = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4555,8 +4555,8 @@ const SvgIconBrandRssFeed = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4572,8 +4572,8 @@ const SvgIconBrandSafari = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4589,8 +4589,8 @@ const SvgIconBrandSketch = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4606,8 +4606,8 @@ const SvgIconBrandSlack = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4621,8 +4621,8 @@ const SvgIconBrandSnapchat = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4636,8 +4636,8 @@ const SvgIconBrandSpotify = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4651,8 +4651,8 @@ const SvgIconBrandStripe = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4668,8 +4668,8 @@ const SvgIconBrandTailwindVariants = props => /*#__PURE__*/React__namespace.crea
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4683,8 +4683,8 @@ const SvgIconBrandTailwindcss = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4700,8 +4700,8 @@ const SvgIconBrandTelegram = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4715,8 +4715,8 @@ const SvgIconBrandThreads = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4730,8 +4730,8 @@ const SvgIconBrandTiktok = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4745,8 +4745,8 @@ const SvgIconBrandTurbopack = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4767,8 +4767,8 @@ const SvgIconBrandTurborepo = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4787,8 +4787,8 @@ const SvgIconBrandTwitch = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4807,8 +4807,8 @@ const SvgIconBrandTwitter = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4822,8 +4822,8 @@ const SvgIconBrandTypescript = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4839,8 +4839,8 @@ const SvgIconBrandUbuntu = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4857,8 +4857,8 @@ const SvgIconBrandVenmo = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4872,8 +4872,8 @@ const SvgIconBrandVercel = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4887,8 +4887,8 @@ const SvgIconBrandVkontakte = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4902,8 +4902,8 @@ const SvgIconBrandVscode = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4923,8 +4923,8 @@ const SvgIconBrandVultr = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4946,8 +4946,8 @@ const SvgIconBrandWebflow = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4963,8 +4963,8 @@ const SvgIconBrandWhatsapp = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4983,8 +4983,8 @@ const SvgIconBrandWindows = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -4998,8 +4998,8 @@ const SvgIconBrandX = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5013,8 +5013,8 @@ const SvgIconBrandYarn = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5030,8 +5030,8 @@ const SvgIconBrandYoutube = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5047,8 +5047,8 @@ const SvgIconBreakfestFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5062,8 +5062,8 @@ const SvgIconBreakfest = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5079,8 +5079,8 @@ const SvgIconBriefcase2Fill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5094,8 +5094,8 @@ const SvgIconBriefcase2 = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5109,8 +5109,8 @@ const SvgIconBriefcaseBlankFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5126,8 +5126,8 @@ const SvgIconBriefcaseBlank = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5143,8 +5143,8 @@ const SvgIconBriefcaseFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5163,8 +5163,8 @@ const SvgIconBriefcase = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5181,8 +5181,8 @@ const SvgIconBroadcastFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5196,8 +5196,8 @@ const SvgIconBroadcast = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5211,8 +5211,8 @@ const SvgIconBrokenChainLink = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5226,8 +5226,8 @@ const SvgIconBrokenHeartFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5241,8 +5241,8 @@ const SvgIconBrokenHeart = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5259,8 +5259,8 @@ const SvgIconBubbleQuotesFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5276,8 +5276,8 @@ const SvgIconBubbleQuotes = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5296,8 +5296,8 @@ const SvgIconBugFill = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5313,8 +5313,8 @@ const SvgIconBug = props => /*#__PURE__*/React__namespace.createElement("svg", _
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5331,8 +5331,8 @@ const SvgIconBuildingFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5348,8 +5348,8 @@ const SvgIconBuilding = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5366,8 +5366,8 @@ const SvgIconBulletFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5381,8 +5381,8 @@ const SvgIconBulletListFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5396,8 +5396,8 @@ const SvgIconBulletList = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5414,8 +5414,8 @@ const SvgIconBullet = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("circle", {
   cx: 12,
@@ -5433,8 +5433,8 @@ const SvgIconCainLink2 = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5450,8 +5450,8 @@ const SvgIconCainLink3 = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5467,8 +5467,8 @@ const SvgIconCalculatorFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5484,8 +5484,8 @@ const SvgIconCalculator = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5507,8 +5507,8 @@ const SvgIconCalendar2Fill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5524,8 +5524,8 @@ const SvgIconCalendar2 = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5541,8 +5541,8 @@ const SvgIconCalendar3Fill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5556,8 +5556,8 @@ const SvgIconCalendar3 = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5574,8 +5574,8 @@ const SvgIconCalendarCheckFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5591,8 +5591,8 @@ const SvgIconCalendarCheck = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5609,8 +5609,8 @@ const SvgIconCalendarClockFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5632,8 +5632,8 @@ const SvgIconCalendarClock = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5650,8 +5650,8 @@ const SvgIconCalendarDaysFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5667,8 +5667,8 @@ const SvgIconCalendarDays = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5682,8 +5682,8 @@ const SvgIconCalendarFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5697,8 +5697,8 @@ const SvgIconCalendarPlusFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5714,8 +5714,8 @@ const SvgIconCalendarPlus = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5732,8 +5732,8 @@ const SvgIconCalendarRemoveFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5749,8 +5749,8 @@ const SvgIconCalendarRemove = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5767,8 +5767,8 @@ const SvgIconCalendarSearchFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5787,8 +5787,8 @@ const SvgIconCalendarSearch = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5805,8 +5805,8 @@ const SvgIconCalendar = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5823,8 +5823,8 @@ const SvgIconCallIncomingFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5843,8 +5843,8 @@ const SvgIconCallIncoming = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5861,8 +5861,8 @@ const SvgIconCallOffFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5876,8 +5876,8 @@ const SvgIconCallOff = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5896,8 +5896,8 @@ const SvgIconCallOutgoingFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5916,8 +5916,8 @@ const SvgIconCallOutgoing = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5934,8 +5934,8 @@ const SvgIconCameraDotFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5954,8 +5954,8 @@ const SvgIconCameraDot = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -5972,8 +5972,8 @@ const SvgIconCameraFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -5989,8 +5989,8 @@ const SvgIconCameraOffFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6009,8 +6009,8 @@ const SvgIconCameraOff = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6027,8 +6027,8 @@ const SvgIconCamera = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6051,8 +6051,8 @@ const SvgIconCarFill = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6068,8 +6068,8 @@ const SvgIconCar = props => /*#__PURE__*/React__namespace.createElement("svg", _
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6086,8 +6086,8 @@ const SvgIconCartFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6101,8 +6101,8 @@ const SvgIconCart = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6126,8 +6126,8 @@ const SvgIconChainLinkFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6148,8 +6148,8 @@ const SvgIconChainLink = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6172,8 +6172,8 @@ const SvgIconChart2Fill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6187,8 +6187,8 @@ const SvgIconChart2 = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6205,8 +6205,8 @@ const SvgIconChart3Fill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6220,8 +6220,8 @@ const SvgIconChart3 = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6238,8 +6238,8 @@ const SvgIconChart4Fill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6253,8 +6253,8 @@ const SvgIconChart4 = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6268,8 +6268,8 @@ const SvgIconChart5Fill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6283,8 +6283,8 @@ const SvgIconChart5 = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6298,8 +6298,8 @@ const SvgIconChartFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6313,8 +6313,8 @@ const SvgIconChartLine = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6331,8 +6331,8 @@ const SvgIconChartTrendingUp = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6349,8 +6349,8 @@ const SvgIconChart = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6367,8 +6367,8 @@ const SvgIconCheck = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6385,8 +6385,8 @@ const SvgIconChecklist = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6403,8 +6403,8 @@ const SvgIconChevronDoubleDown = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6421,8 +6421,8 @@ const SvgIconChevronDoubleLeft = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6439,8 +6439,8 @@ const SvgIconChevronDoubleRight = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6457,8 +6457,8 @@ const SvgIconChevronDoubleUp = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6475,8 +6475,8 @@ const SvgIconChevronDown = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6493,8 +6493,8 @@ const SvgIconChevronLeft = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6511,8 +6511,8 @@ const SvgIconChevronLgDown = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6529,8 +6529,8 @@ const SvgIconChevronLgLeft = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6547,8 +6547,8 @@ const SvgIconChevronLgRight = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6565,8 +6565,8 @@ const SvgIconChevronLgUp = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6583,8 +6583,8 @@ const SvgIconChevronRight = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6601,8 +6601,8 @@ const SvgIconChevronUp = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6619,8 +6619,8 @@ const SvgIconChevronsLgDown = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6637,8 +6637,8 @@ const SvgIconChevronsLgLeft = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6655,8 +6655,8 @@ const SvgIconChevronsLgRight = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6673,8 +6673,8 @@ const SvgIconChevronsLgUp = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6697,8 +6697,8 @@ const SvgIconChevronsUpDown = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6715,8 +6715,8 @@ const SvgIconChevronsX = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6733,8 +6733,8 @@ const SvgIconChevronsY = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6751,8 +6751,8 @@ const SvgIconChromecastFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6769,8 +6769,8 @@ const SvgIconChromecast = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6786,8 +6786,8 @@ const SvgIconCircleArrowDownFill = props => /*#__PURE__*/React__namespace.create
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6803,8 +6803,8 @@ const SvgIconCircleArrowDown = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6821,8 +6821,8 @@ const SvgIconCircleArrowLeftDownFill = props => /*#__PURE__*/React__namespace.cr
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6838,8 +6838,8 @@ const SvgIconCircleArrowLeftDown = props => /*#__PURE__*/React__namespace.create
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6856,8 +6856,8 @@ const SvgIconCircleArrowLeftFill = props => /*#__PURE__*/React__namespace.create
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6873,8 +6873,8 @@ const SvgIconCircleArrowLeftUpFill = props => /*#__PURE__*/React__namespace.crea
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6890,8 +6890,8 @@ const SvgIconCircleArrowLeftUp = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6908,8 +6908,8 @@ const SvgIconCircleArrowLeft = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6926,8 +6926,8 @@ const SvgIconCircleArrowRightDownFill = props => /*#__PURE__*/React__namespace.c
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6943,8 +6943,8 @@ const SvgIconCircleArrowRightDown = props => /*#__PURE__*/React__namespace.creat
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -6961,8 +6961,8 @@ const SvgIconCircleArrowRightFill = props => /*#__PURE__*/React__namespace.creat
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6978,8 +6978,8 @@ const SvgIconCircleArrowRightUpFill = props => /*#__PURE__*/React__namespace.cre
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -6995,8 +6995,8 @@ const SvgIconCircleArrowRightUp = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7013,8 +7013,8 @@ const SvgIconCircleArrowRight = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7031,8 +7031,8 @@ const SvgIconCircleArrowUpFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7048,8 +7048,8 @@ const SvgIconCircleArrowUp = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7066,8 +7066,8 @@ const SvgIconCircleChartTrendingFill = props => /*#__PURE__*/React__namespace.cr
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7083,8 +7083,8 @@ const SvgIconCircleChartTrending = props => /*#__PURE__*/React__namespace.create
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("circle", {
   cx: 12,
@@ -7115,8 +7115,8 @@ const SvgIconCircleCheckFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7132,8 +7132,8 @@ const SvgIconCircleCheck = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7150,8 +7150,8 @@ const SvgIconCircleDotsHorizontalFill = props => /*#__PURE__*/React__namespace.c
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7167,8 +7167,8 @@ const SvgIconCircleDotsHorizontal = props => /*#__PURE__*/React__namespace.creat
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7190,8 +7190,8 @@ const SvgIconCircleDotsVerticalFill = props => /*#__PURE__*/React__namespace.cre
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7207,8 +7207,8 @@ const SvgIconCircleDotsVertical = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7228,8 +7228,8 @@ const SvgIconCircleDownloadFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7245,8 +7245,8 @@ const SvgIconCircleDownload = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7263,8 +7263,8 @@ const SvgIconCircleHalfFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7280,8 +7280,8 @@ const SvgIconCircleHalf = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7297,8 +7297,8 @@ const SvgIconCircleInfoFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7314,8 +7314,8 @@ const SvgIconCircleInfo = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7341,8 +7341,8 @@ const SvgIconCircleMinusFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7358,8 +7358,8 @@ const SvgIconCircleMinus = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7375,8 +7375,8 @@ const SvgIconCirclePersonFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7392,8 +7392,8 @@ const SvgIconCirclePerson = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7409,8 +7409,8 @@ const SvgIconCirclePlaceholderDashedFill = props => /*#__PURE__*/React__namespac
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7429,8 +7429,8 @@ const SvgIconCirclePlaceholderDashed = props => /*#__PURE__*/React__namespace.cr
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("circle", {
   cx: 12,
@@ -7450,8 +7450,8 @@ const SvgIconCirclePlayFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7467,8 +7467,8 @@ const SvgIconCirclePlay = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7487,8 +7487,8 @@ const SvgIconCirclePlusFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7504,8 +7504,8 @@ const SvgIconCirclePlus = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7521,8 +7521,8 @@ const SvgIconCircleQuestionmarkFill = props => /*#__PURE__*/React__namespace.cre
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7538,8 +7538,8 @@ const SvgIconCircleQuestionmark = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7563,8 +7563,8 @@ const SvgIconCircleRightUpFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7580,8 +7580,8 @@ const SvgIconCircleRightUp = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7598,8 +7598,8 @@ const SvgIconCircleStopFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7615,8 +7615,8 @@ const SvgIconCircleStop = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7635,8 +7635,8 @@ const SvgIconCircleXFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7652,8 +7652,8 @@ const SvgIconCircleX = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7669,8 +7669,8 @@ const SvgIconClapperboardFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7686,8 +7686,8 @@ const SvgIconClapperboard = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7704,8 +7704,8 @@ const SvgIconClipboardFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7721,8 +7721,8 @@ const SvgIconClipboard = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7739,8 +7739,8 @@ const SvgIconClockFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7756,8 +7756,8 @@ const SvgIconClock = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7774,8 +7774,8 @@ const SvgIconCloseQuoteFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7789,8 +7789,8 @@ const SvgIconCloseQuote = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7806,8 +7806,8 @@ const SvgIconClosedCaptioningFill = props => /*#__PURE__*/React__namespace.creat
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7823,8 +7823,8 @@ const SvgIconClosedCaptioning = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7846,8 +7846,8 @@ const SvgIconCloud2Fill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7861,8 +7861,8 @@ const SvgIconCloud2 = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7878,8 +7878,8 @@ const SvgIconCloudDownloadFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7895,8 +7895,8 @@ const SvgIconCloudDownload = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7913,8 +7913,8 @@ const SvgIconCloudFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7928,8 +7928,8 @@ const SvgIconCloudSnowFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7943,8 +7943,8 @@ const SvgIconCloudSnow = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7960,8 +7960,8 @@ const SvgIconCloudSyncFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -7977,8 +7977,8 @@ const SvgIconCloudSync = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -7998,8 +7998,8 @@ const SvgIconCloud = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8016,8 +8016,8 @@ const SvgIconCloudyFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8033,8 +8033,8 @@ const SvgIconCloudySunFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8050,8 +8050,8 @@ const SvgIconCloudySun = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8068,8 +8068,8 @@ const SvgIconCloudy = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8086,8 +8086,8 @@ const SvgIconCocktailFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8101,8 +8101,8 @@ const SvgIconCocktail = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8119,8 +8119,8 @@ const SvgIconCodeBrackets = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8137,8 +8137,8 @@ const SvgIconCodeLines = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8155,8 +8155,8 @@ const SvgIconColorPaletteFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8172,8 +8172,8 @@ const SvgIconColorPalette = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8192,8 +8192,8 @@ const SvgIconColorSwatchFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8209,8 +8209,8 @@ const SvgIconColorSwatch = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8224,8 +8224,8 @@ const SvgIconColorsFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8241,8 +8241,8 @@ const SvgIconColors = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8257,8 +8257,8 @@ const SvgIconCommandFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8277,8 +8277,8 @@ const SvgIconCommandRegularFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8294,8 +8294,8 @@ const SvgIconCommandRegular = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8311,8 +8311,8 @@ const SvgIconCommand = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8326,8 +8326,8 @@ const SvgIconCompassFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8343,8 +8343,8 @@ const SvgIconCompass = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8365,8 +8365,8 @@ const SvgIconComputerFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8385,8 +8385,8 @@ const SvgIconComputer = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8400,8 +8400,8 @@ const SvgIconContactsFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8417,8 +8417,8 @@ const SvgIconContacts = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8435,8 +8435,8 @@ const SvgIconControlFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8452,8 +8452,8 @@ const SvgIconControl = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8470,8 +8470,8 @@ const SvgIconCookiesFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8487,8 +8487,8 @@ const SvgIconCookies = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8507,8 +8507,8 @@ const SvgIconCreditCardFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8524,8 +8524,8 @@ const SvgIconCreditCard = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8542,8 +8542,8 @@ const SvgIconCropFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8562,8 +8562,8 @@ const SvgIconCrop = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8579,8 +8579,8 @@ const SvgIconCryptoCoinFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8596,8 +8596,8 @@ const SvgIconCryptoCoin = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8614,8 +8614,8 @@ const SvgIconCryptoFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8634,8 +8634,8 @@ const SvgIconCrypto = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8658,8 +8658,8 @@ const SvgIconCubeFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8673,8 +8673,8 @@ const SvgIconCube = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8691,8 +8691,8 @@ const SvgIconCupHotFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8711,8 +8711,8 @@ const SvgIconCupHot = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8728,8 +8728,8 @@ const SvgIconCupStrawFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8745,8 +8745,8 @@ const SvgIconCupStraw = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8763,8 +8763,8 @@ const SvgIconCurrencyDollarFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8780,8 +8780,8 @@ const SvgIconCurrencyDollar = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8798,8 +8798,8 @@ const SvgIconCurrencyPoundFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8815,8 +8815,8 @@ const SvgIconCurrencyPound = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8833,8 +8833,8 @@ const SvgIconCurrencyYen = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8848,8 +8848,8 @@ const SvgIconCursor1Fill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8863,8 +8863,8 @@ const SvgIconCursor1 = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8881,8 +8881,8 @@ const SvgIconCursor3Fill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8896,8 +8896,8 @@ const SvgIconCursor3 = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8914,8 +8914,8 @@ const SvgIconCursorClickFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8929,8 +8929,8 @@ const SvgIconCursorClick = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8947,8 +8947,8 @@ const SvgIconCursorFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8962,8 +8962,8 @@ const SvgIconCursor = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -8979,8 +8979,8 @@ const SvgIconCut = props => /*#__PURE__*/React__namespace.createElement("svg", _
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -8999,8 +8999,8 @@ const SvgIconDashboardFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9016,8 +9016,8 @@ const SvgIconDashboard = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9034,8 +9034,8 @@ const SvgIconDatabaseFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9054,8 +9054,8 @@ const SvgIconDatabase = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9072,8 +9072,8 @@ const SvgIconDateTime = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9090,8 +9090,8 @@ const SvgIconDeviceDesktop2Fill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9107,8 +9107,8 @@ const SvgIconDeviceDesktop2 = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9125,8 +9125,8 @@ const SvgIconDeviceDesktopFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9140,8 +9140,8 @@ const SvgIconDeviceDesktop = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9158,8 +9158,8 @@ const SvgIconDevicePhoneFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9175,8 +9175,8 @@ const SvgIconDevicePhone = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9193,8 +9193,8 @@ const SvgIconDevicesFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9213,8 +9213,8 @@ const SvgIconDevices = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9231,8 +9231,8 @@ const SvgIconDiamondFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9248,8 +9248,8 @@ const SvgIconDiamond = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9266,8 +9266,8 @@ const SvgIconDocumentChartFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9286,8 +9286,8 @@ const SvgIconDocumentChart = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9303,8 +9303,8 @@ const SvgIconDonutFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9325,8 +9325,8 @@ const SvgIconDonut = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9352,8 +9352,8 @@ const SvgIconDotGrid2X3 = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9367,8 +9367,8 @@ const SvgIconDotGrid3X3 = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9388,8 +9388,8 @@ const SvgIconDotsHorizontal = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9406,8 +9406,8 @@ const SvgIconDotsVertical = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9424,8 +9424,8 @@ const SvgIconDownload = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9442,8 +9442,8 @@ const SvgIconDuplicateFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9459,8 +9459,8 @@ const SvgIconDuplicate = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9477,8 +9477,8 @@ const SvgIconEnter180Fill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9494,8 +9494,8 @@ const SvgIconEnter180 = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9512,8 +9512,8 @@ const SvgIconEnterFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9529,8 +9529,8 @@ const SvgIconEnter = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9547,8 +9547,8 @@ const SvgIconEnvelopeFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9565,8 +9565,8 @@ const SvgIconEnvelope = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9580,8 +9580,8 @@ const SvgIconEquals = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9597,8 +9597,8 @@ const SvgIconEthereumFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9617,8 +9617,8 @@ const SvgIconEthereum = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9632,8 +9632,8 @@ const SvgIconExpand315Fill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9649,8 +9649,8 @@ const SvgIconExpand315 = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9667,8 +9667,8 @@ const SvgIconExpand45Fill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9684,8 +9684,8 @@ const SvgIconExpand45 = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9702,8 +9702,8 @@ const SvgIconExpandSimple2Fill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9719,8 +9719,8 @@ const SvgIconExpandSimple2 = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9737,8 +9737,8 @@ const SvgIconExpandSimpleFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9754,8 +9754,8 @@ const SvgIconExpandSimple = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9772,8 +9772,8 @@ const SvgIconExpandWindowFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9793,8 +9793,8 @@ const SvgIconExpandWindow = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9811,8 +9811,8 @@ const SvgIconEyeClosedFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9826,8 +9826,8 @@ const SvgIconEyeClosed = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -9844,8 +9844,8 @@ const SvgIconEyeFill = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9861,8 +9861,8 @@ const SvgIconEyeOffFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9881,8 +9881,8 @@ const SvgIconEyeOff = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9896,8 +9896,8 @@ const SvgIconEye = props => /*#__PURE__*/React__namespace.createElement("svg", _
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9911,8 +9911,8 @@ const SvgIconFastForward10S = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9929,8 +9929,8 @@ const SvgIconFastForward15S = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9947,8 +9947,8 @@ const SvgIconFastForward30S = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9965,8 +9965,8 @@ const SvgIconFastForward5S = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -9983,8 +9983,8 @@ const SvgIconFileCloudFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10006,8 +10006,8 @@ const SvgIconFileCloud = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10024,8 +10024,8 @@ const SvgIconFileDownloadFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10044,8 +10044,8 @@ const SvgIconFileDownload = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10062,8 +10062,8 @@ const SvgIconFileFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10080,8 +10080,8 @@ const SvgIconFileLinkFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10104,8 +10104,8 @@ const SvgIconFileLink = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10122,8 +10122,8 @@ const SvgIconFileLockFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10145,8 +10145,8 @@ const SvgIconFileLock = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10160,8 +10160,8 @@ const SvgIconFileTextFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10180,8 +10180,8 @@ const SvgIconFileText = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10197,8 +10197,8 @@ const SvgIconFileZipFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10217,8 +10217,8 @@ const SvgIconFileZip = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10233,8 +10233,8 @@ const SvgIconFile = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10251,8 +10251,8 @@ const SvgIconFilesFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10271,8 +10271,8 @@ const SvgIconFiles = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10289,8 +10289,8 @@ const SvgIconFilmFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10306,8 +10306,8 @@ const SvgIconFilm = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10324,8 +10324,8 @@ const SvgIconFilter2Fill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10341,8 +10341,8 @@ const SvgIconFilter2 = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10358,8 +10358,8 @@ const SvgIconFilterAscFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10375,8 +10375,8 @@ const SvgIconFilterAsc = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10393,8 +10393,8 @@ const SvgIconFilterDescFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10410,8 +10410,8 @@ const SvgIconFilterDesc = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10428,8 +10428,8 @@ const SvgIconFilterFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10443,8 +10443,8 @@ const SvgIconFilter = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10460,8 +10460,8 @@ const SvgIconFinderFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10477,8 +10477,8 @@ const SvgIconFinder = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10495,8 +10495,8 @@ const SvgIconFlashFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10510,8 +10510,8 @@ const SvgIconFlashOffFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10525,8 +10525,8 @@ const SvgIconFlashOff = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10545,8 +10545,8 @@ const SvgIconFlash = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10562,8 +10562,8 @@ const SvgIconFlipchart2Fill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10579,8 +10579,8 @@ const SvgIconFlipchart2 = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10597,8 +10597,8 @@ const SvgIconFlipchartFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10614,8 +10614,8 @@ const SvgIconFlipchart = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10632,8 +10632,8 @@ const SvgIconFloppyDisk2Fill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10655,8 +10655,8 @@ const SvgIconFloppyDisk2 = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10673,8 +10673,8 @@ const SvgIconFloppyDiskFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10691,8 +10691,8 @@ const SvgIconFloppyDisk = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10709,8 +10709,8 @@ const SvgIconFolderBookmarksFill = props => /*#__PURE__*/React__namespace.create
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10731,8 +10731,8 @@ const SvgIconFolderBookmarks = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10749,8 +10749,8 @@ const SvgIconFolderBoxFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10766,8 +10766,8 @@ const SvgIconFolderBox = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10781,8 +10781,8 @@ const SvgIconFolderCloudFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10801,8 +10801,8 @@ const SvgIconFolderCloud = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10824,8 +10824,8 @@ const SvgIconFolderDeleteFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10846,8 +10846,8 @@ const SvgIconFolderDelete = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10864,8 +10864,8 @@ const SvgIconFolderDownloadFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10881,8 +10881,8 @@ const SvgIconFolderDownload = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10899,8 +10899,8 @@ const SvgIconFolderFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10914,8 +10914,8 @@ const SvgIconFolderLinkFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10938,8 +10938,8 @@ const SvgIconFolderLink = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10956,8 +10956,8 @@ const SvgIconFolderOpenFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -10973,8 +10973,8 @@ const SvgIconFolderOpen = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -10991,8 +10991,8 @@ const SvgIconFolderPaperFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11008,8 +11008,8 @@ const SvgIconFolderPaper = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11025,8 +11025,8 @@ const SvgIconFolderRestrictedFill = props => /*#__PURE__*/React__namespace.creat
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11045,8 +11045,8 @@ const SvgIconFolderRestricted = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11063,8 +11063,8 @@ const SvgIconFolderSharedFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11083,8 +11083,8 @@ const SvgIconFolderShared = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11100,8 +11100,8 @@ const SvgIconFolderUploadFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11115,8 +11115,8 @@ const SvgIconFolderUpload = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11133,8 +11133,8 @@ const SvgIconFolder = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11151,8 +11151,8 @@ const SvgIconFoldersFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11168,8 +11168,8 @@ const SvgIconFolders = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11186,8 +11186,8 @@ const SvgIconFortuneTellerBallFill = props => /*#__PURE__*/React__namespace.crea
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11203,8 +11203,8 @@ const SvgIconFortuneTellerBall = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11224,8 +11224,8 @@ const SvgIconForwardFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11239,8 +11239,8 @@ const SvgIconForwardLeftFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11254,8 +11254,8 @@ const SvgIconForwardLeft = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11272,8 +11272,8 @@ const SvgIconForwardRightFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11287,8 +11287,8 @@ const SvgIconForwardRight = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11305,8 +11305,8 @@ const SvgIconForward = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11322,8 +11322,8 @@ const SvgIconForwards10S = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11343,8 +11343,8 @@ const SvgIconFullscreenFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11360,8 +11360,8 @@ const SvgIconFullscreen = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11378,8 +11378,8 @@ const SvgIconGalleryFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11398,8 +11398,8 @@ const SvgIconGallery = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11415,8 +11415,8 @@ const SvgIconGearFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11432,8 +11432,8 @@ const SvgIconGear = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11454,8 +11454,8 @@ const SvgIconGifFill = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11471,8 +11471,8 @@ const SvgIconGif = props => /*#__PURE__*/React__namespace.createElement("svg", _
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11491,8 +11491,8 @@ const SvgIconGift2Fill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11509,8 +11509,8 @@ const SvgIconGift2 = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11527,8 +11527,8 @@ const SvgIconGiftFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11544,8 +11544,8 @@ const SvgIconGift = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11561,8 +11561,8 @@ const SvgIconGiroCardFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11578,8 +11578,8 @@ const SvgIconGiroCard = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11596,8 +11596,8 @@ const SvgIconGiroCardsFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11613,8 +11613,8 @@ const SvgIconGiroCards = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11631,8 +11631,8 @@ const SvgIconGitMerge = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11648,8 +11648,8 @@ const SvgIconGlassesFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11665,8 +11665,8 @@ const SvgIconGlasses = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11683,8 +11683,8 @@ const SvgIconGlobe2Fill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11698,8 +11698,8 @@ const SvgIconGlobe2 = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11715,8 +11715,8 @@ const SvgIconGlobeFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11732,8 +11732,8 @@ const SvgIconGlobe = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11750,8 +11750,8 @@ const SvgIconGoogleTranslate = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11765,8 +11765,8 @@ const SvgIconGraduateCapFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11783,8 +11783,8 @@ const SvgIconGraduate = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11801,8 +11801,8 @@ const SvgIconGraph = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11819,8 +11819,8 @@ const SvgIconGreaterThan = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11837,8 +11837,8 @@ const SvgIconGrid4Fill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11854,8 +11854,8 @@ const SvgIconGrid4 = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11872,8 +11872,8 @@ const SvgIconGuideFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11887,8 +11887,8 @@ const SvgIconGuide = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11905,8 +11905,8 @@ const SvgIconHamburger = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11923,8 +11923,8 @@ const SvgIconHand5Fill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11940,8 +11940,8 @@ const SvgIconHand5 = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11958,8 +11958,8 @@ const SvgIconHandPinchFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -11978,8 +11978,8 @@ const SvgIconHandPinch = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -11996,8 +11996,8 @@ const SvgIconHandPointerFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12011,8 +12011,8 @@ const SvgIconHandPointer = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12029,8 +12029,8 @@ const SvgIconHandTouchFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12049,8 +12049,8 @@ const SvgIconHandTouch = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12064,8 +12064,8 @@ const SvgIconHashtagFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12081,8 +12081,8 @@ const SvgIconHashtag = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12099,8 +12099,8 @@ const SvgIconHdFill = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12119,8 +12119,8 @@ const SvgIconHd = props => /*#__PURE__*/React__namespace.createElement("svg", _e
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12140,8 +12140,8 @@ const SvgIconHddFill = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12160,8 +12160,8 @@ const SvgIconHdd = props => /*#__PURE__*/React__namespace.createElement("svg", _
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12183,8 +12183,8 @@ const SvgIconHeadphones2 = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12198,8 +12198,8 @@ const SvgIconHeadphonesFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12213,8 +12213,8 @@ const SvgIconHeadphones = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12231,8 +12231,8 @@ const SvgIconHeartBeatFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12248,8 +12248,8 @@ const SvgIconHeartBeat = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12266,8 +12266,8 @@ const SvgIconHeartFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12281,8 +12281,8 @@ const SvgIconHeart = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12298,8 +12298,8 @@ const SvgIconHighlightFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12313,8 +12313,8 @@ const SvgIconHighlightWaveFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12328,8 +12328,8 @@ const SvgIconHighlightWave = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12346,8 +12346,8 @@ const SvgIconHighlight = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12364,8 +12364,8 @@ const SvgIconHome1Fill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12379,8 +12379,8 @@ const SvgIconHome1 = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12396,8 +12396,8 @@ const SvgIconHome2Fill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12413,8 +12413,8 @@ const SvgIconHome2 = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12430,8 +12430,8 @@ const SvgIconHome3Fill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12447,8 +12447,8 @@ const SvgIconHome3 = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12469,8 +12469,8 @@ const SvgIconHome4Fill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12486,8 +12486,8 @@ const SvgIconHome4 = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12504,8 +12504,8 @@ const SvgIconHome5Fill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12522,8 +12522,8 @@ const SvgIconHome5 = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12537,8 +12537,8 @@ const SvgIconHome6Fill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12552,8 +12552,8 @@ const SvgIconHome6 = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12567,8 +12567,8 @@ const SvgIconHomeFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12584,8 +12584,8 @@ const SvgIconHome = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12599,8 +12599,8 @@ const SvgIconHotDrinkCupFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12616,8 +12616,8 @@ const SvgIconHotDrinkCup = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12634,8 +12634,8 @@ const SvgIconIceCream2Fill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12651,8 +12651,8 @@ const SvgIconIceCream2 = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12669,8 +12669,8 @@ const SvgIconIceCreamFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12686,8 +12686,8 @@ const SvgIconIceCream = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12704,8 +12704,8 @@ const SvgIconInbox2Fill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12721,8 +12721,8 @@ const SvgIconInbox2 = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12739,8 +12739,8 @@ const SvgIconInboxEmptyFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12756,8 +12756,8 @@ const SvgIconInboxEmpty = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12773,8 +12773,8 @@ const SvgIconInboxFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12791,8 +12791,8 @@ const SvgIconInbox = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12809,8 +12809,8 @@ const SvgIconInviteFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12826,8 +12826,8 @@ const SvgIconInvite = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12844,8 +12844,8 @@ const SvgIconInvoiceFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12859,8 +12859,8 @@ const SvgIconInvoice = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12874,8 +12874,8 @@ const SvgIconItalicFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12891,8 +12891,8 @@ const SvgIconItalic = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12909,8 +12909,8 @@ const SvgIconJudgeGavelFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12924,8 +12924,8 @@ const SvgIconJudgeGavel = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12942,8 +12942,8 @@ const SvgIconKeyFill = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12959,8 +12959,8 @@ const SvgIconKey = props => /*#__PURE__*/React__namespace.createElement("svg", _
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -12981,8 +12981,8 @@ const SvgIconKeyboardCableFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -12998,8 +12998,8 @@ const SvgIconKeyboardCable = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13021,8 +13021,8 @@ const SvgIconKeyboardDownFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13041,8 +13041,8 @@ const SvgIconKeyboardDown = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13064,8 +13064,8 @@ const SvgIconKeyboardUpFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13084,8 +13084,8 @@ const SvgIconKeyboardUp = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13107,8 +13107,8 @@ const SvgIconKeyholeFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13124,8 +13124,8 @@ const SvgIconKeyhole = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13146,8 +13146,8 @@ const SvgIconKnifeSpoonFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13164,8 +13164,8 @@ const SvgIconKnifeSpoon = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13182,8 +13182,8 @@ const SvgIconLaunchFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13202,8 +13202,8 @@ const SvgIconLaunch = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13219,8 +13219,8 @@ const SvgIconLayersFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13242,8 +13242,8 @@ const SvgIconLayers = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13265,8 +13265,8 @@ const SvgIconLayers2Fill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13283,8 +13283,8 @@ const SvgIconLayers2 = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13301,8 +13301,8 @@ const SvgIconLayoutAlignBottomFill = props => /*#__PURE__*/React__namespace.crea
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13318,8 +13318,8 @@ const SvgIconLayoutAlignBottom = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13333,8 +13333,8 @@ const SvgIconLayoutAlignHorizontalCenterFill = props => /*#__PURE__*/React__name
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13350,8 +13350,8 @@ const SvgIconLayoutAlignHorizontalCenter = props => /*#__PURE__*/React__namespac
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13373,8 +13373,8 @@ const SvgIconLayoutAlignLeftFill = props => /*#__PURE__*/React__namespace.create
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13390,8 +13390,8 @@ const SvgIconLayoutAlignLeft = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13405,8 +13405,8 @@ const SvgIconLayoutAlignRightFill = props => /*#__PURE__*/React__namespace.creat
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13422,8 +13422,8 @@ const SvgIconLayoutAlignRight = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13437,8 +13437,8 @@ const SvgIconLayoutAlignTopFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13454,8 +13454,8 @@ const SvgIconLayoutAlignTop = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13469,8 +13469,8 @@ const SvgIconLayoutAlignVerticalCenterFill = props => /*#__PURE__*/React__namesp
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13486,8 +13486,8 @@ const SvgIconLayoutAlignVerticalCenter = props => /*#__PURE__*/React__namespace.
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13509,8 +13509,8 @@ const SvgIconLayoutColumnHalfFill = props => /*#__PURE__*/React__namespace.creat
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13524,8 +13524,8 @@ const SvgIconLayoutColumnHalfRemoveFill = props => /*#__PURE__*/React__namespace
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13542,8 +13542,8 @@ const SvgIconLayoutColumnHalfRemove = props => /*#__PURE__*/React__namespace.cre
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13560,8 +13560,8 @@ const SvgIconLayoutColumnHalf = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13578,8 +13578,8 @@ const SvgIconLayoutColumnHorizontalAddFill = props => /*#__PURE__*/React__namesp
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13593,8 +13593,8 @@ const SvgIconLayoutColumnHorizontalAdd = props => /*#__PURE__*/React__namespace.
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13611,8 +13611,8 @@ const SvgIconLayoutColumnHorizontalHalfFill = props => /*#__PURE__*/React__names
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13626,8 +13626,8 @@ const SvgIconLayoutColumnHorizontalHalf = props => /*#__PURE__*/React__namespace
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13649,8 +13649,8 @@ const SvgIconLayoutColumnLeftsideFill = props => /*#__PURE__*/React__namespace.c
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13666,8 +13666,8 @@ const SvgIconLayoutColumnLeftside = props => /*#__PURE__*/React__namespace.creat
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13683,8 +13683,8 @@ const SvgIconLayoutColumnRightsideFill = props => /*#__PURE__*/React__namespace.
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13700,8 +13700,8 @@ const SvgIconLayoutColumnRightside = props => /*#__PURE__*/React__namespace.crea
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13717,8 +13717,8 @@ const SvgIconLayoutColumnVerticalAddFill = props => /*#__PURE__*/React__namespac
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13735,8 +13735,8 @@ const SvgIconLayoutColumnVerticalAdd = props => /*#__PURE__*/React__namespace.cr
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13756,8 +13756,8 @@ const SvgIconLayoutColumnVerticalRemoveFill = props => /*#__PURE__*/React__names
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13774,8 +13774,8 @@ const SvgIconLayoutColumnVerticalRemove = props => /*#__PURE__*/React__namespace
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13789,8 +13789,8 @@ const SvgIconLessThan = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13807,8 +13807,8 @@ const SvgIconLightBulb2Fill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13822,8 +13822,8 @@ const SvgIconLightBulb2 = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13840,8 +13840,8 @@ const SvgIconLightBulbFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13855,8 +13855,8 @@ const SvgIconLightBulb = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13873,8 +13873,8 @@ const SvgIconLineChart6 = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13891,8 +13891,8 @@ const SvgIconLineChartL = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13909,8 +13909,8 @@ const SvgIconLineChartR = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13927,8 +13927,8 @@ const SvgIconLink = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13942,8 +13942,8 @@ const SvgIconLiquidFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13957,8 +13957,8 @@ const SvgIconLiquid = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -13974,8 +13974,8 @@ const SvgIconListBulletsFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -13991,8 +13991,8 @@ const SvgIconListBullets = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14008,8 +14008,8 @@ const SvgIconLoader2 = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14026,8 +14026,8 @@ const SvgIconLoader = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14046,8 +14046,8 @@ const SvgIconLocationFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14063,8 +14063,8 @@ const SvgIconLocation = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14085,8 +14085,8 @@ const SvgIconLockFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14102,8 +14102,8 @@ const SvgIconLock = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14120,8 +14120,8 @@ const SvgIconLogin = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14137,8 +14137,8 @@ const SvgIconLogout = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14155,8 +14155,8 @@ const SvgIconMacbookAirFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14170,8 +14170,8 @@ const SvgIconMacbookAir = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14188,8 +14188,8 @@ const SvgIconMacbookFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14205,8 +14205,8 @@ const SvgIconMacbook = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14223,8 +14223,8 @@ const SvgIconMagicFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14243,8 +14243,8 @@ const SvgIconMagicStarFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14258,8 +14258,8 @@ const SvgIconMagicStar = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14276,8 +14276,8 @@ const SvgIconMagic = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14296,8 +14296,8 @@ const SvgIconMailFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14314,8 +14314,8 @@ const SvgIconMailNotifyFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14337,8 +14337,8 @@ const SvgIconMailNotify = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14354,8 +14354,8 @@ const SvgIconMail = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14372,8 +14372,8 @@ const SvgIconMapFill = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14387,8 +14387,8 @@ const SvgIconMap = props => /*#__PURE__*/React__namespace.createElement("svg", _
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14405,8 +14405,8 @@ const SvgIconMegaphoneFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14422,8 +14422,8 @@ const SvgIconMegaphone = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14440,8 +14440,8 @@ const SvgIconMessageDotsFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14457,8 +14457,8 @@ const SvgIconMessageDots = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14481,8 +14481,8 @@ const SvgIconMessageFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14498,8 +14498,8 @@ const SvgIconMessage = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14516,8 +14516,8 @@ const SvgIconMessagesFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14533,8 +14533,8 @@ const SvgIconMessages = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14551,8 +14551,8 @@ const SvgIconMicFill = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14569,8 +14569,8 @@ const SvgIconMicOffFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14584,8 +14584,8 @@ const SvgIconMicOff = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14602,8 +14602,8 @@ const SvgIconMic = props => /*#__PURE__*/React__namespace.createElement("svg", _
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14620,8 +14620,8 @@ const SvgIconMinimize315Fill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14637,8 +14637,8 @@ const SvgIconMinimize315 = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14655,8 +14655,8 @@ const SvgIconMinimize45Fill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14672,8 +14672,8 @@ const SvgIconMinimize45 = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14690,8 +14690,8 @@ const SvgIconMinimizeWindowFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14711,8 +14711,8 @@ const SvgIconMinimizeWindow = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14729,8 +14729,8 @@ const SvgIconMinus = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14747,8 +14747,8 @@ const SvgIconMoneybagFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14762,8 +14762,8 @@ const SvgIconMoneybag = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14779,8 +14779,8 @@ const SvgIconMoonFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14794,8 +14794,8 @@ const SvgIconMoonStarFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14812,8 +14812,8 @@ const SvgIconMoonStar = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14832,8 +14832,8 @@ const SvgIconMoon = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14847,8 +14847,8 @@ const SvgIconMouseFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14864,8 +14864,8 @@ const SvgIconMouse = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14882,8 +14882,8 @@ const SvgIconMoveFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14897,8 +14897,8 @@ const SvgIconMove = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14915,8 +14915,8 @@ const SvgIconMusicNoteFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14930,8 +14930,8 @@ const SvgIconMusicNote = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -14947,8 +14947,8 @@ const SvgIconMuteFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14962,8 +14962,8 @@ const SvgIconMute = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14982,8 +14982,8 @@ const SvgIconNextFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -14997,8 +14997,8 @@ const SvgIconNext = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15015,8 +15015,8 @@ const SvgIconNotebookCoverFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15035,8 +15035,8 @@ const SvgIconNotebookCover = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15053,8 +15053,8 @@ const SvgIconNotepadFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15070,8 +15070,8 @@ const SvgIconNotepad = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15088,8 +15088,8 @@ const SvgIconNotesFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15105,8 +15105,8 @@ const SvgIconNotes = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15123,8 +15123,8 @@ const SvgIconOculusFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15140,8 +15140,8 @@ const SvgIconOculus = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15158,8 +15158,8 @@ const SvgIconOldTvFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15173,8 +15173,8 @@ const SvgIconOldTv = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15191,8 +15191,8 @@ const SvgIconOpenLink2Fill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15208,8 +15208,8 @@ const SvgIconOpenLink2 = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15226,8 +15226,8 @@ const SvgIconOpenLinkFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15243,8 +15243,8 @@ const SvgIconOpenLink = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15267,8 +15267,8 @@ const SvgIconOpenQuoteFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15282,8 +15282,8 @@ const SvgIconOpenQuote = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15299,8 +15299,8 @@ const SvgIconOptAltFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15316,8 +15316,8 @@ const SvgIconOptAlt = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15334,8 +15334,8 @@ const SvgIconOrangeFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15351,8 +15351,8 @@ const SvgIconOrange = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15369,8 +15369,8 @@ const SvgIconPackageFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15384,8 +15384,8 @@ const SvgIconPackageReturnFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15401,8 +15401,8 @@ const SvgIconPackageReturn = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15425,8 +15425,8 @@ const SvgIconPackage = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15440,8 +15440,8 @@ const SvgIconPaperFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15455,8 +15455,8 @@ const SvgIconPaper = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15473,8 +15473,8 @@ const SvgIconPaperclip2 = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15491,8 +15491,8 @@ const SvgIconPaperclip3 = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15508,8 +15508,8 @@ const SvgIconPaperclip = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15525,8 +15525,8 @@ const SvgIconPasskeyFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15545,8 +15545,8 @@ const SvgIconPasskey = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15563,8 +15563,8 @@ const SvgIconPauseFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15578,8 +15578,8 @@ const SvgIconPause = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15595,8 +15595,8 @@ const SvgIconPencilBoxFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15615,8 +15615,8 @@ const SvgIconPencilBox = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15630,8 +15630,8 @@ const SvgIconPeopleFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15645,8 +15645,8 @@ const SvgIconPeople = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15663,8 +15663,8 @@ const SvgIconPercentBadgeFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15680,8 +15680,8 @@ const SvgIconPercentBadge = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15698,8 +15698,8 @@ const SvgIconPercentFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15715,8 +15715,8 @@ const SvgIconPercent = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15740,8 +15740,8 @@ const SvgIconPersonAddFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15758,8 +15758,8 @@ const SvgIconPersonAdd = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15776,8 +15776,8 @@ const SvgIconPersonAddedFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15794,8 +15794,8 @@ const SvgIconPersonAdded = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15812,8 +15812,8 @@ const SvgIconPersonFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15827,8 +15827,8 @@ const SvgIconPersonRemoveFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15845,8 +15845,8 @@ const SvgIconPersonRemove = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15863,8 +15863,8 @@ const SvgIconPerson = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15880,8 +15880,8 @@ const SvgIconPictureInPictureFill = props => /*#__PURE__*/React__namespace.creat
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15898,8 +15898,8 @@ const SvgIconPictureInPicture = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15916,8 +15916,8 @@ const SvgIconPieChart2Fill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15938,8 +15938,8 @@ const SvgIconPieChart2 = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15962,8 +15962,8 @@ const SvgIconPieChartFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -15980,8 +15980,8 @@ const SvgIconPieChart = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -15997,8 +15997,8 @@ const SvgIconPiloneFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16012,8 +16012,8 @@ const SvgIconPilone = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16030,8 +16030,8 @@ const SvgIconPin2Fill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16045,8 +16045,8 @@ const SvgIconPin2 = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16063,8 +16063,8 @@ const SvgIconPinFill = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16078,8 +16078,8 @@ const SvgIconPin = props => /*#__PURE__*/React__namespace.createElement("svg", _
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16096,8 +16096,8 @@ const SvgIconPizzaFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16120,8 +16120,8 @@ const SvgIconPizza = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16138,8 +16138,8 @@ const SvgIconPlayFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16153,8 +16153,8 @@ const SvgIconPlay = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16170,8 +16170,8 @@ const SvgIconPlaylistFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16185,8 +16185,8 @@ const SvgIconPlaylist = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16203,8 +16203,8 @@ const SvgIconPlus = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16221,8 +16221,8 @@ const SvgIconPopcornFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16236,8 +16236,8 @@ const SvgIconPopcorn = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16253,8 +16253,8 @@ const SvgIconPower = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16271,8 +16271,8 @@ const SvgIconPriceTagFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16288,8 +16288,8 @@ const SvgIconPriceTag = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16310,8 +16310,8 @@ const SvgIconPrinterFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16327,8 +16327,8 @@ const SvgIconPrinter = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16345,8 +16345,8 @@ const SvgIconPuzzleFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16360,8 +16360,8 @@ const SvgIconPuzzle = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16378,8 +16378,8 @@ const SvgIconQrCodeFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16398,8 +16398,8 @@ const SvgIconQrCode = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16418,8 +16418,8 @@ const SvgIconQuoteCloseFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16433,8 +16433,8 @@ const SvgIconQuoteClose = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16451,8 +16451,8 @@ const SvgIconQuoteOpenFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16466,8 +16466,8 @@ const SvgIconQuoteOpen = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16484,8 +16484,8 @@ const SvgIconRainyFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16499,8 +16499,8 @@ const SvgIconRainyLightFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16514,8 +16514,8 @@ const SvgIconRainyLight = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16531,8 +16531,8 @@ const SvgIconRainy = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16549,8 +16549,8 @@ const SvgIconReceipt2Fill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16564,8 +16564,8 @@ const SvgIconReceipt2 = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16579,8 +16579,8 @@ const SvgIconReceiptFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16596,8 +16596,8 @@ const SvgIconReceiptTaxFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16613,8 +16613,8 @@ const SvgIconReceiptTax = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16633,8 +16633,8 @@ const SvgIconReceipt = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16651,8 +16651,8 @@ const SvgIconRecordFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16668,8 +16668,8 @@ const SvgIconRecord = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16688,8 +16688,8 @@ const SvgIconRedoFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16703,8 +16703,8 @@ const SvgIconRedo = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16721,8 +16721,8 @@ const SvgIconRefreshFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16736,8 +16736,8 @@ const SvgIconRefresh = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16754,8 +16754,8 @@ const SvgIconRepeat2Fill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16769,8 +16769,8 @@ const SvgIconRepeat2 = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16787,8 +16787,8 @@ const SvgIconRepeat3 = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16805,8 +16805,8 @@ const SvgIconRepeatFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16820,8 +16820,8 @@ const SvgIconRepeat = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16838,8 +16838,8 @@ const SvgIconReplyFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16853,8 +16853,8 @@ const SvgIconReply = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16870,8 +16870,8 @@ const SvgIconRepostFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16887,8 +16887,8 @@ const SvgIconRepost = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16905,8 +16905,8 @@ const SvgIconResizeInFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16922,8 +16922,8 @@ const SvgIconResizeIn = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16940,8 +16940,8 @@ const SvgIconResizeOutFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16957,8 +16957,8 @@ const SvgIconResizeOutIn = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -16975,8 +16975,8 @@ const SvgIconRewind10S = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -16998,8 +16998,8 @@ const SvgIconRewind15S = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17016,8 +17016,8 @@ const SvgIconRewind30S = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17039,8 +17039,8 @@ const SvgIconRewind5S = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17057,8 +17057,8 @@ const SvgIconRobotFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17074,8 +17074,8 @@ const SvgIconRobot = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17092,8 +17092,8 @@ const SvgIconRocketFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17115,8 +17115,8 @@ const SvgIconRocket = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17133,8 +17133,8 @@ const SvgIconRotate2LeftFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17153,8 +17153,8 @@ const SvgIconRotate2Left = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17174,8 +17174,8 @@ const SvgIconRotate2RightFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17194,8 +17194,8 @@ const SvgIconRotate2Right = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17215,8 +17215,8 @@ const SvgIconRotateLeftFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17230,8 +17230,8 @@ const SvgIconRotateLeft = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17248,8 +17248,8 @@ const SvgIconRotateRightFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17263,8 +17263,8 @@ const SvgIconRotateRight = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17281,8 +17281,8 @@ const SvgIconRulerFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17296,8 +17296,8 @@ const SvgIconRuler = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17314,8 +17314,8 @@ const SvgIconRunShortcutFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17331,8 +17331,8 @@ const SvgIconRunShortcut = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17349,8 +17349,8 @@ const SvgIconSandwichFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17364,8 +17364,8 @@ const SvgIconSandwich = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17379,8 +17379,8 @@ const SvgIconScreenRecordFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17396,8 +17396,8 @@ const SvgIconScreenRecord = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17438,8 +17438,8 @@ const SvgIconScreenSharingFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17455,8 +17455,8 @@ const SvgIconScreenSharing = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17473,8 +17473,8 @@ const SvgIconSdCardFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17490,8 +17490,8 @@ const SvgIconSdCard = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17508,8 +17508,8 @@ const SvgIconSearchFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17528,8 +17528,8 @@ const SvgIconSearchSketchbookFill = props => /*#__PURE__*/React__namespace.creat
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17550,8 +17550,8 @@ const SvgIconSearchSketchbook = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17568,8 +17568,8 @@ const SvgIconSearch = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17586,8 +17586,8 @@ const SvgIconSend2Fill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17601,8 +17601,8 @@ const SvgIconSend2 = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17619,8 +17619,8 @@ const SvgIconSend3Fill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17634,8 +17634,8 @@ const SvgIconSend3 = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17651,8 +17651,8 @@ const SvgIconSendFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17666,8 +17666,8 @@ const SvgIconSend = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17684,8 +17684,8 @@ const SvgIconServerFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17704,8 +17704,8 @@ const SvgIconServerStackFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17724,8 +17724,8 @@ const SvgIconServerStack = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17742,8 +17742,8 @@ const SvgIconServer = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17760,8 +17760,8 @@ const SvgIconServiceFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17775,8 +17775,8 @@ const SvgIconService = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17792,8 +17792,8 @@ const SvgIconSettingsFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17809,8 +17809,8 @@ const SvgIconSettings = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17831,8 +17831,8 @@ const SvgIconShieldCheckFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17848,8 +17848,8 @@ const SvgIconShieldCheck = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17866,8 +17866,8 @@ const SvgIconShieldCrossedFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17883,8 +17883,8 @@ const SvgIconShieldCrossed = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17901,8 +17901,8 @@ const SvgIconShieldFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17916,8 +17916,8 @@ const SvgIconShieldKeyholeFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17933,8 +17933,8 @@ const SvgIconShieldKeyhole = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17951,8 +17951,8 @@ const SvgIconShield = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -17969,8 +17969,8 @@ const SvgIconShippingBagFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -17986,8 +17986,8 @@ const SvgIconShippingBagHeartFill = props => /*#__PURE__*/React__namespace.creat
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18006,8 +18006,8 @@ const SvgIconShippingBagHeart = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18024,8 +18024,8 @@ const SvgIconShippingBag = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18042,8 +18042,8 @@ const SvgIconShoppingBagBookmarkFill = props => /*#__PURE__*/React__namespace.cr
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18064,8 +18064,8 @@ const SvgIconShoppingBagBookmark = props => /*#__PURE__*/React__namespace.create
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18081,8 +18081,8 @@ const SvgIconShoppingBagEditFill = props => /*#__PURE__*/React__namespace.create
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18103,8 +18103,8 @@ const SvgIconShoppingBagEdit = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18120,8 +18120,8 @@ const SvgIconShoppingBagFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18137,8 +18137,8 @@ const SvgIconShoppingBagHeartFill = props => /*#__PURE__*/React__namespace.creat
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18159,8 +18159,8 @@ const SvgIconShoppingBagHeart = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18180,8 +18180,8 @@ const SvgIconShoppingBagPlusFill = props => /*#__PURE__*/React__namespace.create
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18200,8 +18200,8 @@ const SvgIconShoppingBagPlus = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18217,8 +18217,8 @@ const SvgIconShoppingBag = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18234,8 +18234,8 @@ const SvgIconShuffle = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18252,8 +18252,8 @@ const SvgIconSidebarFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18272,8 +18272,8 @@ const SvgIconSidebar = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18295,8 +18295,8 @@ const SvgIconSimCardFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18310,8 +18310,8 @@ const SvgIconSimCard = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18328,8 +18328,8 @@ const SvgIconSketchbookFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18345,8 +18345,8 @@ const SvgIconSketchbook = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18363,8 +18363,8 @@ const SvgIconSlideAddFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18380,8 +18380,8 @@ const SvgIconSlideAdd = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18398,8 +18398,8 @@ const SvgIconSmartwatchFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18415,8 +18415,8 @@ const SvgIconSmartwatch = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18433,8 +18433,8 @@ const SvgIconSnowFlakes = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18451,8 +18451,8 @@ const SvgIconSortAscFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18468,8 +18468,8 @@ const SvgIconSortAsc = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18486,8 +18486,8 @@ const SvgIconSortDescFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18503,8 +18503,8 @@ const SvgIconSortDesc = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18521,8 +18521,8 @@ const SvgIconSparklesThreeFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18536,8 +18536,8 @@ const SvgIconSparklesThree = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18556,8 +18556,8 @@ const SvgIconSparklesTwo2Fill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18571,8 +18571,8 @@ const SvgIconSparklesTwo2 = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18589,8 +18589,8 @@ const SvgIconSparklesTwoFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18604,8 +18604,8 @@ const SvgIconSparklesTwo = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18622,8 +18622,8 @@ const SvgIconSplitFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18639,8 +18639,8 @@ const SvgIconSplit = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18657,8 +18657,8 @@ const SvgIconSquareArrowInTlFill = props => /*#__PURE__*/React__namespace.create
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18674,8 +18674,8 @@ const SvgIconSquareArrowInTl = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18692,8 +18692,8 @@ const SvgIconSquareArrowOutTlFill = props => /*#__PURE__*/React__namespace.creat
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18709,8 +18709,8 @@ const SvgIconSquareArrowOutTl = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18727,8 +18727,8 @@ const SvgIconSquareInfoFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18744,8 +18744,8 @@ const SvgIconSquareInfo = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18768,8 +18768,8 @@ const SvgIconSquareMinusFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18785,8 +18785,8 @@ const SvgIconSquareMinus = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18800,8 +18800,8 @@ const SvgIconSquarePlaceholderFill = props => /*#__PURE__*/React__namespace.crea
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18817,8 +18817,8 @@ const SvgIconSquarePlaceholder = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18835,8 +18835,8 @@ const SvgIconSquarePlusFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18852,8 +18852,8 @@ const SvgIconSquarePlus = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18867,8 +18867,8 @@ const SvgIconSquareXFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18884,8 +18884,8 @@ const SvgIconSquareX = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18899,8 +18899,8 @@ const SvgIconStarFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18914,8 +18914,8 @@ const SvgIconStarLinesFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18929,8 +18929,8 @@ const SvgIconStarLines = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18947,8 +18947,8 @@ const SvgIconStar = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -18965,8 +18965,8 @@ const SvgIconStopFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -18982,8 +18982,8 @@ const SvgIconStop = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19000,8 +19000,8 @@ const SvgIconStorageFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19017,8 +19017,8 @@ const SvgIconStorage = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19040,8 +19040,8 @@ const SvgIconStore2Fill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19057,8 +19057,8 @@ const SvgIconStore2 = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19075,8 +19075,8 @@ const SvgIconStore3Fill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19092,8 +19092,8 @@ const SvgIconStore3 = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19109,8 +19109,8 @@ const SvgIconStore4Fill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19126,8 +19126,8 @@ const SvgIconStore4 = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19144,8 +19144,8 @@ const SvgIconStoreFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19161,8 +19161,8 @@ const SvgIconStore = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19179,8 +19179,8 @@ const SvgIconStrikeThroughFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19194,8 +19194,8 @@ const SvgIconStrikeThrough = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19211,8 +19211,8 @@ const SvgIconSuitcaseFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19228,8 +19228,8 @@ const SvgIconSuitcase = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19246,8 +19246,8 @@ const SvgIconSunFill = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19261,8 +19261,8 @@ const SvgIconSun = props => /*#__PURE__*/React__namespace.createElement("svg", _
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19279,8 +19279,8 @@ const SvgIconSunriseArrowUpFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19299,8 +19299,8 @@ const SvgIconSunriseArrowUp = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19317,8 +19317,8 @@ const SvgIconSunriseFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19332,8 +19332,8 @@ const SvgIconSunrise = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19350,8 +19350,8 @@ const SvgIconSunsetArrowDownFill = props => /*#__PURE__*/React__namespace.create
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19365,8 +19365,8 @@ const SvgIconSunsetArrowDown = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19383,8 +19383,8 @@ const SvgIconSunsetFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19400,8 +19400,8 @@ const SvgIconSunset = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19418,8 +19418,8 @@ const SvgIconSupportFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19433,8 +19433,8 @@ const SvgIconSupport = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19451,8 +19451,8 @@ const SvgIconSwitchHorizontal2Fill = props => /*#__PURE__*/React__namespace.crea
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19468,8 +19468,8 @@ const SvgIconSwitchHorizontal2 = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19486,8 +19486,8 @@ const SvgIconSwitchHorizontalFill = props => /*#__PURE__*/React__namespace.creat
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19503,8 +19503,8 @@ const SvgIconSwitchHorizontal = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19521,8 +19521,8 @@ const SvgIconSwitchVertical2Fill = props => /*#__PURE__*/React__namespace.create
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19538,8 +19538,8 @@ const SvgIconSwitchVertical2 = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19556,8 +19556,8 @@ const SvgIconSwitchVerticalFill = props => /*#__PURE__*/React__namespace.createE
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19573,8 +19573,8 @@ const SvgIconSwitchVertical = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19591,8 +19591,8 @@ const SvgIconTShirtFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19606,8 +19606,8 @@ const SvgIconTShirt = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19624,8 +19624,8 @@ const SvgIconTelephoneFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19639,8 +19639,8 @@ const SvgIconTelephone = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19657,8 +19657,8 @@ const SvgIconTerminalFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19674,8 +19674,8 @@ const SvgIconTerminal = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19692,8 +19692,8 @@ const SvgIconThumbsDownFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19709,8 +19709,8 @@ const SvgIconThumbsDown = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19726,8 +19726,8 @@ const SvgIconTicketFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19743,8 +19743,8 @@ const SvgIconTicket = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19761,8 +19761,8 @@ const SvgIconToolboxFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19778,8 +19778,8 @@ const SvgIconToolbox = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19796,8 +19796,8 @@ const SvgIconTranslateFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19813,8 +19813,8 @@ const SvgIconTranslate = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19837,8 +19837,8 @@ const SvgIconTrashEmptyFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19854,8 +19854,8 @@ const SvgIconTrashEmpty = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19869,8 +19869,8 @@ const SvgIconTrashFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19886,8 +19886,8 @@ const SvgIconTrashPaperFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19901,8 +19901,8 @@ const SvgIconTrashPaper = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19919,8 +19919,8 @@ const SvgIconTrash = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -19934,8 +19934,8 @@ const SvgIconTrendingChart2 = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19952,8 +19952,8 @@ const SvgIconTrendingChart3 = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19970,8 +19970,8 @@ const SvgIconTrendingChart4 = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -19988,8 +19988,8 @@ const SvgIconTrendingChart5 = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20006,8 +20006,8 @@ const SvgIconTrendingChart = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20024,8 +20024,8 @@ const SvgIconTriangleInfoFill = props => /*#__PURE__*/React__namespace.createEle
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20041,8 +20041,8 @@ const SvgIconTriangleInfo = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20063,8 +20063,8 @@ const SvgIconTrophyFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20080,8 +20080,8 @@ const SvgIconTrophy = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20097,8 +20097,8 @@ const SvgIconTruckFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20114,8 +20114,8 @@ const SvgIconTruck = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20131,8 +20131,8 @@ const SvgIconUmbrellaFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20146,8 +20146,8 @@ const SvgIconUmbrella = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("g", {
   clipPath: "url(#icon-umbrella_svg__a)"
@@ -20171,8 +20171,8 @@ const SvgIconUnderlineFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20186,8 +20186,8 @@ const SvgIconUnderline = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20203,8 +20203,8 @@ const SvgIconUndoFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20218,8 +20218,8 @@ const SvgIconUndo = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20236,8 +20236,8 @@ const SvgIconUnlockedFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20253,8 +20253,8 @@ const SvgIconUnlocked = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20271,8 +20271,8 @@ const SvgIconUnpinFill = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20286,8 +20286,8 @@ const SvgIconUnpin = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20304,8 +20304,8 @@ const SvgIconUpload = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20322,8 +20322,8 @@ const SvgIconUsbCFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20339,8 +20339,8 @@ const SvgIconUsbC = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20357,8 +20357,8 @@ const SvgIconUsbFill = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20377,8 +20377,8 @@ const SvgIconUsb = props => /*#__PURE__*/React__namespace.createElement("svg", _
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20395,8 +20395,8 @@ const SvgIconVerifiedFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20412,8 +20412,8 @@ const SvgIconVerified = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20430,8 +20430,8 @@ const SvgIconVideoCamFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20447,8 +20447,8 @@ const SvgIconVideoCamOffFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20467,8 +20467,8 @@ const SvgIconVideoCamOff = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20485,8 +20485,8 @@ const SvgIconVideoCamOnFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20502,8 +20502,8 @@ const SvgIconVideoCamOn = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20522,8 +20522,8 @@ const SvgIconVideoCam = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20539,8 +20539,8 @@ const SvgIconVideoPlaylistFill = props => /*#__PURE__*/React__namespace.createEl
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20556,8 +20556,8 @@ const SvgIconVideoPlaylist = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20574,8 +20574,8 @@ const SvgIconVideoRollFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20591,8 +20591,8 @@ const SvgIconVideoRoll = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20609,8 +20609,8 @@ const SvgIconVideoTrimFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20629,8 +20629,8 @@ const SvgIconVideoTrim = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20647,8 +20647,8 @@ const SvgIconVipFill = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20662,8 +20662,8 @@ const SvgIconVip = props => /*#__PURE__*/React__namespace.createElement("svg", _
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20680,8 +20680,8 @@ const SvgIconVoice = props => /*#__PURE__*/React__namespace.createElement("svg",
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20697,8 +20697,8 @@ const SvgIconVolumeDownFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20712,8 +20712,8 @@ const SvgIconVolumeDown = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20730,8 +20730,8 @@ const SvgIconVolumeFullFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20745,8 +20745,8 @@ const SvgIconVolumeFull = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20763,8 +20763,8 @@ const SvgIconVolumeOffFill = props => /*#__PURE__*/React__namespace.createElemen
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20778,8 +20778,8 @@ const SvgIconVolumeOff = props => /*#__PURE__*/React__namespace.createElement("s
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20793,8 +20793,8 @@ const SvgIconVolumeUpFill = props => /*#__PURE__*/React__namespace.createElement
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20808,8 +20808,8 @@ const SvgIconVolumeUp = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20826,8 +20826,8 @@ const SvgIconWallet2Fill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20843,8 +20843,8 @@ const SvgIconWallet2 = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20860,8 +20860,8 @@ const SvgIconWallet3Fill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20877,8 +20877,8 @@ const SvgIconWallet3 = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20894,8 +20894,8 @@ const SvgIconWalletFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20911,8 +20911,8 @@ const SvgIconWallet = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20929,8 +20929,8 @@ const SvgIconWebcamFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20949,8 +20949,8 @@ const SvgIconWebcam = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -20967,8 +20967,8 @@ const SvgIconWhiteboardFill = props => /*#__PURE__*/React__namespace.createEleme
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -20982,8 +20982,8 @@ const SvgIconWhiteboard = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -21000,8 +21000,8 @@ const SvgIconWifi = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -21025,8 +21025,8 @@ const SvgIconWind = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -21043,8 +21043,8 @@ const SvgIconWindowFill = props => /*#__PURE__*/React__namespace.createElement("
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -21063,8 +21063,8 @@ const SvgIconWindowVisitFill = props => /*#__PURE__*/React__namespace.createElem
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -21081,8 +21081,8 @@ const SvgIconWindowVisit = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 25"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -21106,8 +21106,8 @@ const SvgIconWindow = props => /*#__PURE__*/React__namespace.createElement("svg"
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -21127,8 +21127,8 @@ const SvgIconX = props => /*#__PURE__*/React__namespace.createElement("svg", _ex
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -21144,8 +21144,8 @@ const SvgIconYenFill = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -21161,8 +21161,8 @@ const SvgIconYesFill = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -21178,8 +21178,8 @@ const SvgIconYes = props => /*#__PURE__*/React__namespace.createElement("svg", _
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -21196,8 +21196,8 @@ const SvgIconZipFill = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -21216,8 +21216,8 @@ const SvgIconZip = props => /*#__PURE__*/React__namespace.createElement("svg", _
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -21234,8 +21234,8 @@ const SvgIconZoomFill = props => /*#__PURE__*/React__namespace.createElement("sv
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -21251,8 +21251,8 @@ const SvgIconZoomOutFill = props => /*#__PURE__*/React__namespace.createElement(
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   fill: "currentColor",
@@ -21268,8 +21268,8 @@ const SvgIconZoomOut = props => /*#__PURE__*/React__namespace.createElement("svg
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",
@@ -21286,8 +21286,8 @@ const SvgIconZoom = props => /*#__PURE__*/React__namespace.createElement("svg", 
   fill: "none",
   viewBox: "0 0 24 24"
 }, props, {
-  className: `justd-icons ${props.className ? props.className : "size-4"}`,
-  "data-slot": "icon",
+  className: `justd-icons ${props.className || "size-4"}`,
+  "data-slot": props["data-slot"] || "icon",
   "aria-hidden": "true"
 }), /*#__PURE__*/React__namespace.createElement("path", {
   stroke: "currentColor",

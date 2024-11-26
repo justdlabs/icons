@@ -7,7 +7,7 @@ const SvgIconBrandAkamai = (props) => (
     fill="none"
     viewBox="0 0 24 25"
     {...props}
-   className={`justd-icons ${props.className ? props.className : "size-4"}`} data-slot="icon" aria-hidden="true">
+   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       fill="currentColor"
       d="M17.664 17.396h-1.89l1.732-3.465zm.157 1.575.158 1.417h2.205l-.788-8.031H16.09l-4.094 8.03H14.2l.63-1.416z"

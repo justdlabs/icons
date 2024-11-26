@@ -7,7 +7,7 @@ const SvgIconAltFill = (props) => (
     fill="none"
     viewBox="0 0 24 24"
     {...props}
-   className={`justd-icons ${props.className ? props.className : "size-4"}`} data-slot="icon" aria-hidden="true">
+   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path fill="currentColor" d="M8.082 12.589H6.667l.68-2.308h.034z" />
     <path
       fill="currentColor"

@@ -7,7 +7,7 @@ const SvgIconLayoutColumnHorizontalHalf = (props) => (
     fill="none"
     viewBox="0 0 24 25"
     {...props}
-   className={`justd-icons ${props.className ? props.className : "size-4"}`} data-slot="icon" aria-hidden="true">
+   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       stroke="currentColor"
       strokeLinecap="square"
