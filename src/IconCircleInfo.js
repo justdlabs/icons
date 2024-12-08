@@ -5,7 +5,7 @@ const SvgIconCircleInfo = (props) => (
     width={24}
     height={24}
     fill="none"
-    viewBox="0 0 24 24"
+    viewBox="0 0 24 25"
     {...props}
    className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
@@ -13,17 +13,7 @@ const SvgIconCircleInfo = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="M10.75 11H12v5.25M21.25 12a9.25 9.25 0 1 1-18.5 0 9.25 9.25 0 0 1 18.5 0"
-    />
-    <rect
-      width={1.25}
-      height={1.25}
-      x={11.375}
-      y={7.375}
-      fill="currentColor"
-      stroke="currentColor"
-      strokeWidth={0.25}
-      rx={0.625}
+      d="m11.25 12 .041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0M12 9h.008v.008H12z"
     />
   </svg>
 );

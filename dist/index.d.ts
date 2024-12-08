@@ -410,6 +410,8 @@ export declare const IconCircleDotsVertical: React.FC<React.SVGProps<SVGSVGEleme
 export declare const IconCircleDotsVerticalFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconCircleDownload: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconCircleDownloadFill: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconCircleExclamation: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconCircleExclamationFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconCircleHalf: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconCircleHalfFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconCircleInfo: React.FC<React.SVGProps<SVGSVGElement>>;
@@ -1115,8 +1117,8 @@ export declare const IconTrashEmptyFill: React.FC<React.SVGProps<SVGSVGElement>>
 export declare const IconTrashFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconTrashPaper: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconTrashPaperFill: React.FC<React.SVGProps<SVGSVGElement>>;
-export declare const IconTriangleInfo: React.FC<React.SVGProps<SVGSVGElement>>;
-export declare const IconTriangleInfoFill: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconTriangleExclamation: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconTriangleExclamationFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconTrophy: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconTrophyFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconTruck: React.FC<React.SVGProps<SVGSVGElement>>;
