@@ -1,5 +1,12 @@
 
 
+## [1.9.1](https://github.com/justdlabs/icons/compare/1.9.0...1.9.1) (2024-12-08)
+
+
+### Bug Fixes
+
+* rename 2 icon, add 2 icon ([8fa4215](https://github.com/justdlabs/icons/commit/8fa421537df6554f34a605d242dd72fd17cde070))
+
 ## [1.9.0](https://github.com/justdlabs/icons/compare/1.8.2...1.9.0) (2024-11-26)
 
 
