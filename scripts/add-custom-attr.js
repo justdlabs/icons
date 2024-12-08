@@ -8,7 +8,6 @@ fs.readdir(dir, (err, files) => {
     console.error("Error reading directory:", err);
     return;
   }
-
   files.forEach((file) => {
     const filePath = path.join(dir, file);
     if (file.endsWith(".js")) {
