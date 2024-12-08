@@ -1,3 +1,12 @@
+
+
+## [1.9.2](https://github.com/justdlabs/icons/compare/1.9.1...1.9.2) (2024-12-08)
+
+
+### Bug Fixes
+
+* republish ([b0461ad](https://github.com/justdlabs/icons/commit/b0461ada29c103feb830e407a36882454100d575))
+
 ## [1.9.1](https://github.com/justdlabs/icons/compare/1.9.0...1.9.1) (2024-12-08)
 
 ### Bug Fixes
