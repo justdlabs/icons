@@ -5,7 +5,7 @@ const SvgIconStore2 = (props) => (
     width={24}
     height={24}
     fill="none"
-    viewBox="0 0 24 24"
+    viewBox="0 0 24 25"
     {...props}
    className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
@@ -13,7 +13,21 @@ const SvgIconStore2 = (props) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="M21.25 7.752 18.467 4.14a1 1 0 0 0-.792-.39H6.325a1 1 0 0 0-.792.39L2.75 7.752m18.5 0v1a2.96 2.96 0 0 1-1.028 2.237m1.028-3.237H2.75m0 0v1a2.96 2.96 0 0 0 1.028 2.237m11.305-2.237c0 1.658 1.38 3.001 3.084 3.001.79 0 1.51-.289 2.055-.764m-5.139-2.237v-1m0 1c0 1.658-1.38 3.001-3.083 3.001s-3.083-1.343-3.083-3m0 0c0 1.657-1.38 3-3.084 3a3.12 3.12 0 0 1-2.055-.764m5.139-2.237v-1m5.139 12.498v-3.001c0-1.105-.92-2.001-2.056-2.001-1.135 0-2.056.896-2.056 2v3.002m-6.166-9.26v8.26a1 1 0 0 0 1 1h14.444a1 1 0 0 0 1-1v-8.26"
+      d="M3.75 10.75V20a1 1 0 0 0 1 1h14.5a1 1 0 0 0 1-1v-9.25"
+    />
+    <path
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={1.5}
+      d="M14.618 4.5H9.5l-.299 4.483a2.829 2.829 0 1 0 5.648.044zM9.5 4.5H4.626a1 1 0 0 0-.992.868l-.431 3.236A3.007 3.007 0 0 0 6.186 12a3.007 3.007 0 0 0 3-2.8z"
+    />
+    <path
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={1.5}
+      d="M19.306 4.5h-4.688l.238 4.681a2.97 2.97 0 1 0 5.907-.573l-.467-3.25a1 1 0 0 0-.99-.858"
     />
   </svg>
 );

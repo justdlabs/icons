@@ -5,14 +5,14 @@ const SvgIconCommandRegular = (props) => (
     width={24}
     height={24}
     fill="none"
-    viewBox="0 0 24 25"
+    viewBox="0 0 24 24"
     {...props}
    className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       stroke="currentColor"
       strokeLinecap="square"
       strokeWidth={1.5}
-      d="M9.25 10V7.25A2.75 2.75 0 1 0 6.5 10zm0 0h5.5m-5.5 0v5.5m5.5-5.5V7.25A2.75 2.75 0 1 1 17.5 10zm0 0v5.5m-5.5 0h5.5m-5.5 0v2.75A2.75 2.75 0 1 1 6.5 15.5zm5.5 0v2.75a2.75 2.75 0 1 0 2.75-2.75z"
+      d="M9.25 9.25V6.5A2.75 2.75 0 1 0 6.5 9.25zm0 0h5.5m-5.5 0v5.5m5.5-5.5V6.5a2.75 2.75 0 1 1 2.75 2.75zm0 0v5.5m-5.5 0h5.5m-5.5 0v2.75a2.75 2.75 0 1 1-2.75-2.75zm5.5 0v2.75a2.75 2.75 0 1 0 2.75-2.75z"
     />
   </svg>
 );
