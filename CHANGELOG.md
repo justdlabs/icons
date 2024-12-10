@@ -1,3 +1,12 @@
+
+
+## [1.10.0](https://github.com/justdlabs/icons/compare/1.9.2...1.10.0) (2024-12-10)
+
+
+### Features
+
+* some changes applied to existing icons ([ccbd3e6](https://github.com/justdlabs/icons/commit/ccbd3e63743e75d2d14c3df6994b94f07c9c414c))
+
 ## [1.9.2](https://github.com/justdlabs/icons/compare/1.9.1...1.9.2) (2024-12-08)
 
 ### Bug Fixes
