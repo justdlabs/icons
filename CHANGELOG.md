@@ -1,5 +1,13 @@
 
 
+## [1.10.2](https://github.com/justdlabs/icons/compare/1.10.1...1.10.2) (2024-12-16)
+
+
+### Bug Fixes
+
+* add viewbox ([58937f7](https://github.com/justdlabs/icons/commit/58937f736e99166d5a4cef267d94c9ffec9d30b2))
+* fix viewbox ([9e816e5](https://github.com/justdlabs/icons/commit/9e816e5de5f1a6bd60d0a92de0644ddf04e629b1))
+
 ## [1.10.1](https://github.com/justdlabs/icons/compare/1.10.0...1.10.1) (2024-12-16)
 
 ## [1.10.0](https://github.com/justdlabs/icons/compare/1.9.2...1.10.0) (2024-12-10)
