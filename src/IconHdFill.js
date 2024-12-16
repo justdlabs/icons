@@ -1,12 +1,6 @@
 import * as React from "react";
 const SvgIconHdFill = (props) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props} className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       fill="currentColor"
       d="M15.247 14.28h-1.04V9.67h1.04c1.299 0 2.031.81 2.031 2.285 0 1.524-.713 2.324-2.03 2.324Z"

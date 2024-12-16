@@ -1,12 +1,6 @@
 import * as React from "react";
 const SvgIconNotebookCoverFill = (props) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props} className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       fill="currentColor"
       d="M7 2.5H5.25A1.75 1.75 0 0 0 3.5 4.25v15.5c0 .966.784 1.75 1.75 1.75H7z"

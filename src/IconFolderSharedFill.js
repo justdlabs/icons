@@ -1,12 +1,6 @@
 import * as React from "react";
 const SvgIconFolderSharedFill = (props) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props} className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       fill="currentColor"
       d="M2 4.75C2 3.784 2.784 3 3.75 3h5.715a1.75 1.75 0 0 1 1.456.78l1.406 2.109a.25.25 0 0 0 .208.111h7.715c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 20.25 20h-7.889a2 2 0 0 0-.046-.265c-.447-1.906-1.681-3.589-3.392-4.505A4 4 0 1 0 2 12.5z"

@@ -1,12 +1,6 @@
 import * as React from "react";
 const SvgIconBitcoinFill = (props) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props} className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       fill="currentColor"
       d="M13.375 15a1.125 1.125 0 0 0 0-2.25H10.5V15zM10.5 11.25V9h2.875a1.125 1.125 0 0 1 0 2.25z"

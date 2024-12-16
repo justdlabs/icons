@@ -1,12 +1,6 @@
 import * as React from "react";
 const SvgIconBrandUbuntu = (props) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props} className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       fill="currentColor"
       d="M4.056 14.634c1.136 0 2.057-.861 2.057-1.924s-.92-1.924-2.057-1.924C2.921 10.786 2 11.647 2 12.71s.92 1.924 2.056 1.924m14.388 8.032c1.136 0 2.056-.86 2.056-1.924 0-1.062-.92-1.924-2.056-1.924s-2.057.862-2.057 1.924c0 1.063.921 1.924 2.057 1.924M13.648 7.908c2.498 0 4.571 1.794 4.914 4.12H22a7.92 7.92 0 0 0-2.25-4.875 2.96 2.96 0 0 1-2.747-.068 2.77 2.77 0 0 1-1.434-2.27 8.72 8.72 0 0 0-5.49.555L11.8 8.253a5.1 5.1 0 0 1 1.848-.345"

@@ -1,12 +1,6 @@
 import * as React from "react";
 const SvgIconBatteryLoadingFill = (props) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props} className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       fill="currentColor"
       d="M2.75 5h9.063L6.9 11.55a.75.75 0 0 0 .6 1.2H12L7.312 19H2.75A1.75 1.75 0 0 1 1 17.25V6.75C1 5.784 1.784 5 2.75 5"

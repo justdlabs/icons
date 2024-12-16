@@ -1,12 +1,6 @@
 import * as React from "react";
 const SvgIconStoreFill = (props) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props} className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       fill="currentColor"
       d="M4.696 3.75A1.75 1.75 0 0 0 3.02 5.002l-.9 3.034-.001.001c-.55 1.828.89 3.713 2.989 3.713.944 0 1.8-.366 2.373-.97.543.59 1.348.97 2.26.97.913 0 1.716-.378 2.26-.969.544.59 1.347.969 2.26.969a3.06 3.06 0 0 0 2.26-.97c.574.605 1.43.97 2.373.97 2.1 0 3.539-1.885 2.99-3.713l-.001-.001-.9-3.034a1.75 1.75 0 0 0-1.678-1.252zM3 12.76c.63.313 1.346.49 2.107.49.695 0 1.371-.141 1.984-.409a.92.92 0 0 1 .746.005 4.6 4.6 0 0 0 1.904.404 4.6 4.6 0 0 0 1.884-.396.93.93 0 0 1 .75 0 4.6 4.6 0 0 0 1.884.396c.68 0 1.325-.144 1.904-.404a.92.92 0 0 1 .746-.005c.613.268 1.29.409 1.984.409.761 0 1.477-.177 2.107-.49V20a1.75 1.75 0 0 1-1.75 1.75H4.75A1.75 1.75 0 0 1 3 20z"

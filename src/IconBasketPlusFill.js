@@ -1,12 +1,6 @@
 import * as React from "react";
 const SvgIconBasketPlusFill = (props) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props} className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       fill="currentColor"
       d="m21.073 13.594.717-4.134h-.01C21.91 8.7 21.33 8 20.55 8h-2.4l-1.81-4.53a.745.745 0 0 0-.97-.42c-.39.15-.57.59-.42.97l1.59 3.97H7.26l1.59-3.97a.753.753 0 0 0-.42-.97.753.753 0 0 0-.97.42L5.65 8h-2.4c-.77 0-1.36.7-1.23 1.46l1.76 10.09c.14.84.87 1.45 1.72 1.45h6.303a6 6 0 0 1 9.27-7.406"

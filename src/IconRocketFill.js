@@ -1,12 +1,6 @@
 import * as React from "react";
 const SvgIconRocketFill = (props) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props} className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       fill="currentColor"
       d="M4.56 21.85c.14.14.33.21.52.21.2 0 .39-.08.54-.23l1.67-1.71c.29-.3.29-.77-.01-1.06a.755.755 0 0 0-1.06.02l-1.67 1.71c-.29.3-.29.77.01 1.06m7.186.21h.004-.01z"

@@ -1,12 +1,6 @@
 import * as React from "react";
 const SvgIconVideoCamOffFill = (props) => (
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width={24}
-    height={24}
-    fill="none"
-    {...props}
-   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props} className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       fill="currentColor"
       d="M2.59 2.537a.75.75 0 1 0-1.18.926l.955 1.218A1.74 1.74 0 0 0 2 5.75v12.5c0 .966.784 1.75 1.75 1.75h10.5q.06 0 .118-.004l1.542 1.967a.75.75 0 0 0 1.18-.926z"
