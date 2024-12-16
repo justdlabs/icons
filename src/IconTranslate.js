@@ -5,7 +5,6 @@ const SvgIconTranslate = (props) => (
     width={24}
     height={24}
     fill="none"
-    viewBox="0 0 24 25"
     {...props}
    className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path

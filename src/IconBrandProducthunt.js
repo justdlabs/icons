@@ -5,7 +5,6 @@ const SvgIconBrandProducthunt = (props) => (
     width={24}
     height={24}
     fill="none"
-    viewBox="0 0 24 24"
     {...props}
    className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path fill="currentColor" d="M10.5 12h2.833a1.5 1.5 0 0 0 0-3H10.5z" />

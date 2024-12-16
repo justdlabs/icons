@@ -5,7 +5,6 @@ const SvgIconPieChart2Fill = (props) => (
     width={24}
     height={24}
     fill="none"
-    viewBox="0 0 24 25"
     {...props}
    className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path fill="currentColor" d="M14 2.75a8 8 0 0 1 8 8h-8z" />

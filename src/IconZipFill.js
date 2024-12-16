@@ -5,7 +5,6 @@ const SvgIconZipFill = (props) => (
     width={24}
     height={24}
     fill="none"
-    viewBox="0 0 24 24"
     {...props}
    className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path fill="currentColor" d="M10.5 16v-1.5h3V16a1.5 1.5 0 0 1-3 0" />

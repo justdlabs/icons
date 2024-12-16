@@ -8,17 +8,23 @@
   "module": "dist/esm/index.js",
   "unpkg": "dist/umd/index.js",
   "types": "dist/index.d.ts",
+  "sideEffects": false,
   "scripts": {
     "prepare": "npx husky",
     "format": "npx prettier --write .",
     "prebuild": "rimraf src && rimraf dist",
-    "build": "npm run svgr && node scripts/add-custom-attr.js && node scripts/generate-declarations.js && rollup -c",
-    "svgr": "svgr --icon --replace-attr-values '#000=none'  --replace-attr-values '1em={24}' -d src -- ../justd-svg",
+    "optimize-svg": "npx svgo -f ../justd-svg -o ../optimized-svg",
+    "build": "npm run optimize-svg && npm run svgr && node scripts/add-custom-attr.js && node scripts/generate-declarations.js && rollup -c",
+    "svgr": "svgr --icon --replace-attr-values '#000=none' --replace-attr-values '1em={24}' -d src -- ../optimized-svg",
+    "analyze": "rollup -c --bundleConfigAsCjs && npx rollup-plugin-visualizer",
     "pr": "npm run build && git commit -a",
     "release": "export GITHUB_TOKEN=$(cat .github_token) && release-it"
   },
   "files": [
-    "dist"
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json"
   ],
   "keywords": [
     "icon",
@@ -101,6 +107,8 @@
     "react-dom": "^17.0 || ^18.0 || ^19.0 || 19.0.0-rc-66855b96-20241106"
   },
   "dependencies": {
-    "@babel/runtime": "^7.26.0"
+    "@babel/runtime": "^7.26.0",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4"
   }
 }
