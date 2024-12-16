@@ -1,6 +1,11 @@
 import * as React from "react";
 const SvgIconHandTouchFill = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props} className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 25"
+    {...props}
+   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       fill="currentColor"
       d="M13.25 9v2.75h3.288A3.46 3.46 0 0 1 20 15.211v1.77a5.77 5.77 0 0 1-5.77 5.769h-1.064a4.62 4.62 0 0 1-3.865-2.094L6.21 15.92a.75.75 0 0 1-.07-.684l.133-.34a2.31 2.31 0 0 1 3.116-1.254l.36.166V9a1.75 1.75 0 1 1 3.5 0Z"

@@ -1,6 +1,11 @@
 import * as React from "react";
 const SvgIconBrandGoogle = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props} className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 25"
+    {...props}
+   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       fill="currentColor"
       d="M21.582 12.977q-.002-1.063-.182-2.045h-9.418v3.873h5.382a4.6 4.6 0 0 1-2.01 3.009v2.518H18.6c1.891-1.746 2.982-4.31 2.982-7.355"

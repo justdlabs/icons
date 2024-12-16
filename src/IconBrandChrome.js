@@ -1,10 +1,15 @@
 import * as React from "react";
 const SvgIconBrandChrome = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" {...props} className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 25"
+    {...props}
+   className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
       fill="currentColor"
       fillRule="evenodd"
-      d="M4.415 6.234C9.063.824 17.683 1.892 20.905 8.21h-7.744c-1.395 0-2.296-.031-3.272.483a4.6 4.6 0 0 0-2.314 3.037z"
+      d="M4.415 6.234C9.063.824 17.683 1.892 20.905 8.21h-7.744c-1.395 0-2.296-.031-3.272.483a4.61 4.61 0 0 0-2.314 3.037z"
       clipRule="evenodd"
     />
     <path
