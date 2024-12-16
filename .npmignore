@@ -1,0 +1,17 @@
+/node_modules
+/src
+/tests
+/.vscode
+/.env
+/.env.local
+/.DS_Store
+/.github_token
+/.git
+/.idea
+/.gitignore
+/*.log
+/tsconfig.json
+/rollup.config.js
+/prettier.config.js
+/husky
+/jest.config.js
