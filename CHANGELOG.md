@@ -1,5 +1,13 @@
 
 
+## [1.10.4](https://github.com/justdlabs/icons/compare/1.10.2...1.10.4) (2024-12-16)
+
+
+### Bug Fixes
+
+* fix ([53f6f22](https://github.com/justdlabs/icons/commit/53f6f2255642b49dd1e48a9670acf02d5d20a6d9))
+* ignore ([bbb9d62](https://github.com/justdlabs/icons/commit/bbb9d62ed2c5ae1d6f39cb685ddd7416e346af8f))
+
 ## [1.10.3](https://github.com/justdlabs/icons/compare/1.10.2...1.10.3) (2024-12-16)
 
 
