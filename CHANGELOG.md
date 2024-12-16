@@ -1,3 +1,7 @@
+
+
+## [1.10.1](https://github.com/justdlabs/icons/compare/1.10.0...1.10.1) (2024-12-16)
+
 ## [1.10.0](https://github.com/justdlabs/icons/compare/1.9.2...1.10.0) (2024-12-10)
 
 ### Features
