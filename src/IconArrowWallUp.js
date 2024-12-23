@@ -5,7 +5,7 @@ const SvgIconArrowWallUp = (props) => (
     width="16"
     height="16"
     fill="none"
-    viewBox="0 0 24 24"
+    viewBox="0 0 16 16"
     {...props}
    className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
