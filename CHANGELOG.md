@@ -1,5 +1,12 @@
 
 
+## [1.10.6](https://github.com/justdlabs/icons/compare/1.10.5...1.10.6) (2024-12-23)
+
+
+### Bug Fixes
+
+* make aspect ratio to match justd components ([749750e](https://github.com/justdlabs/icons/commit/749750eccf44a2d74805db067974ecd7b2c956b2))
+
 ## [1.10.5](https://github.com/justdlabs/icons/compare/1.10.4...1.10.5) (2024-12-23)
 
 
