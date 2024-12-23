@@ -1,5 +1,7 @@
 
 
+* fix: fff (2a5a8a0)
+
 ## [1.10.7](https://github.com/justdlabs/icons/compare/1.10.6...1.10.7) (2024-12-23)
 
 
