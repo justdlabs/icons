@@ -1,6 +1,6 @@
 {
   "name": "justd-icons",
-  "version": "1.10.7",
+  "version": "1.10.6",
   "description": "A library of beautifully crafted react icons, perfect for enhancing the visual appeal and user experience of your web applications.",
   "author": "Irsyad A. Panjaitan",
   "license": "MIT",
@@ -15,8 +15,7 @@
     "prebuild": "rimraf src && rimraf dist",
     "optimize-svg": "npx svgo -f ../justd-svg -o ../optimized-svg",
     "build": "npm run optimize-svg && npm run svgr && node scripts/add-custom-attr.js && node scripts/generate-declarations.js && rollup -c",
-    "scale:16": "find ../optimized-svg -type f -name \"*.svg\" -exec sed -i '' 's/viewBox=\"0 0 24 24\"/viewBox=\"0 0 16 16\"/g' {} +",
-    "svgr": "npm run scale:16 && svgr --icon --replace-attr-values '#000=none' --replace-attr-values '1em=16' --replace-attr-values '24=16' -d src -- ../optimized-svg",
+    "svgr": "svgr --icon --replace-attr-values '#000=none' --replace-attr-values 1em=16 -d src -- ../optimized-svg",
     "analyze": "rollup -c --bundleConfigAsCjs && npx rollup-plugin-visualizer",
     "pr": "npm run build && git commit -a",
     "release": "export GITHUB_TOKEN=$(cat .github_token) && release-it"
