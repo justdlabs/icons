@@ -1,5 +1,12 @@
 
 
+## [1.10.5](https://github.com/justdlabs/icons/compare/1.10.4...1.10.5) (2024-12-23)
+
+
+### Bug Fixes
+
+* refactor ([f7c8fc2](https://github.com/justdlabs/icons/commit/f7c8fc25ea67184562cd2f90c10f15c0f575b122))
+
 ## [1.10.4](https://github.com/justdlabs/icons/compare/1.10.2...1.10.4) (2024-12-16)
 
 
