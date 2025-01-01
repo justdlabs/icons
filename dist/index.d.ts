@@ -200,6 +200,7 @@ export declare const IconBrandBootstrap: React.FC<React.SVGProps<SVGSVGElement>>
 export declare const IconBrandBun: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandCash: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandChrome: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconBrandClerk: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandCodepen: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandCopilot: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandCss: React.FC<React.SVGProps<SVGSVGElement>>;

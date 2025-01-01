@@ -18,6 +18,7 @@
     "svgr": "svgr --icon --replace-attr-values '#000=none' --replace-attr-values 1em=16 -d src -- ../optimized-svg",
     "analyze": "rollup -c --bundleConfigAsCjs && npx rollup-plugin-visualizer",
     "pr": "npm run build && git commit -a",
+    "test": "npm run build && npm link",
     "release": "export GITHUB_TOKEN=$(cat .github_token) && release-it"
   },
   "files": [

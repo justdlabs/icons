@@ -199,6 +199,7 @@ export { default as IconBrandBootstrap } from "./IconBrandBootstrap";
 export { default as IconBrandBun } from "./IconBrandBun";
 export { default as IconBrandCash } from "./IconBrandCash";
 export { default as IconBrandChrome } from "./IconBrandChrome";
+export { default as IconBrandClerk } from "./IconBrandClerk";
 export { default as IconBrandCodepen } from "./IconBrandCodepen";
 export { default as IconBrandCopilot } from "./IconBrandCopilot";
 export { default as IconBrandCss } from "./IconBrandCss";
