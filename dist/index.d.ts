@@ -588,6 +588,8 @@ export declare const IconFilterDescFill: React.FC<React.SVGProps<SVGSVGElement>>
 export declare const IconFilterFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconFinder: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconFinderFill: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconFingerPrint: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconFingerPrintFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconFlash: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconFlashFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconFlashOff: React.FC<React.SVGProps<SVGSVGElement>>;

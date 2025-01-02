@@ -587,6 +587,8 @@ export { default as IconFilterFill } from "./IconFilterFill";
 export { default as IconFilter } from "./IconFilter";
 export { default as IconFinderFill } from "./IconFinderFill";
 export { default as IconFinder } from "./IconFinder";
+export { default as IconFingerPrintFill } from "./IconFingerPrintFill";
+export { default as IconFingerPrint } from "./IconFingerPrint";
 export { default as IconFlashFill } from "./IconFlashFill";
 export { default as IconFlashOffFill } from "./IconFlashOffFill";
 export { default as IconFlashOff } from "./IconFlashOff";
