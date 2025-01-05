@@ -1,5 +1,12 @@
 
 
+## [1.10.11](https://github.com/justdlabs/icons/compare/1.10.10...1.10.11) (2025-01-05)
+
+
+### Bug Fixes
+
+* update figma brand ([e002ebc](https://github.com/justdlabs/icons/commit/e002ebcee94d5748d1a05b96fde489d159b8fbb1))
+
 ## [1.10.10](https://github.com/justdlabs/icons/compare/1.10.9...1.10.10) (2025-01-02)
 
 ## [1.10.9](https://github.com/justdlabs/icons/compare/1.10.8...1.10.9) (2025-01-01)
