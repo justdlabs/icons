@@ -1,3 +1,12 @@
+
+
+## [1.10.14](https://github.com/justdlabs/icons/compare/1.10.13...1.10.14) (2025-01-08)
+
+
+### Bug Fixes
+
+* fix tablet icon [#2](https://github.com/justdlabs/icons/issues/2) ([c5a2b8e](https://github.com/justdlabs/icons/commit/c5a2b8e1d2e3c557466471f9738185ecf331d693))
+
 ## [1.10.13](https://github.com/justdlabs/icons/compare/1.10.12...1.10.13) (2025-01-08)
 
 ### Bug Fixes
