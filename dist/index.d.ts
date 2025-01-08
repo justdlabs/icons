@@ -523,6 +523,7 @@ export declare const IconDevicePhoneFill: React.FC<React.SVGProps<SVGSVGElement>
 export declare const IconDevicePhoneLandscape: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconDevicePhoneLandscapeFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconDeviceTablet: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconDeviceTabletFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconDeviceTabletFlll: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconDeviceTabletLandscape: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconDeviceTabletLandscapeFill: React.FC<React.SVGProps<SVGSVGElement>>;

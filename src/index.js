@@ -521,6 +521,7 @@ export { default as IconDevicePhoneFill } from "./IconDevicePhoneFill";
 export { default as IconDevicePhoneLandscapeFill } from "./IconDevicePhoneLandscapeFill";
 export { default as IconDevicePhoneLandscape } from "./IconDevicePhoneLandscape";
 export { default as IconDevicePhone } from "./IconDevicePhone";
+export { default as IconDeviceTabletFill } from "./IconDeviceTabletFill";
 export { default as IconDeviceTabletFlll } from "./IconDeviceTabletFlll";
 export { default as IconDeviceTabletLandscapeFill } from "./IconDeviceTabletLandscapeFill";
 export { default as IconDeviceTabletLandscape } from "./IconDeviceTabletLandscape";
