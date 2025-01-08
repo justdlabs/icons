@@ -5,15 +5,16 @@ const SvgIconDevicePhone = (props) => (
     width="16"
     height="16"
     fill="none"
-    viewBox="0 0 24 24"
+    viewBox="0 0 25 24"
     {...props}
    className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
     <path
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      strokeWidth={1.5}
-      d="M9.75 19.25h4.5m-7.5 3h10.5a1 1 0 0 0 1-1V2.75a1 1 0 0 0-1-1H6.75a1 1 0 0 0-1 1v18.5a1 1 0 0 0 1 1"
+      fill="currentColor"
+      d="M16.25 3.25A1.25 1.25 0 0 1 17.5 4.5v15a1.25 1.25 0 0 1-1.25 1.25h-7.5A1.25 1.25 0 0 1 7.5 19.5v-15a1.25 1.25 0 0 1 1.25-1.25zM8.75 2a2.5 2.5 0 0 0-2.5 2.5v15a2.5 2.5 0 0 0 2.5 2.5h7.5a2.5 2.5 0 0 0 2.5-2.5v-15a2.5 2.5 0 0 0-2.5-2.5z"
+    />
+    <path
+      fill="currentColor"
+      d="M12.5 19.5a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5"
     />
   </svg>
 );
