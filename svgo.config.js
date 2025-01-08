@@ -1,13 +1,10 @@
 module.exports = {
   plugins: [
     {
-      name: 'addAttributesToSVGElement',
+      name: "addAttributesToSVGElement",
       params: {
-        attributes: [
-          { viewBox: '0 0 24 24' }
-        ]
-      }
-    }
-  ]
+        attributes: [{ viewBox: "0 0 24 24" }],
+      },
+    },
+  ],
 };
-

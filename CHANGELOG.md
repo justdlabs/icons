@@ -1,20 +1,16 @@
-
-
 ## [1.10.13](https://github.com/justdlabs/icons/compare/1.10.12...1.10.13) (2025-01-08)
-
 
 ### Bug Fixes
 
-* fix tablet icon ([ead15f3](https://github.com/justdlabs/icons/commit/ead15f302d0697d634842ef58d9b163f40751b5c))
+- fix tablet icon ([ead15f3](https://github.com/justdlabs/icons/commit/ead15f302d0697d634842ef58d9b163f40751b5c))
 
 ## [1.10.12](https://github.com/justdlabs/icons/compare/1.10.11...1.10.12) (2025-01-08)
 
 ## [1.10.11](https://github.com/justdlabs/icons/compare/1.10.10...1.10.11) (2025-01-05)
 
-
 ### Bug Fixes
 
-* update figma brand ([e002ebc](https://github.com/justdlabs/icons/commit/e002ebcee94d5748d1a05b96fde489d159b8fbb1))
+- update figma brand ([e002ebc](https://github.com/justdlabs/icons/commit/e002ebcee94d5748d1a05b96fde489d159b8fbb1))
 
 ## [1.10.10](https://github.com/justdlabs/icons/compare/1.10.9...1.10.10) (2025-01-02)
 
@@ -22,56 +18,49 @@
 
 ## [1.10.8](https://github.com/justdlabs/icons/compare/1.10.7...1.10.8) (2024-12-23)
 
-
 ### Bug Fixes
 
-* fff ([2a5a8a0](https://github.com/justdlabs/icons/commit/2a5a8a0e6d397b03283419d1a074434e24f8c62f))
+- fff ([2a5a8a0](https://github.com/justdlabs/icons/commit/2a5a8a0e6d397b03283419d1a074434e24f8c62f))
 
-* fix: fff (2a5a8a0)
+- fix: fff (2a5a8a0)
 
 ## [1.10.7](https://github.com/justdlabs/icons/compare/1.10.6...1.10.7) (2024-12-23)
 
-
 ### Bug Fixes
 
-* fix viewbox ([e26dcea](https://github.com/justdlabs/icons/commit/e26dcea876a9e39e6603c1b4f583109cd7cb6092))
+- fix viewbox ([e26dcea](https://github.com/justdlabs/icons/commit/e26dcea876a9e39e6603c1b4f583109cd7cb6092))
 
 ## [1.10.6](https://github.com/justdlabs/icons/compare/1.10.5...1.10.6) (2024-12-23)
 
-
 ### Bug Fixes
 
-* make aspect ratio to match justd components ([749750e](https://github.com/justdlabs/icons/commit/749750eccf44a2d74805db067974ecd7b2c956b2))
+- make aspect ratio to match justd components ([749750e](https://github.com/justdlabs/icons/commit/749750eccf44a2d74805db067974ecd7b2c956b2))
 
 ## [1.10.5](https://github.com/justdlabs/icons/compare/1.10.4...1.10.5) (2024-12-23)
 
-
 ### Bug Fixes
 
-* refactor ([f7c8fc2](https://github.com/justdlabs/icons/commit/f7c8fc25ea67184562cd2f90c10f15c0f575b122))
+- refactor ([f7c8fc2](https://github.com/justdlabs/icons/commit/f7c8fc25ea67184562cd2f90c10f15c0f575b122))
 
 ## [1.10.4](https://github.com/justdlabs/icons/compare/1.10.2...1.10.4) (2024-12-16)
 
-
 ### Bug Fixes
 
-* fix ([53f6f22](https://github.com/justdlabs/icons/commit/53f6f2255642b49dd1e48a9670acf02d5d20a6d9))
-* ignore ([bbb9d62](https://github.com/justdlabs/icons/commit/bbb9d62ed2c5ae1d6f39cb685ddd7416e346af8f))
+- fix ([53f6f22](https://github.com/justdlabs/icons/commit/53f6f2255642b49dd1e48a9670acf02d5d20a6d9))
+- ignore ([bbb9d62](https://github.com/justdlabs/icons/commit/bbb9d62ed2c5ae1d6f39cb685ddd7416e346af8f))
 
 ## [1.10.3](https://github.com/justdlabs/icons/compare/1.10.2...1.10.3) (2024-12-16)
 
-
 ### Bug Fixes
 
-* ignore ([bbb9d62](https://github.com/justdlabs/icons/commit/bbb9d62ed2c5ae1d6f39cb685ddd7416e346af8f))
+- ignore ([bbb9d62](https://github.com/justdlabs/icons/commit/bbb9d62ed2c5ae1d6f39cb685ddd7416e346af8f))
 
 ## [1.10.2](https://github.com/justdlabs/icons/compare/1.10.1...1.10.2) (2024-12-16)
 
-
 ### Bug Fixes
 
-* add viewbox ([58937f7](https://github.com/justdlabs/icons/commit/58937f736e99166d5a4cef267d94c9ffec9d30b2))
-* fix viewbox ([9e816e5](https://github.com/justdlabs/icons/commit/9e816e5de5f1a6bd60d0a92de0644ddf04e629b1))
+- add viewbox ([58937f7](https://github.com/justdlabs/icons/commit/58937f736e99166d5a4cef267d94c9ffec9d30b2))
+- fix viewbox ([9e816e5](https://github.com/justdlabs/icons/commit/9e816e5de5f1a6bd60d0a92de0644ddf04e629b1))
 
 ## [1.10.1](https://github.com/justdlabs/icons/compare/1.10.0...1.10.1) (2024-12-16)
 

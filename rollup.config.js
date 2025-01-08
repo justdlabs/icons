@@ -10,25 +10,25 @@ const config = {
     resolve(),
     babel({
       babelHelpers: "runtime",
-      plugins: ["@babel/plugin-transform-runtime"]
+      plugins: ["@babel/plugin-transform-runtime"],
     }),
-    filesize()
+    filesize(),
   ],
   output: [
     {
       file: "dist/esm/index.js",
       format: "esm",
-      plugins: [terser()]
+      plugins: [terser()],
     },
     {
       file: "dist/cjs/index.js",
       format: "cjs",
-      plugins: [terser()]
+      plugins: [terser()],
     },
     {
       file: "dist/es/index.js",
       format: "es",
-      plugins: [terser()]
+      plugins: [terser()],
     },
     {
       file: "dist/umd/index.js",
@@ -37,10 +37,10 @@ const config = {
       name: "JustdIcons",
       globals: {
         react: "React",
-        "@babel/runtime/helpers/extends": "_extends" // Provide a global variable name
-      }
-    }
-  ]
+        "@babel/runtime/helpers/extends": "_extends", // Provide a global variable name
+      },
+    },
+  ],
 };
 
 module.exports = config;
