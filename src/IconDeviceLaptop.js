@@ -11,12 +11,12 @@ const SvgIconDeviceLaptop = (props) => (
     <g clipPath="url(#icon-device-laptop_svg__a)">
       <path
         fill="currentColor"
-        d="M18 7a.5.5 0 0 1 .5.5V15h-12V7.5A.5.5 0 0 1 7 7zM7 6a1.5 1.5 0 0 0-1.5 1.5V16h14V7.5A1.5 1.5 0 0 0 18 6zM4.5 16.5h16A1.5 1.5 0 0 1 19 18H6a1.5 1.5 0 0 1-1.5-1.5"
+        d="M19.375 5.75a.625.625 0 0 1 .625.625v9.375H5V6.375a.625.625 0 0 1 .625-.625zM5.625 4.5A1.875 1.875 0 0 0 3.75 6.375V17h17.5V6.375A1.875 1.875 0 0 0 19.375 4.5zM2.5 17.625h20a1.875 1.875 0 0 1-1.875 1.875H4.375A1.875 1.875 0 0 1 2.5 17.625"
       />
     </g>
     <defs>
       <clipPath id="icon-device-laptop_svg__a">
-        <path fill="#fff" d="M4.5 4h16v16h-16z" />
+        <path fill="#fff" d="M2.5 2h20v20h-20z" />
       </clipPath>
     </defs>
   </svg>

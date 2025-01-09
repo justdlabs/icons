@@ -11,12 +11,12 @@ const SvgIconDeviceTabletLandscapeFill = (props) => (
     <g clipPath="url(#icon-device-tablet-landscape-fill_svg__a)">
       <path
         fill="currentColor"
-        d="M6.5 18a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2zm11-7a1 1 0 1 0 0 2 1 1 0 0 0 0-2"
+        d="M5 19.5A2.5 2.5 0 0 1 2.5 17V7A2.5 2.5 0 0 1 5 4.5h15A2.5 2.5 0 0 1 22.5 7v10a2.5 2.5 0 0 1-2.5 2.5zm13.75-8.75a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5"
       />
     </g>
     <defs>
       <clipPath id="icon-device-tablet-landscape-fill_svg__a">
-        <path fill="#fff" d="M4.5 4h16v16h-16z" />
+        <path fill="#fff" d="M2.5 2h20v20h-20z" />
       </clipPath>
     </defs>
   </svg>
