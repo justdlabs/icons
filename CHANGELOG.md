@@ -1,5 +1,12 @@
 
 
+## [1.10.15](https://github.com/justdlabs/icons/compare/1.10.14...1.10.15) (2025-01-09)
+
+
+### Bug Fixes
+
+* fix device icon ([81419d1](https://github.com/justdlabs/icons/commit/81419d10a7d156d455cb35285a634cece306a339))
+
 ## [1.10.14](https://github.com/justdlabs/icons/compare/1.10.13...1.10.14) (2025-01-08)
 
 
