@@ -1,5 +1,12 @@
 
 
+## [1.10.17](https://github.com/justdlabs/icons/compare/1.10.16...1.10.17) (2025-01-09)
+
+
+### Bug Fixes
+
+* triangle icon ([2d6f94a](https://github.com/justdlabs/icons/commit/2d6f94a80933425d59236ead071464e23de48016))
+
 ## [1.10.16](https://github.com/justdlabs/icons/compare/1.10.15...1.10.16) (2025-01-09)
 
 
