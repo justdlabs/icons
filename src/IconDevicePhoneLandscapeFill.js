@@ -5,20 +5,15 @@ const SvgIconDevicePhoneLandscapeFill = (props) => (
     width="16"
     height="16"
     fill="none"
-    viewBox="0 0 25 24"
+    viewBox="0 0 25 25"
     {...props}
    className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
-    <g clipPath="url(#icon-device-phone-landscape-fill_svg__a)">
-      <path
-        fill="currentColor"
-        d="M5 17.625a2.5 2.5 0 0 1-2.5-2.5v-7.5a2.5 2.5 0 0 1 2.5-2.5h15a2.5 2.5 0 0 1 2.5 2.5v7.5a2.5 2.5 0 0 1-2.5 2.5zm13.75-7.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5"
-      />
-    </g>
-    <defs>
-      <clipPath id="icon-device-phone-landscape-fill_svg__a">
-        <path fill="#fff" d="M2.5 2h20v20h-20z" />
-      </clipPath>
-    </defs>
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M4.25 19.5a2.75 2.75 0 0 1-2.75-2.75v-8.5A2.75 2.75 0 0 1 4.25 5.5h16.5a2.75 2.75 0 0 1 2.75 2.75v8.5a2.75 2.75 0 0 1-2.75 2.75zM19 14.75a.75.75 0 0 0 1.5 0v-4.5a.75.75 0 0 0-1.5 0z"
+      clipRule="evenodd"
+    />
   </svg>
 );
 export default SvgIconDevicePhoneLandscapeFill;
