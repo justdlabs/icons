@@ -1,5 +1,12 @@
 
 
+## [1.10.18](https://github.com/justdlabs/icons/compare/1.10.17...1.10.18) (2025-01-09)
+
+
+### Bug Fixes
+
+* layout align bottom ([d5b7d54](https://github.com/justdlabs/icons/commit/d5b7d5444a8a8535ca5c0ac41bee588379be2cb7))
+
 ## [1.10.17](https://github.com/justdlabs/icons/compare/1.10.16...1.10.17) (2025-01-09)
 
 
