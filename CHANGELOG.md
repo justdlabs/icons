@@ -1,5 +1,12 @@
 
 
+## [1.10.16](https://github.com/justdlabs/icons/compare/1.10.15...1.10.16) (2025-01-09)
+
+
+### Bug Fixes
+
+* icon phone ([fff75fe](https://github.com/justdlabs/icons/commit/fff75fe6b86080bb814203be46ec8340c57c6530))
+
 ## [1.10.15](https://github.com/justdlabs/icons/compare/1.10.14...1.10.15) (2025-01-09)
 
 
