@@ -358,6 +358,7 @@ export declare const IconChartPresentation2: React.FC<React.SVGProps<SVGSVGEleme
 export declare const IconChartPresentation2Fill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconChartPresentationFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconChartTrending: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconChartTrendingDown: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconCheck: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconChecklist: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconChevronDoubleDown: React.FC<React.SVGProps<SVGSVGElement>>;

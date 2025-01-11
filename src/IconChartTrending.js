@@ -5,16 +5,24 @@ const SvgIconChartTrending = (props) => (
     width="16"
     height="16"
     fill="none"
-    viewBox="0 0 24 25"
+    viewBox="0 0 25 24"
     {...props}
    className={`justd-icons ${props.className || "size-4"}`} data-slot={props["data-slot"] || "icon"} aria-hidden="true">
-    <path
+    <g
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={1.5}
-      d="M15.75 7.5h5.5V13m-.514-4.975L13 15.75l-4-4L2.75 18"
-    />
+      clipPath="url(#icon-chart-trending_svg__a)"
+    >
+      <path d="m3.5 17 6-6 4 4 8-8" />
+      <path d="M14.5 7h7v7" />
+    </g>
+    <defs>
+      <clipPath id="icon-chart-trending_svg__a">
+        <path fill="#fff" d="M.5 0h24v24H.5z" />
+      </clipPath>
+    </defs>
   </svg>
 );
 export default SvgIconChartTrending;

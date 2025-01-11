@@ -356,6 +356,7 @@ export { default as IconChartPresentation2Fill } from "./IconChartPresentation2F
 export { default as IconChartPresentation2 } from "./IconChartPresentation2";
 export { default as IconChartPresentationFill } from "./IconChartPresentationFill";
 export { default as IconChartPresentation } from "./IconChartPresentation";
+export { default as IconChartTrendingDown } from "./IconChartTrendingDown";
 export { default as IconChartTrending } from "./IconChartTrending";
 export { default as IconCheck } from "./IconCheck";
 export { default as IconChecklist } from "./IconChecklist";
