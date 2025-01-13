@@ -878,6 +878,7 @@ export declare const IconPaperFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconPaperclip: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconPaperclip2: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconPaperclip3: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconPaperclip45: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconPause: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconPauseFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconPencilBox: React.FC<React.SVGProps<SVGSVGElement>>;

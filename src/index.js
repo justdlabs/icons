@@ -876,6 +876,7 @@ export { default as IconPaperFill } from "./IconPaperFill";
 export { default as IconPaper } from "./IconPaper";
 export { default as IconPaperclip2 } from "./IconPaperclip2";
 export { default as IconPaperclip3 } from "./IconPaperclip3";
+export { default as IconPaperclip45 } from "./IconPaperclip45";
 export { default as IconPaperclip } from "./IconPaperclip";
 export { default as IconPauseFill } from "./IconPauseFill";
 export { default as IconPause } from "./IconPause";
