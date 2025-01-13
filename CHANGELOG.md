@@ -1,5 +1,7 @@
 
 
+## [1.10.20](https://github.com/justdlabs/icons/compare/1.10.19...1.10.20) (2025-01-13)
+
 ## [1.10.19](https://github.com/justdlabs/icons/compare/1.10.18...1.10.19) (2025-01-11)
 
 ## [1.10.18](https://github.com/justdlabs/icons/compare/1.10.17...1.10.18) (2025-01-09)
