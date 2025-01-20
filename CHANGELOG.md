@@ -1,3 +1,12 @@
+
+
+## [1.10.21](https://github.com/justdlabs/icons/compare/1.10.20...1.10.21) (2025-01-20)
+
+
+### Bug Fixes
+
+* icon paperclip45 ([eb066c2](https://github.com/justdlabs/icons/commit/eb066c2bd7bd8d2723d2d5a6aa4befd15af8f734))
+
 ## [1.10.20](https://github.com/justdlabs/icons/compare/1.10.19...1.10.20) (2025-01-13)
 
 ## [1.10.19](https://github.com/justdlabs/icons/compare/1.10.18...1.10.19) (2025-01-11)
