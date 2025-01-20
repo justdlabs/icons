@@ -1,43 +1,36 @@
-
-
 ## [1.10.20](https://github.com/justdlabs/icons/compare/1.10.19...1.10.20) (2025-01-13)
 
 ## [1.10.19](https://github.com/justdlabs/icons/compare/1.10.18...1.10.19) (2025-01-11)
 
 ## [1.10.18](https://github.com/justdlabs/icons/compare/1.10.17...1.10.18) (2025-01-09)
 
-
 ### Bug Fixes
 
-* layout align bottom ([d5b7d54](https://github.com/justdlabs/icons/commit/d5b7d5444a8a8535ca5c0ac41bee588379be2cb7))
+- layout align bottom ([d5b7d54](https://github.com/justdlabs/icons/commit/d5b7d5444a8a8535ca5c0ac41bee588379be2cb7))
 
 ## [1.10.17](https://github.com/justdlabs/icons/compare/1.10.16...1.10.17) (2025-01-09)
 
-
 ### Bug Fixes
 
-* triangle icon ([2d6f94a](https://github.com/justdlabs/icons/commit/2d6f94a80933425d59236ead071464e23de48016))
+- triangle icon ([2d6f94a](https://github.com/justdlabs/icons/commit/2d6f94a80933425d59236ead071464e23de48016))
 
 ## [1.10.16](https://github.com/justdlabs/icons/compare/1.10.15...1.10.16) (2025-01-09)
 
-
 ### Bug Fixes
 
-* icon phone ([fff75fe](https://github.com/justdlabs/icons/commit/fff75fe6b86080bb814203be46ec8340c57c6530))
+- icon phone ([fff75fe](https://github.com/justdlabs/icons/commit/fff75fe6b86080bb814203be46ec8340c57c6530))
 
 ## [1.10.15](https://github.com/justdlabs/icons/compare/1.10.14...1.10.15) (2025-01-09)
 
-
 ### Bug Fixes
 
-* fix device icon ([81419d1](https://github.com/justdlabs/icons/commit/81419d10a7d156d455cb35285a634cece306a339))
+- fix device icon ([81419d1](https://github.com/justdlabs/icons/commit/81419d10a7d156d455cb35285a634cece306a339))
 
 ## [1.10.14](https://github.com/justdlabs/icons/compare/1.10.13...1.10.14) (2025-01-08)
 
-
 ### Bug Fixes
 
-* fix tablet icon [#2](https://github.com/justdlabs/icons/issues/2) ([c5a2b8e](https://github.com/justdlabs/icons/commit/c5a2b8e1d2e3c557466471f9738185ecf331d693))
+- fix tablet icon [#2](https://github.com/justdlabs/icons/issues/2) ([c5a2b8e](https://github.com/justdlabs/icons/commit/c5a2b8e1d2e3c557466471f9738185ecf331d693))
 
 ## [1.10.13](https://github.com/justdlabs/icons/compare/1.10.12...1.10.13) (2025-01-08)
 

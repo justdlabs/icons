@@ -17,9 +17,9 @@ npm i justd-icons
 ```
 
 ```tsx
-import { IconBag } from "justd-icons";
+import { IconShoppingBag } from "justd-icons";
 
-<IconBag />;
+<IconShoppingBag />;
 ```
 
 The icon can be found here at [getjustd.com/icons](https://getjustd.com/icons).
