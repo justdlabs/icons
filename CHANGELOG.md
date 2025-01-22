@@ -1,5 +1,12 @@
 
 
+## [1.10.24](https://github.com/justdlabs/icons/compare/1.10.23...1.10.24) (2025-01-22)
+
+
+### Bug Fixes
+
+* chevron wall stroke ([efd6f16](https://github.com/justdlabs/icons/commit/efd6f160ef3d70aea40607a040d3b7e2be7aa7ca))
+
 ## [1.10.23](https://github.com/justdlabs/icons/compare/1.10.22...1.10.23) (2025-01-22)
 
 
