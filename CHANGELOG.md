@@ -1,5 +1,12 @@
 
 
+## [1.10.23](https://github.com/justdlabs/icons/compare/1.10.22...1.10.23) (2025-01-22)
+
+
+### Bug Fixes
+
+* chevron walk ([b0cecb0](https://github.com/justdlabs/icons/commit/b0cecb0b045a69ed9a6627f15c8c7f576dc744ee))
+
 ## [1.10.22](https://github.com/justdlabs/icons/compare/1.10.21...1.10.22) (2025-01-22)
 
 ## [1.10.21](https://github.com/justdlabs/icons/compare/1.10.20...1.10.21) (2025-01-20)
