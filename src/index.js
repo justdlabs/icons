@@ -372,6 +372,8 @@ export { default as IconChevronLgRight } from "./IconChevronLgRight";
 export { default as IconChevronLgUp } from "./IconChevronLgUp";
 export { default as IconChevronRight } from "./IconChevronRight";
 export { default as IconChevronUp } from "./IconChevronUp";
+export { default as IconChevronWallLeft } from "./IconChevronWallLeft";
+export { default as IconChevronWallRight } from "./IconChevronWallRight";
 export { default as IconChevronsLgDown } from "./IconChevronsLgDown";
 export { default as IconChevronsLgLeft } from "./IconChevronsLgLeft";
 export { default as IconChevronsLgRight } from "./IconChevronsLgRight";
