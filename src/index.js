@@ -563,6 +563,7 @@ export { default as IconExpandWindowFill } from "./IconExpandWindowFill";
 export { default as IconExpandWindow } from "./IconExpandWindow";
 export { default as IconEyeClosedFill } from "./IconEyeClosedFill";
 export { default as IconEyeClosed } from "./IconEyeClosed";
+export { default as IconEyeDropper } from "./IconEyeDropper";
 export { default as IconEyeFill } from "./IconEyeFill";
 export { default as IconEyeOffFill } from "./IconEyeOffFill";
 export { default as IconEyeOff } from "./IconEyeOff";

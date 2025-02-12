@@ -565,6 +565,7 @@ export declare const IconExpandWindowFill: React.FC<React.SVGProps<SVGSVGElement
 export declare const IconEye: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconEyeClosed: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconEyeClosedFill: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconEyeDropper: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconEyeFill: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconEyeOff: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconEyeOffFill: React.FC<React.SVGProps<SVGSVGElement>>;
