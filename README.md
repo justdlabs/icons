@@ -22,7 +22,7 @@ import { IconShoppingBag } from "justd-icons";
 <IconShoppingBag />;
 ```
 
-The icon can be found here at [getjustd.com/icons](https://getjustd.com/icons).
+The list of icons can be found here at [getjustd.com/icons](https://getjustd.com/icons).
 
 ## Author
 
@@ -32,7 +32,6 @@ The icon can be found here at [getjustd.com/icons](https://getjustd.com/icons).
 
 This library is [MIT](https://github.com/justdlabs/icons/blob/master/LICENSE) licensed.
 
-## Support
-
-- [Parsinta](https://parsinta.com)
-- [Karteil](https://karteil.com)
+## Showcase
+- [Justd](https://getjustd.com)
+- [Justd Blocks](https://blocks.getjustd.com)
