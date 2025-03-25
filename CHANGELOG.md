@@ -1,29 +1,24 @@
-
-
 ## [1.10.25](https://github.com/justdlabs/icons/compare/1.10.24...1.10.25) (2025-02-12)
 
 ## [1.10.24](https://github.com/justdlabs/icons/compare/1.10.23...1.10.24) (2025-01-22)
 
-
 ### Bug Fixes
 
-* chevron wall stroke ([efd6f16](https://github.com/justdlabs/icons/commit/efd6f160ef3d70aea40607a040d3b7e2be7aa7ca))
+- chevron wall stroke ([efd6f16](https://github.com/justdlabs/icons/commit/efd6f160ef3d70aea40607a040d3b7e2be7aa7ca))
 
 ## [1.10.23](https://github.com/justdlabs/icons/compare/1.10.22...1.10.23) (2025-01-22)
 
-
 ### Bug Fixes
 
-* chevron walk ([b0cecb0](https://github.com/justdlabs/icons/commit/b0cecb0b045a69ed9a6627f15c8c7f576dc744ee))
+- chevron walk ([b0cecb0](https://github.com/justdlabs/icons/commit/b0cecb0b045a69ed9a6627f15c8c7f576dc744ee))
 
 ## [1.10.22](https://github.com/justdlabs/icons/compare/1.10.21...1.10.22) (2025-01-22)
 
 ## [1.10.21](https://github.com/justdlabs/icons/compare/1.10.20...1.10.21) (2025-01-20)
 
-
 ### Bug Fixes
 
-* icon paperclip45 ([eb066c2](https://github.com/justdlabs/icons/commit/eb066c2bd7bd8d2723d2d5a6aa4befd15af8f734))
+- icon paperclip45 ([eb066c2](https://github.com/justdlabs/icons/commit/eb066c2bd7bd8d2723d2d5a6aa4befd15af8f734))
 
 ## [1.10.20](https://github.com/justdlabs/icons/compare/1.10.19...1.10.20) (2025-01-13)
 

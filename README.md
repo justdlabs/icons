@@ -33,5 +33,6 @@ The list of icons can be found here at [getjustd.com/icons](https://getjustd.com
 This library is [MIT](https://github.com/justdlabs/icons/blob/master/LICENSE) licensed.
 
 ## Showcase
+
 - [Justd](https://getjustd.com)
 - [Justd Blocks](https://blocks.getjustd.com)
