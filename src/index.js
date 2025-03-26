@@ -274,6 +274,7 @@ export { default as IconBrandTypescript } from "./IconBrandTypescript";
 export { default as IconBrandUbuntu } from "./IconBrandUbuntu";
 export { default as IconBrandVenmo } from "./IconBrandVenmo";
 export { default as IconBrandVercel } from "./IconBrandVercel";
+export { default as IconBrandVisa } from "./IconBrandVisa";
 export { default as IconBrandVscode } from "./IconBrandVscode";
 export { default as IconBrandVultr } from "./IconBrandVultr";
 export { default as IconBrandWebflow } from "./IconBrandWebflow";

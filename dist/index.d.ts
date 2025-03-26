@@ -275,6 +275,7 @@ export declare const IconBrandTypescript: React.FC<React.SVGProps<SVGSVGElement>
 export declare const IconBrandUbuntu: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandVenmo: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandVercel: React.FC<React.SVGProps<SVGSVGElement>>;
+export declare const IconBrandVisa: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandVscode: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandVultr: React.FC<React.SVGProps<SVGSVGElement>>;
 export declare const IconBrandWebflow: React.FC<React.SVGProps<SVGSVGElement>>;
