@@ -36,3 +36,5 @@ This library is [MIT](https://github.com/justdlabs/icons/blob/master/LICENSE) li
 
 - [Justd](https://getjustd.com)
 - [Justd Blocks](https://blocks.getjustd.com)
+- [parsinta.com](https://parsinta.com)
+- [irsyad.co](https://irsyad.co)
